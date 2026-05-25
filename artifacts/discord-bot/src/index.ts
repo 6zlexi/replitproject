@@ -38,6 +38,64 @@ const processingMessages = new Set<string>();
 const contextCooldowns = new Map<string, number>(); // channelId → expiry timestamp
 const CONTEXT_COOLDOWN_MS = 8_000; // 8 s between context-triggered replies per channel
 
+// ── Natural presence — Santo occasionally joins casual conversation unprompted ─
+// Per-channel: minimum 25–45 min between spontaneous messages in same channel.
+// Global: minimum 5 min across all channels (prevents multi-channel flooding).
+const naturalPresenceCooldowns = new Map<string, number>(); // channelId → expiry
+let   globalNaturalPresenceExpiry = 0;
+const NATURAL_PRESENCE_CHANCE          = 0.09;           // ~9% on a qualifying message
+const NATURAL_PRESENCE_CHANNEL_MIN_MS  = 25 * 60_000;   // 25 min per channel base
+const NATURAL_PRESENCE_CHANNEL_JITTER  = 20 * 60_000;   // + 0-20 min random jitter
+const NATURAL_PRESENCE_GLOBAL_MIN_MS   =  5 * 60_000;   //  5 min global floor
+
+// Short casual messages that Santo might naturally join in on
+const CASUAL_OPENER_PATTERNS = [
+  /^\b(hi+|hey+|hello+|sup|yo+|yoo+|wassup|wsp|ayy+|ayo+)\b\s*[!.]*\s*$/i,
+  /^(what('?s| is) (up|good|going on)|how is everyone|how('?s| is) (everyone|it going))\b/i,
+  /^(what are (y'?all|you all|yall) (doing|up to))\b/i,
+  /^(this server is (dead|quiet|boring|slow)|bro (this server|it) is (dead|quiet|boring))\b/i,
+  /^(anyone (here|active|online|awake|alive)\??|is anyone (here|up|awake)\??)\b/i,
+  /^(bro|bruh|bro\.|bruh\.)\s*[!?]*\s*$/i,
+  /^(im bored|so bored|this is boring|nothing to do)\b/i,
+];
+
+/** Returns true if the message looks like a casual opener Santo can join in on. */
+function isCasualOpener(content: string): boolean {
+  const t = content.trim();
+  if (t.length > 60) return false; // too long to be a simple opener
+  return CASUAL_OPENER_PATTERNS.some((rx) => rx.test(t));
+}
+
+/**
+ * Send a reply, splitting on ||| markers for a natural multi-message feel.
+ * Part 1 is sent as a reply; additional parts go to the channel with a delay.
+ */
+async function sendSplitReply(message: Message, raw: string): Promise<void> {
+  const SEPARATOR = "|||";
+  const parts = raw
+    .split(SEPARATOR)
+    .map((p) => p.trim())
+    .filter(Boolean)
+    .slice(0, 2); // max 2 parts
+
+  for (let i = 0; i < parts.length; i++) {
+    const text = parts[i]!;
+    if (i === 0) {
+      await message.reply(text);
+    } else {
+      // Natural pause before the follow-up message
+      const delay = 1_200 + Math.random() * 1_300; // 1.2 – 2.5 s
+      await new Promise<void>((r) => setTimeout(r, delay));
+      await message.channel.send(text);
+    }
+  }
+}
+
+/** Strip ||| separators for clean history storage. */
+function cleanForHistory(text: string): string {
+  return text.replace(/\|\|\|/g, " ").replace(/\s{2,}/g, " ").trim();
+}
+
 // ── Bot trigger words — case-insensitive, word-boundary matched ───────────────
 // "santo" is always checked. "this bot" / "the bot" are context phrases.
 const BOT_TRIGGER_WORDS = ["santo"];
@@ -285,7 +343,44 @@ async function main() {
       const isDirectTrigger = mentioned || isReplyToBot;
       const isTriggered = isDirectTrigger || contextAnalysis.triggered;
 
-      if (!isTriggered) return;
+      if (!isTriggered) {
+        // ── Natural presence — occasionally join casual openers unprompted ────
+        if (
+          isCasualOpener(content) &&
+          isAIEnabled() &&
+          Date.now() > globalNaturalPresenceExpiry &&
+          Date.now() > (naturalPresenceCooldowns.get(message.channelId) ?? 0) &&
+          Math.random() < NATURAL_PRESENCE_CHANCE
+        ) {
+          // Delay 4-10 s — feels like Santo noticed and decided to say something
+          const delay = 4_000 + Math.random() * 6_000;
+          setTimeout(async () => {
+            try {
+              const reply = await generateReply(
+                guildId, guildName, message.channelId,
+                content, message.author.username,
+                undefined, /* replyContext */
+                true       /* spontaneous */
+              );
+              if (reply) {
+                const now = Date.now();
+                globalNaturalPresenceExpiry =
+                  now + NATURAL_PRESENCE_GLOBAL_MIN_MS;
+                naturalPresenceCooldowns.set(
+                  message.channelId,
+                  now + NATURAL_PRESENCE_CHANNEL_MIN_MS + Math.random() * NATURAL_PRESENCE_CHANNEL_JITTER
+                );
+                await sendSplitReply(message, reply);
+                addToConversationHistory(message.channelId, "bot", cleanForHistory(reply));
+                logger.info({ guildId, channelId: message.channelId }, "Natural presence triggered");
+              }
+            } catch (err) {
+              logger.warn({ err }, "Natural presence reply failed");
+            }
+          }, delay);
+        }
+        return;
+      }
 
       // ── Context-trigger cooldown — prevents reply spam ─────────────────────
       // Direct triggers (@mention, reply-to-bot) bypass the cooldown.
@@ -331,8 +426,8 @@ async function main() {
       );
 
       if (reply) {
-        await message.reply(reply);
-        addToConversationHistory(message.channelId, "bot", reply);
+        await sendSplitReply(message, reply);
+        addToConversationHistory(message.channelId, "bot", cleanForHistory(reply));
         logger.info(
           {
             guildId,
@@ -341,6 +436,7 @@ async function main() {
               : isReplyToBot
               ? "reply_to_bot"
               : contextAnalysis.reason,
+            split: reply.includes("|||"),
           },
           "AI replied"
         );
