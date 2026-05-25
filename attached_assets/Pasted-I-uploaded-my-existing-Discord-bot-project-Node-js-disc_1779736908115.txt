@@ -1,0 +1,174 @@
+I uploaded my existing Discord bot project (Node.js + discord.js v14).
+
+I already added these environment variables into Replit Secrets:
+
+- DISCORD_TOKEN
+- OWNER_ID
+- GROQ_API_KEY_1
+- GROQ_API_KEY_2
+- GROQ_API_KEY_3
+- GROQ_API_KEY_4
+- GROQ_API_KEY_5
+- GROQ_API_KEY_6
+- GROQ_API_KEY_7
+- GROQ_API_KEY_8
+- GROQ_API_KEY_9
+- GROQ_API_KEY_10
+
+IMPORTANT:
+- Do NOT expose secret values
+- Do NOT print tokens or API keys
+- Only verify safely whether variables exist using process.env
+
+DO NOT recreate the bot.
+DO NOT delete existing systems.
+ONLY repair, restore, and stabilize the current project.
+
+---
+
+# 1. RESTORE ALL COMMANDS (IMPORTANT)
+
+Bring back ALL previously existing commands.
+
+The bot must support BOTH:
+- Prefix commands using ?
+- Slash commands using /
+
+Restore:
+- command loading
+- command handlers
+- command registration
+- imports and exports
+- command folders
+
+Do NOT remove old commands again.
+
+---
+
+# 2. PREFIX COMMAND SYSTEM
+
+Restore support for:
+- ? commands
+- messageCreate handling
+- prefix parsing
+
+Ensure:
+- prefix = ?
+- commands execute correctly
+- commands do not duplicate responses
+- commands load dynamically from command folders
+
+---
+
+# 3. SLASH COMMAND SYSTEM
+
+Restore slash command support.
+
+Ensure:
+- slash commands register correctly
+- interactionCreate works correctly
+- no duplicate interaction replies
+- commands work in:
+  - servers
+  - DMs
+  - group chats where bot is installed as an app
+
+---
+
+# 4. REQUIRED COMMANDS
+
+Ensure these commands work correctly in BOTH prefix and slash form where applicable:
+
+- avatar
+- talk
+- ship
+- games
+
+Examples:
+- ?ship
+- /ship
+
+- ?avatar
+- /avatar
+
+etc.
+
+---
+
+# 5. FIX /ship AND ?ship (CRITICAL)
+
+Current bug:
+- bot incorrectly includes command author
+
+REQUIRED FIX:
+- ONLY use the 2 selected/provided users
+- NEVER auto-include message author or interaction user
+- NO fallback to author
+
+Rules:
+- user1 = first provided user
+- user2 = second provided user
+- ignore extras beyond 2
+- if less than 2 users → error message
+
+Must work for BOTH:
+- ?ship
+- /ship
+
+---
+
+# 6. GROQ AI SYSTEM
+
+Use all 10 Groq API keys dynamically.
+
+Requirements:
+- load keys from process.env
+- ignore missing keys safely
+- rotate keys safely on failure
+- stop duplicate retry spam
+
+If all keys fail:
+- send ONE fallback message only
+- do NOT spam multiple replies
+- do NOT crash bot
+
+---
+
+# 7. DUPLICATE MESSAGE FIX
+
+Fix issue where bot sends multiple messages.
+
+Requirements:
+- only ONE reply per command
+- prevent duplicate event listeners
+- prevent duplicate messageCreate handlers
+- prevent duplicate interactionCreate handlers
+
+---
+
+# 8. BOT STARTUP + ONLINE FIX
+
+Ensure:
+- bot logs in correctly using DISCORD_TOKEN
+- no startup crashes
+- graceful error handling
+- bot stays running under normal conditions
+
+Add:
+- uncaughtException handling
+- unhandledRejection handling
+
+Do NOT allow small errors to crash the bot.
+
+---
+
+# 9. FINAL GOAL
+
+Bot should:
+- restore ALL deleted commands
+- support BOTH ? prefix and / slash commands
+- work in servers, DMs, and app group chats
+- fully fix ship command logic
+- use all 10 Groq keys safely
+- stop duplicate message spam
+- start successfully and remain online

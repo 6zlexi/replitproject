@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "guildId": "1507585753079615588",
+    "userId": "1271866857510539264",
+    "messageCount": 254,
+    "avgMessageLength": 14.444887401574803,
+    "topicsJson": "[]",
+    "styleJson": "{}",
+    "lastActive": "2026-05-25T05:28:21.241Z",
+    "updatedAt": "2026-05-25T05:28:21.241Z"
+  },
+  {
+    "id": 2,
+    "guildId": "1507585753079615588",
+    "userId": "703009617952768011",
+    "messageCount": 212,
+    "avgMessageLength": 17.882072273584903,
+    "topicsJson": "[]",
+    "styleJson": "{}",
+    "lastActive": "2026-05-25T05:28:24.176Z",
+    "updatedAt": "2026-05-25T05:28:24.176Z"
+  },
+  {
+    "id": 3,
+    "guildId": "1507585753079615588",
+    "userId": "907687050214506568",
+    "messageCount": 9,
+    "avgMessageLength": 14.888889,
+    "topicsJson": "[]",
+    "styleJson": "{}",
+    "lastActive": "2026-05-25T01:10:48.651Z",
+    "updatedAt": "2026-05-25T01:10:48.651Z"
+  },
+  {
+    "id": 4,
+    "guildId": "1507585753079615588",
+    "userId": "1280653063581073429",
+    "messageCount": 2,
+    "avgMessageLength": 6,
+    "topicsJson": "[]",
+    "styleJson": "{}",
+    "lastActive": "2026-05-25T00:33:44.227Z",
+    "updatedAt": "2026-05-25T00:33:44.227Z"
+  }
+]

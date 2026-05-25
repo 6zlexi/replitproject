@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "guildId": "1507585753079615588",
+    "pattern": "lowercase_style",
+    "frequency": 11,
+    "lastSeen": "2026-05-25T07:46:26.682Z",
+    "createdAt": "2026-05-25T07:44:45.678Z"
+  },
+  {
+    "id": 2,
+    "guildId": "1507585753079615588",
+    "pattern": "short_message",
+    "frequency": 8,
+    "lastSeen": "2026-05-25T07:46:26.689Z",
+    "createdAt": "2026-05-25T07:44:45.689Z"
+  },
+  {
+    "id": 3,
+    "guildId": "1507585753079615588",
+    "pattern": "casual_slang",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T07:45:17.450Z",
+    "createdAt": "2026-05-25T07:45:17.446Z"
+  }
+]
