@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": 1,
+    "guildId": "1507585753079615588",
+    "totalMessagesLearned": 919,
+    "totalPhrases": 631,
+    "totalPatterns": 6,
+    "lastLearnedAt": "2026-05-25T19:39:25.724Z",
+    "updatedAt": "2026-05-25T19:39:25.724Z"
+  }
+]

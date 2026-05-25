@@ -52,12 +52,20 @@ import {
   addBlacklistPhrase, forceLearn, unlearnPhrase,
 } from "./brain.js";
 
+// ── Commands that are safe to run without a guild (DMs / group chats) ─────────
+const DM_SAFE_COMMANDS = new Set([
+  "ping", "avatar", "iq", "ship", "simp", "commands", "aistatus",
+]);
+
 // ── Message proxy ─────────────────────────────────────────────────────────────
 /**
  * Wraps a deferred ChatInputCommandInteraction so it looks like a Message.
  * Handlers call message.reply() — the proxy routes that to editReply() /
  * followUp() transparently. The real channel/guild/member objects are passed
  * through unchanged so all guild logic still works.
+ *
+ * guild and member are null-safe: handlers that require a guild guard with
+ * `if (!message.guild) return;` so DM-safe commands still work fine.
  */
 function createMessageProxy(interaction: ChatInputCommandInteraction): Message {
   let firstReply = true;
@@ -81,8 +89,8 @@ function createMessageProxy(interaction: ChatInputCommandInteraction): Message {
   };
 
   return {
-    guild:     interaction.guild as Guild,
-    member:    interaction.member as GuildMember,
+    guild:     (interaction.guild ?? null) as unknown as Guild,
+    member:    (interaction.member ?? null) as unknown as GuildMember,
     author:    interaction.user,
     channelId: interaction.channelId,
     channel:   interaction.channel as TextChannel,
@@ -341,6 +349,23 @@ async function registerForGuild(rest: REST, clientId: string, guildId: string, c
 }
 
 /**
+ * Registers the DM-safe subset of commands globally so they appear in DMs
+ * and group chats where the bot is installed as a user app.
+ * Global commands can take up to an hour to propagate after first registration.
+ */
+async function registerGlobalCommands(rest: REST, clientId: string): Promise<void> {
+  const dmSafeData = SLASH_COMMANDS
+    .filter((c) => DM_SAFE_COMMANDS.has(c.name))
+    .map((c) => c.toJSON());
+  try {
+    await rest.put(Routes.applicationCommands(clientId), { body: dmSafeData });
+    logger.info({ count: dmSafeData.length }, `✅ Global commands registered (${dmSafeData.length} DM-safe commands)`);
+  } catch (err) {
+    logger.warn({ err }, "Global command registration failed — commands may not appear in DMs");
+  }
+}
+
+/**
  * Registers all slash commands in every guild the bot is currently in.
  * Called from ClientReady. Also logs success to each guild's #logs channel.
  */
@@ -373,13 +398,16 @@ export async function registerSlashCommands(client: Client): Promise<void> {
     `✅ Slash commands registered (${commandData.length} commands, ${successCount}/${successCount + failedGuildIds.length} guilds)`
   );
 
+  // Also register globally so DM-safe commands work in DMs / group chats
+  await registerGlobalCommands(rest, clientId);
+
   // Log success to each guild's #logs channel
   for (const guild of client.guilds.cache.values()) {
     if (failedGuildIds.includes(guild.id)) continue;
     sendLog(guild, makeEmbed({
       title: "✅ Slash Commands Registered",
       color: COLORS.success,
-      description: `**${commandData.length}** slash commands are now active. Use \`/command\` or \`?command\` — both work.`,
+      description: `**${commandData.length}** slash commands active in this server.\n\`/avatar\`, \`/iq\`, \`/ship\`, \`/simp\`, \`/ping\` also work in DMs.`,
     })).catch(() => {});
   }
 }
@@ -409,16 +437,22 @@ export async function registerSlashCommandsForGuild(client: Client, guild: Guild
 
 /** Entry point called from the InteractionCreate event in index.ts. */
 export async function handleSlashCommand(interaction: ChatInputCommandInteraction): Promise<void> {
-  if (!interaction.guild) {
-    await interaction.reply({ content: "This bot only works in servers.", ephemeral: true });
+  const name = interaction.commandName;
+  const isGuildContext = !!interaction.guild;
+
+  // Commands that require a guild — reply with a friendly error outside of servers
+  if (!isGuildContext && !DM_SAFE_COMMANDS.has(name)) {
+    await interaction.reply({
+      content: "This command only works inside a server.",
+      ephemeral: true,
+    });
     return;
   }
 
   // Defer immediately — gives handlers time to respond
   await interaction.deferReply();
 
-  const name = interaction.commandName;
-  const msg  = createMessageProxy(interaction);
+  const msg = createMessageProxy(interaction);
 
   try {
     await routeSlashCommand(interaction, msg, name);
@@ -427,19 +461,22 @@ export async function handleSlashCommand(interaction: ChatInputCommandInteractio
 
     try {
       await interaction.editReply({
-        embeds: [makeEmbed({ title: "❌ Error", color: COLORS.error, description: "Something went wrong. Try the `?` prefix version if this keeps happening." })],
+        embeds: [makeEmbed({ title: "❌ Error", color: COLORS.error, description: "Something went wrong. Try the `?` prefix version in a server if this keeps happening." })],
       });
     } catch { /* already replied */ }
 
-    sendLog(interaction.guild, makeEmbed({
-      title:  "❌ Slash Command Error",
-      color:  COLORS.error,
-      fields: [
-        { name: "Command", value: `\`/${name}\``,                             inline: true  },
-        { name: "User",    value: `<@${interaction.user.id}>`,                inline: true  },
-        { name: "Error",   value: `\`\`\`${String(err).slice(0, 200)}\`\`\`` },
-      ],
-    })).catch(() => {});
+    // Only log to guild channel when in a guild
+    if (interaction.guild) {
+      sendLog(interaction.guild, makeEmbed({
+        title:  "❌ Slash Command Error",
+        color:  COLORS.error,
+        fields: [
+          { name: "Command", value: `\`/${name}\``,                             inline: true  },
+          { name: "User",    value: `<@${interaction.user.id}>`,                inline: true  },
+          { name: "Error",   value: `\`\`\`${String(err).slice(0, 200)}\`\`\`` },
+        ],
+      })).catch(() => {});
+    }
   }
 }
 
@@ -451,7 +488,7 @@ async function routeSlashCommand(
   name: string
 ): Promise<void> {
   const opts    = interaction.options;
-  const guildId = interaction.guild!.id;
+  const guildId = interaction.guild?.id ?? "dm";
 
   /** Raw user ID from a user option. */
   const uid = (key: string, required?: true): string =>

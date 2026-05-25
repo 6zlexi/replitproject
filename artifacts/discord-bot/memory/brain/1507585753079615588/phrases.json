@@ -152,22 +152,6 @@
     "createdAt": "2026-05-25T07:45:53.892Z"
   },
   {
-    "id": 20,
-    "guildId": "1507585753079615588",
-    "phrase": "how",
-    "frequency": 3,
-    "lastSeen": "2026-05-25T07:46:07.358Z",
-    "createdAt": "2026-05-25T07:45:53.883Z"
-  },
-  {
-    "id": 21,
-    "guildId": "1507585753079615588",
-    "phrase": "are",
-    "frequency": 4,
-    "lastSeen": "2026-05-25T07:46:07.363Z",
-    "createdAt": "2026-05-25T07:45:28.481Z"
-  },
-  {
     "id": 22,
     "guildId": "1507585753079615588",
     "phrase": "never",
@@ -176,28 +160,12 @@
     "createdAt": "2026-05-25T07:46:07.366Z"
   },
   {
-    "id": 23,
-    "guildId": "1507585753079615588",
-    "phrase": "gonna",
-    "frequency": 2,
-    "lastSeen": "2026-05-25T07:46:07.374Z",
-    "createdAt": "2026-05-25T07:46:07.372Z"
-  },
-  {
     "id": 24,
     "guildId": "1507585753079615588",
     "phrase": "offline",
     "frequency": 3,
     "lastSeen": "2026-05-25T07:46:07.378Z",
     "createdAt": "2026-05-25T07:45:48.026Z"
-  },
-  {
-    "id": 25,
-    "guildId": "1507585753079615588",
-    "phrase": "santo",
-    "frequency": 6,
-    "lastSeen": "2026-05-25T07:46:07.384Z",
-    "createdAt": "2026-05-25T07:45:18.806Z"
   },
   {
     "id": 26,
@@ -278,5 +246,4901 @@
     "frequency": 2,
     "lastSeen": "2026-05-25T07:46:07.437Z",
     "createdAt": "2026-05-25T07:46:07.435Z"
+  },
+  {
+    "id": 78,
+    "guildId": "1507585753079615588",
+    "phrase": "said ur",
+    "frequency": 8,
+    "lastSeen": "2026-05-25T19:37:08.032Z",
+    "createdAt": "2026-05-25T19:31:28.465Z"
+  },
+  {
+    "id": 62,
+    "guildId": "1507585753079615588",
+    "phrase": "insulting urself",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:54.842Z",
+    "createdAt": "2026-05-25T19:28:54.840Z"
+  },
+  {
+    "id": 38,
+    "guildId": "1507585753079615588",
+    "phrase": "hi ugly",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:15.529Z",
+    "createdAt": "2026-05-25T19:28:15.527Z"
+  },
+  {
+    "id": 23,
+    "guildId": "1507585753079615588",
+    "phrase": "gonna",
+    "frequency": 6,
+    "lastSeen": "2026-05-25T19:37:32.233Z",
+    "createdAt": "2026-05-25T07:46:07.372Z"
+  },
+  {
+    "id": 40,
+    "guildId": "1507585753079615588",
+    "phrase": "like",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:24.889Z",
+    "createdAt": "2026-05-25T19:28:24.884Z"
+  },
+  {
+    "id": 41,
+    "guildId": "1507585753079615588",
+    "phrase": "discombublated",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:24.895Z",
+    "createdAt": "2026-05-25T19:28:24.892Z"
+  },
+  {
+    "id": 42,
+    "guildId": "1507585753079615588",
+    "phrase": "rat",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:24.900Z",
+    "createdAt": "2026-05-25T19:28:24.898Z"
+  },
+  {
+    "id": 43,
+    "guildId": "1507585753079615588",
+    "phrase": "look like",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:24.906Z",
+    "createdAt": "2026-05-25T19:28:24.903Z"
+  },
+  {
+    "id": 44,
+    "guildId": "1507585753079615588",
+    "phrase": "like discombublated",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:24.913Z",
+    "createdAt": "2026-05-25T19:28:24.910Z"
+  },
+  {
+    "id": 45,
+    "guildId": "1507585753079615588",
+    "phrase": "discombublated rat",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:24.919Z",
+    "createdAt": "2026-05-25T19:28:24.916Z"
+  },
+  {
+    "id": 46,
+    "guildId": "1507585753079615588",
+    "phrase": "look like discombublated",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:24.925Z",
+    "createdAt": "2026-05-25T19:28:24.922Z"
+  },
+  {
+    "id": 47,
+    "guildId": "1507585753079615588",
+    "phrase": "like discombublated rat",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:24.931Z",
+    "createdAt": "2026-05-25T19:28:24.929Z"
+  },
+  {
+    "id": 48,
+    "guildId": "1507585753079615588",
+    "phrase": "xd?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:42.380Z",
+    "createdAt": "2026-05-25T19:28:42.376Z"
+  },
+  {
+    "id": 49,
+    "guildId": "1507585753079615588",
+    "phrase": "thats",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:42.387Z",
+    "createdAt": "2026-05-25T19:28:42.384Z"
+  },
+  {
+    "id": 77,
+    "guildId": "1507585753079615588",
+    "phrase": "ducky said",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:37:08.029Z",
+    "createdAt": "2026-05-25T19:31:28.460Z"
+  },
+  {
+    "id": 51,
+    "guildId": "1507585753079615588",
+    "phrase": "meme",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:42.399Z",
+    "createdAt": "2026-05-25T19:28:42.396Z"
+  },
+  {
+    "id": 52,
+    "guildId": "1507585753079615588",
+    "phrase": "xd? thats",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:42.403Z",
+    "createdAt": "2026-05-25T19:28:42.401Z"
+  },
+  {
+    "id": 53,
+    "guildId": "1507585753079615588",
+    "phrase": "thats not",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:42.409Z",
+    "createdAt": "2026-05-25T19:28:42.406Z"
+  },
+  {
+    "id": 54,
+    "guildId": "1507585753079615588",
+    "phrase": "not meme",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:42.414Z",
+    "createdAt": "2026-05-25T19:28:42.412Z"
+  },
+  {
+    "id": 55,
+    "guildId": "1507585753079615588",
+    "phrase": "xd? thats not",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:42.420Z",
+    "createdAt": "2026-05-25T19:28:42.417Z"
+  },
+  {
+    "id": 56,
+    "guildId": "1507585753079615588",
+    "phrase": "thats not meme",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:42.425Z",
+    "createdAt": "2026-05-25T19:28:42.423Z"
+  },
+  {
+    "id": 21,
+    "guildId": "1507585753079615588",
+    "phrase": "are",
+    "frequency": 7,
+    "lastSeen": "2026-05-25T19:38:32.384Z",
+    "createdAt": "2026-05-25T07:45:28.481Z"
+  },
+  {
+    "id": 59,
+    "guildId": "1507585753079615588",
+    "phrase": "urself",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:35:32.667Z",
+    "createdAt": "2026-05-25T19:28:54.826Z"
+  },
+  {
+    "id": 58,
+    "guildId": "1507585753079615588",
+    "phrase": "insulting",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:33:15.818Z",
+    "createdAt": "2026-05-25T19:28:54.820Z"
+  },
+  {
+    "id": 61,
+    "guildId": "1507585753079615588",
+    "phrase": "are insulting",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:54.837Z",
+    "createdAt": "2026-05-25T19:28:54.834Z"
+  },
+  {
+    "id": 63,
+    "guildId": "1507585753079615588",
+    "phrase": "urself ugly",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:54.847Z",
+    "createdAt": "2026-05-25T19:28:54.845Z"
+  },
+  {
+    "id": 64,
+    "guildId": "1507585753079615588",
+    "phrase": "are insulting urself",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:54.851Z",
+    "createdAt": "2026-05-25T19:28:54.849Z"
+  },
+  {
+    "id": 65,
+    "guildId": "1507585753079615588",
+    "phrase": "insulting urself ugly",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:28:54.857Z",
+    "createdAt": "2026-05-25T19:28:54.855Z"
+  },
+  {
+    "id": 74,
+    "guildId": "1507585753079615588",
+    "phrase": "bitch",
+    "frequency": 6,
+    "lastSeen": "2026-05-25T19:37:08.004Z",
+    "createdAt": "2026-05-25T19:31:28.444Z"
+  },
+  {
+    "id": 82,
+    "guildId": "1507585753079615588",
+    "phrase": "ducky said ur",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:37:08.058Z",
+    "createdAt": "2026-05-25T19:31:28.486Z"
+  },
+  {
+    "id": 69,
+    "guildId": "1507585753079615588",
+    "phrase": "hiii",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:19.616Z",
+    "createdAt": "2026-05-25T19:31:19.612Z"
+  },
+  {
+    "id": 70,
+    "guildId": "1507585753079615588",
+    "phrase": "@user hiii",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:19.621Z",
+    "createdAt": "2026-05-25T19:31:19.619Z"
+  },
+  {
+    "id": 39,
+    "guildId": "1507585753079615588",
+    "phrase": "look",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:32:07.061Z",
+    "createdAt": "2026-05-25T19:28:24.843Z"
+  },
+  {
+    "id": 72,
+    "guildId": "1507585753079615588",
+    "phrase": "ducky",
+    "frequency": 7,
+    "lastSeen": "2026-05-25T19:37:07.998Z",
+    "createdAt": "2026-05-25T19:31:28.433Z"
+  },
+  {
+    "id": 79,
+    "guildId": "1507585753079615588",
+    "phrase": "ur bitch",
+    "frequency": 5,
+    "lastSeen": "2026-05-25T19:37:08.035Z",
+    "createdAt": "2026-05-25T19:31:28.470Z"
+  },
+  {
+    "id": 36,
+    "guildId": "1507585753079615588",
+    "phrase": "@user",
+    "frequency": 20,
+    "lastSeen": "2026-05-25T19:38:58.257Z",
+    "createdAt": "2026-05-25T19:28:10.295Z"
+  },
+  {
+    "id": 50,
+    "guildId": "1507585753079615588",
+    "phrase": "not",
+    "frequency": 5,
+    "lastSeen": "2026-05-25T19:35:59.468Z",
+    "createdAt": "2026-05-25T19:28:42.390Z"
+  },
+  {
+    "id": 98,
+    "guildId": "1507585753079615588",
+    "phrase": "what",
+    "frequency": 7,
+    "lastSeen": "2026-05-25T19:37:32.227Z",
+    "createdAt": "2026-05-25T19:31:38.108Z"
+  },
+  {
+    "id": 81,
+    "guildId": "1507585753079615588",
+    "phrase": "@user ducky said",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:31:38.167Z",
+    "createdAt": "2026-05-25T19:31:28.481Z"
+  },
+  {
+    "id": 80,
+    "guildId": "1507585753079615588",
+    "phrase": "bitch btw",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:28.478Z",
+    "createdAt": "2026-05-25T19:31:28.475Z"
+  },
+  {
+    "id": 83,
+    "guildId": "1507585753079615588",
+    "phrase": "said ur bitch",
+    "frequency": 5,
+    "lastSeen": "2026-05-25T19:37:08.061Z",
+    "createdAt": "2026-05-25T19:31:28.491Z"
+  },
+  {
+    "id": 25,
+    "guildId": "1507585753079615588",
+    "phrase": "santo",
+    "frequency": 19,
+    "lastSeen": "2026-05-25T19:38:45.774Z",
+    "createdAt": "2026-05-25T07:45:18.806Z"
+  },
+  {
+    "id": 99,
+    "guildId": "1507585753079615588",
+    "phrase": "have",
+    "frequency": 7,
+    "lastSeen": "2026-05-25T19:36:30.814Z",
+    "createdAt": "2026-05-25T19:31:38.114Z"
+  },
+  {
+    "id": 84,
+    "guildId": "1507585753079615588",
+    "phrase": "ur bitch btw",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:28.500Z",
+    "createdAt": "2026-05-25T19:31:28.497Z"
+  },
+  {
+    "id": 85,
+    "guildId": "1507585753079615588",
+    "phrase": "hahahaha",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:29.964Z",
+    "createdAt": "2026-05-25T19:31:29.958Z"
+  },
+  {
+    "id": 75,
+    "guildId": "1507585753079615588",
+    "phrase": "btw",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:37:07.988Z",
+    "createdAt": "2026-05-25T19:31:28.449Z"
+  },
+  {
+    "id": 73,
+    "guildId": "1507585753079615588",
+    "phrase": "said",
+    "frequency": 10,
+    "lastSeen": "2026-05-25T19:37:08.002Z",
+    "createdAt": "2026-05-25T19:31:28.438Z"
+  },
+  {
+    "id": 88,
+    "guildId": "1507585753079615588",
+    "phrase": "ugly?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:37.324Z",
+    "createdAt": "2026-05-25T19:31:37.319Z"
+  },
+  {
+    "id": 89,
+    "guildId": "1507585753079615588",
+    "phrase": "why call",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:37.329Z",
+    "createdAt": "2026-05-25T19:31:37.327Z"
+  },
+  {
+    "id": 90,
+    "guildId": "1507585753079615588",
+    "phrase": "call me",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:37.334Z",
+    "createdAt": "2026-05-25T19:31:37.332Z"
+  },
+  {
+    "id": 91,
+    "guildId": "1507585753079615588",
+    "phrase": "me ugly?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:37.339Z",
+    "createdAt": "2026-05-25T19:31:37.337Z"
+  },
+  {
+    "id": 92,
+    "guildId": "1507585753079615588",
+    "phrase": "why call me",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:37.345Z",
+    "createdAt": "2026-05-25T19:31:37.342Z"
+  },
+  {
+    "id": 93,
+    "guildId": "1507585753079615588",
+    "phrase": "call me ugly?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:37.351Z",
+    "createdAt": "2026-05-25T19:31:37.349Z"
+  },
+  {
+    "id": 37,
+    "guildId": "1507585753079615588",
+    "phrase": "ugly",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:32:50.416Z",
+    "createdAt": "2026-05-25T19:28:15.517Z"
+  },
+  {
+    "id": 100,
+    "guildId": "1507585753079615588",
+    "phrase": "say?",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:33:01.500Z",
+    "createdAt": "2026-05-25T19:31:38.123Z"
+  },
+  {
+    "id": 87,
+    "guildId": "1507585753079615588",
+    "phrase": "call",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:41.951Z",
+    "createdAt": "2026-05-25T19:31:37.310Z"
+  },
+  {
+    "id": 76,
+    "guildId": "1507585753079615588",
+    "phrase": "@user ducky",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:31:38.129Z",
+    "createdAt": "2026-05-25T19:31:28.454Z"
+  },
+  {
+    "id": 67,
+    "guildId": "1507585753079615588",
+    "phrase": "@user ey",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:32:53.613Z",
+    "createdAt": "2026-05-25T19:30:54.083Z"
+  },
+  {
+    "id": 86,
+    "guildId": "1507585753079615588",
+    "phrase": "why",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:38:32.380Z",
+    "createdAt": "2026-05-25T19:31:37.301Z"
+  },
+  {
+    "id": 152,
+    "guildId": "1507585753079615588",
+    "phrase": "bot",
+    "frequency": 5,
+    "lastSeen": "2026-05-25T19:34:20.074Z",
+    "createdAt": "2026-05-25T19:32:25.904Z"
+  },
+  {
+    "id": 212,
+    "guildId": "1507585753079615588",
+    "phrase": "know how",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.540Z",
+    "createdAt": "2026-05-25T19:33:01.535Z"
+  },
+  {
+    "id": 217,
+    "guildId": "1507585753079615588",
+    "phrase": "ducky still said",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.554Z",
+    "createdAt": "2026-05-25T19:33:01.551Z"
+  },
+  {
+    "id": 230,
+    "guildId": "1507585753079615588",
+    "phrase": "you",
+    "frequency": 7,
+    "lastSeen": "2026-05-25T19:36:41.942Z",
+    "createdAt": "2026-05-25T19:33:15.810Z"
+  },
+  {
+    "id": 117,
+    "guildId": "1507585753079615588",
+    "phrase": "im not",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:39.924Z",
+    "createdAt": "2026-05-25T19:31:39.922Z"
+  },
+  {
+    "id": 118,
+    "guildId": "1507585753079615588",
+    "phrase": "not ducky",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:39.930Z",
+    "createdAt": "2026-05-25T19:31:39.927Z"
+  },
+  {
+    "id": 119,
+    "guildId": "1507585753079615588",
+    "phrase": "ducky bro",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:39.936Z",
+    "createdAt": "2026-05-25T19:31:39.932Z"
+  },
+  {
+    "id": 120,
+    "guildId": "1507585753079615588",
+    "phrase": "bro xd",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:39.941Z",
+    "createdAt": "2026-05-25T19:31:39.939Z"
+  },
+  {
+    "id": 121,
+    "guildId": "1507585753079615588",
+    "phrase": "im not ducky",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:39.947Z",
+    "createdAt": "2026-05-25T19:31:39.944Z"
+  },
+  {
+    "id": 122,
+    "guildId": "1507585753079615588",
+    "phrase": "not ducky bro",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:39.952Z",
+    "createdAt": "2026-05-25T19:31:39.950Z"
+  },
+  {
+    "id": 123,
+    "guildId": "1507585753079615588",
+    "phrase": "ducky bro xd",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:39.956Z",
+    "createdAt": "2026-05-25T19:31:39.954Z"
+  },
+  {
+    "id": 124,
+    "guildId": "1507585753079615588",
+    "phrase": "told",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:48.215Z",
+    "createdAt": "2026-05-25T19:31:48.210Z"
+  },
+  {
+    "id": 157,
+    "guildId": "1507585753079615588",
+    "phrase": "dry asf",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:25.934Z",
+    "createdAt": "2026-05-25T19:32:25.931Z"
+  },
+  {
+    "id": 126,
+    "guildId": "1507585753079615588",
+    "phrase": "told it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:48.229Z",
+    "createdAt": "2026-05-25T19:31:48.226Z"
+  },
+  {
+    "id": 127,
+    "guildId": "1507585753079615588",
+    "phrase": "it that",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:48.233Z",
+    "createdAt": "2026-05-25T19:31:48.231Z"
+  },
+  {
+    "id": 128,
+    "guildId": "1507585753079615588",
+    "phrase": "told it that",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:48.238Z",
+    "createdAt": "2026-05-25T19:31:48.236Z"
+  },
+  {
+    "id": 129,
+    "guildId": "1507585753079615588",
+    "phrase": "mom",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:59.135Z",
+    "createdAt": "2026-05-25T19:31:59.096Z"
+  },
+  {
+    "id": 130,
+    "guildId": "1507585753079615588",
+    "phrase": "ur mom",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:31:59.142Z",
+    "createdAt": "2026-05-25T19:31:59.140Z"
+  },
+  {
+    "id": 125,
+    "guildId": "1507585753079615588",
+    "phrase": "that",
+    "frequency": 6,
+    "lastSeen": "2026-05-25T19:37:14.621Z",
+    "createdAt": "2026-05-25T19:31:48.220Z"
+  },
+  {
+    "id": 107,
+    "guildId": "1507585753079615588",
+    "phrase": "do have",
+    "frequency": 6,
+    "lastSeen": "2026-05-25T19:36:30.835Z",
+    "createdAt": "2026-05-25T19:31:38.152Z"
+  },
+  {
+    "id": 234,
+    "guildId": "1507585753079615588",
+    "phrase": "shes",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:34:45.065Z",
+    "createdAt": "2026-05-25T19:33:15.832Z"
+  },
+  {
+    "id": 134,
+    "guildId": "1507585753079615588",
+    "phrase": "looo",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:00.287Z",
+    "createdAt": "2026-05-25T19:32:00.285Z"
+  },
+  {
+    "id": 162,
+    "guildId": "1507585753079615588",
+    "phrase": "can",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:37:32.207Z",
+    "createdAt": "2026-05-25T19:32:43.067Z"
+  },
+  {
+    "id": 136,
+    "guildId": "1507585753079615588",
+    "phrase": "it say",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:00.299Z",
+    "createdAt": "2026-05-25T19:32:00.296Z"
+  },
+  {
+    "id": 137,
+    "guildId": "1507585753079615588",
+    "phrase": "say that",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:00.305Z",
+    "createdAt": "2026-05-25T19:32:00.303Z"
+  },
+  {
+    "id": 138,
+    "guildId": "1507585753079615588",
+    "phrase": "that looo",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:00.310Z",
+    "createdAt": "2026-05-25T19:32:00.309Z"
+  },
+  {
+    "id": 139,
+    "guildId": "1507585753079615588",
+    "phrase": "made it say",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:00.317Z",
+    "createdAt": "2026-05-25T19:32:00.313Z"
+  },
+  {
+    "id": 140,
+    "guildId": "1507585753079615588",
+    "phrase": "it say that",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:00.322Z",
+    "createdAt": "2026-05-25T19:32:00.320Z"
+  },
+  {
+    "id": 141,
+    "guildId": "1507585753079615588",
+    "phrase": "say that looo",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:00.328Z",
+    "createdAt": "2026-05-25T19:32:00.325Z"
+  },
+  {
+    "id": 132,
+    "guildId": "1507585753079615588",
+    "phrase": "say",
+    "frequency": 5,
+    "lastSeen": "2026-05-25T19:37:11.917Z",
+    "createdAt": "2026-05-25T19:32:00.277Z"
+  },
+  {
+    "id": 146,
+    "guildId": "1507585753079615588",
+    "phrase": "look what",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:07.076Z",
+    "createdAt": "2026-05-25T19:32:07.073Z"
+  },
+  {
+    "id": 147,
+    "guildId": "1507585753079615588",
+    "phrase": "what it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:07.081Z",
+    "createdAt": "2026-05-25T19:32:07.079Z"
+  },
+  {
+    "id": 148,
+    "guildId": "1507585753079615588",
+    "phrase": "it said",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:07.087Z",
+    "createdAt": "2026-05-25T19:32:07.084Z"
+  },
+  {
+    "id": 149,
+    "guildId": "1507585753079615588",
+    "phrase": "look what it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:07.092Z",
+    "createdAt": "2026-05-25T19:32:07.089Z"
+  },
+  {
+    "id": 150,
+    "guildId": "1507585753079615588",
+    "phrase": "what it said",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:07.097Z",
+    "createdAt": "2026-05-25T19:32:07.094Z"
+  },
+  {
+    "id": 184,
+    "guildId": "1507585753079615588",
+    "phrase": "santo the",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:50.422Z",
+    "createdAt": "2026-05-25T19:32:50.419Z"
+  },
+  {
+    "id": 153,
+    "guildId": "1507585753079615588",
+    "phrase": "dry",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:25.913Z",
+    "createdAt": "2026-05-25T19:32:25.911Z"
+  },
+  {
+    "id": 154,
+    "guildId": "1507585753079615588",
+    "phrase": "asf",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:25.918Z",
+    "createdAt": "2026-05-25T19:32:25.916Z"
+  },
+  {
+    "id": 131,
+    "guildId": "1507585753079615588",
+    "phrase": "made",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:37:14.618Z",
+    "createdAt": "2026-05-25T19:32:00.267Z"
+  },
+  {
+    "id": 156,
+    "guildId": "1507585753079615588",
+    "phrase": "bot dry",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:25.928Z",
+    "createdAt": "2026-05-25T19:32:25.926Z"
+  },
+  {
+    "id": 158,
+    "guildId": "1507585753079615588",
+    "phrase": "the bot dry",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:25.939Z",
+    "createdAt": "2026-05-25T19:32:25.937Z"
+  },
+  {
+    "id": 159,
+    "guildId": "1507585753079615588",
+    "phrase": "bot dry asf",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:25.944Z",
+    "createdAt": "2026-05-25T19:32:25.941Z"
+  },
+  {
+    "id": 142,
+    "guildId": "1507585753079615588",
+    "phrase": "lol",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:38:45.788Z",
+    "createdAt": "2026-05-25T19:32:04.231Z"
+  },
+  {
+    "id": 163,
+    "guildId": "1507585753079615588",
+    "phrase": "trigger",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.078Z",
+    "createdAt": "2026-05-25T19:32:43.074Z"
+  },
+  {
+    "id": 164,
+    "guildId": "1507585753079615588",
+    "phrase": "saying",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:38:45.784Z",
+    "createdAt": "2026-05-25T19:32:43.081Z"
+  },
+  {
+    "id": 166,
+    "guildId": "1507585753079615588",
+    "phrase": "too",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:39:25.762Z",
+    "createdAt": "2026-05-25T19:32:43.089Z"
+  },
+  {
+    "id": 168,
+    "guildId": "1507585753079615588",
+    "phrase": "@user can",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.101Z",
+    "createdAt": "2026-05-25T19:32:43.098Z"
+  },
+  {
+    "id": 169,
+    "guildId": "1507585753079615588",
+    "phrase": "can trigger",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.107Z",
+    "createdAt": "2026-05-25T19:32:43.104Z"
+  },
+  {
+    "id": 170,
+    "guildId": "1507585753079615588",
+    "phrase": "trigger it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.112Z",
+    "createdAt": "2026-05-25T19:32:43.110Z"
+  },
+  {
+    "id": 171,
+    "guildId": "1507585753079615588",
+    "phrase": "it by",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.117Z",
+    "createdAt": "2026-05-25T19:32:43.115Z"
+  },
+  {
+    "id": 172,
+    "guildId": "1507585753079615588",
+    "phrase": "by saying",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.122Z",
+    "createdAt": "2026-05-25T19:32:43.120Z"
+  },
+  {
+    "id": 173,
+    "guildId": "1507585753079615588",
+    "phrase": "saying santo",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.128Z",
+    "createdAt": "2026-05-25T19:32:43.126Z"
+  },
+  {
+    "id": 174,
+    "guildId": "1507585753079615588",
+    "phrase": "santo too",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.133Z",
+    "createdAt": "2026-05-25T19:32:43.131Z"
+  },
+  {
+    "id": 175,
+    "guildId": "1507585753079615588",
+    "phrase": "too btw",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.138Z",
+    "createdAt": "2026-05-25T19:32:43.136Z"
+  },
+  {
+    "id": 176,
+    "guildId": "1507585753079615588",
+    "phrase": "@user can trigger",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.144Z",
+    "createdAt": "2026-05-25T19:32:43.141Z"
+  },
+  {
+    "id": 177,
+    "guildId": "1507585753079615588",
+    "phrase": "can trigger it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.150Z",
+    "createdAt": "2026-05-25T19:32:43.147Z"
+  },
+  {
+    "id": 178,
+    "guildId": "1507585753079615588",
+    "phrase": "trigger it by",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.155Z",
+    "createdAt": "2026-05-25T19:32:43.153Z"
+  },
+  {
+    "id": 179,
+    "guildId": "1507585753079615588",
+    "phrase": "it by saying",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.161Z",
+    "createdAt": "2026-05-25T19:32:43.158Z"
+  },
+  {
+    "id": 180,
+    "guildId": "1507585753079615588",
+    "phrase": "by saying santo",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:43.166Z",
+    "createdAt": "2026-05-25T19:32:43.164Z"
+  },
+  {
+    "id": 191,
+    "guildId": "1507585753079615588",
+    "phrase": "still",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:34:20.077Z",
+    "createdAt": "2026-05-25T19:33:01.474Z"
+  },
+  {
+    "id": 185,
+    "guildId": "1507585753079615588",
+    "phrase": "the ugly",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:50.427Z",
+    "createdAt": "2026-05-25T19:32:50.425Z"
+  },
+  {
+    "id": 186,
+    "guildId": "1507585753079615588",
+    "phrase": "santo the ugly",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:32:50.433Z",
+    "createdAt": "2026-05-25T19:32:50.430Z"
+  },
+  {
+    "id": 189,
+    "guildId": "1507585753079615588",
+    "phrase": "wanna",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.474Z",
+    "createdAt": "2026-05-25T19:33:01.421Z"
+  },
+  {
+    "id": 155,
+    "guildId": "1507585753079615588",
+    "phrase": "the bot",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:34:20.090Z",
+    "createdAt": "2026-05-25T19:32:25.920Z"
+  },
+  {
+    "id": 192,
+    "guildId": "1507585753079615588",
+    "phrase": "know",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.481Z",
+    "createdAt": "2026-05-25T19:33:01.477Z"
+  },
+  {
+    "id": 151,
+    "guildId": "1507585753079615588",
+    "phrase": "the",
+    "frequency": 13,
+    "lastSeen": "2026-05-25T19:37:14.640Z",
+    "createdAt": "2026-05-25T19:32:25.895Z"
+  },
+  {
+    "id": 199,
+    "guildId": "1507585753079615588",
+    "phrase": "ask",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.501Z",
+    "createdAt": "2026-05-25T19:33:01.498Z"
+  },
+  {
+    "id": 201,
+    "guildId": "1507585753079615588",
+    "phrase": "ducky still",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.508Z",
+    "createdAt": "2026-05-25T19:33:01.504Z"
+  },
+  {
+    "id": 232,
+    "guildId": "1507585753079615588",
+    "phrase": "her",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:36:30.822Z",
+    "createdAt": "2026-05-25T19:33:15.821Z"
+  },
+  {
+    "id": 204,
+    "guildId": "1507585753079615588",
+    "phrase": "still said",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.517Z",
+    "createdAt": "2026-05-25T19:33:01.513Z"
+  },
+  {
+    "id": 20,
+    "guildId": "1507585753079615588",
+    "phrase": "how",
+    "frequency": 5,
+    "lastSeen": "2026-05-25T19:33:01.520Z",
+    "createdAt": "2026-05-25T07:45:53.883Z"
+  },
+  {
+    "id": 196,
+    "guildId": "1507585753079615588",
+    "phrase": "smell",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:33:01.523Z",
+    "createdAt": "2026-05-25T19:33:01.489Z"
+  },
+  {
+    "id": 105,
+    "guildId": "1507585753079615588",
+    "phrase": "bitch what",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:33:01.530Z",
+    "createdAt": "2026-05-25T19:31:38.141Z"
+  },
+  {
+    "id": 209,
+    "guildId": "1507585753079615588",
+    "phrase": "wanna know",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.532Z",
+    "createdAt": "2026-05-25T19:33:01.527Z"
+  },
+  {
+    "id": 108,
+    "guildId": "1507585753079615588",
+    "phrase": "have to",
+    "frequency": 6,
+    "lastSeen": "2026-05-25T19:36:30.838Z",
+    "createdAt": "2026-05-25T19:31:38.157Z"
+  },
+  {
+    "id": 109,
+    "guildId": "1507585753079615588",
+    "phrase": "to say?",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:33:01.546Z",
+    "createdAt": "2026-05-25T19:31:38.162Z"
+  },
+  {
+    "id": 218,
+    "guildId": "1507585753079615588",
+    "phrase": "it smell",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:33:01.595Z",
+    "createdAt": "2026-05-25T19:33:01.552Z"
+  },
+  {
+    "id": 219,
+    "guildId": "1507585753079615588",
+    "phrase": "still said ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.562Z",
+    "createdAt": "2026-05-25T19:33:01.558Z"
+  },
+  {
+    "id": 220,
+    "guildId": "1507585753079615588",
+    "phrase": "smell ask",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.564Z",
+    "createdAt": "2026-05-25T19:33:01.560Z"
+  },
+  {
+    "id": 113,
+    "guildId": "1507585753079615588",
+    "phrase": "ur bitch what",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:33:01.570Z",
+    "createdAt": "2026-05-25T19:31:38.187Z"
+  },
+  {
+    "id": 222,
+    "guildId": "1507585753079615588",
+    "phrase": "ask santo",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.571Z",
+    "createdAt": "2026-05-25T19:33:01.568Z"
+  },
+  {
+    "id": 224,
+    "guildId": "1507585753079615588",
+    "phrase": "santo he",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.579Z",
+    "createdAt": "2026-05-25T19:33:01.576Z"
+  },
+  {
+    "id": 225,
+    "guildId": "1507585753079615588",
+    "phrase": "he knows",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.583Z",
+    "createdAt": "2026-05-25T19:33:01.581Z"
+  },
+  {
+    "id": 226,
+    "guildId": "1507585753079615588",
+    "phrase": "knows how",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:01.588Z",
+    "createdAt": "2026-05-25T19:33:01.586Z"
+  },
+  {
+    "id": 215,
+    "guildId": "1507585753079615588",
+    "phrase": "how it",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:33:01.591Z",
+    "createdAt": "2026-05-25T19:33:01.544Z"
+  },
+  {
+    "id": 203,
+    "guildId": "1507585753079615588",
+    "phrase": "knows",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:11.321Z",
+    "createdAt": "2026-05-25T19:33:01.510Z"
+  },
+  {
+    "id": 135,
+    "guildId": "1507585753079615588",
+    "phrase": "made it",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:37:14.653Z",
+    "createdAt": "2026-05-25T19:32:00.290Z"
+  },
+  {
+    "id": 233,
+    "guildId": "1507585753079615588",
+    "phrase": "now",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.829Z",
+    "createdAt": "2026-05-25T19:33:15.827Z"
+  },
+  {
+    "id": 116,
+    "guildId": "1507585753079615588",
+    "phrase": "bro",
+    "frequency": 8,
+    "lastSeen": "2026-05-25T19:39:25.749Z",
+    "createdAt": "2026-05-25T19:31:39.913Z"
+  },
+  {
+    "id": 236,
+    "guildId": "1507585753079615588",
+    "phrase": "come",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.845Z",
+    "createdAt": "2026-05-25T19:33:15.843Z"
+  },
+  {
+    "id": 106,
+    "guildId": "1507585753079615588",
+    "phrase": "what do",
+    "frequency": 5,
+    "lastSeen": "2026-05-25T19:36:30.832Z",
+    "createdAt": "2026-05-25T19:31:38.147Z"
+  },
+  {
+    "id": 237,
+    "guildId": "1507585753079615588",
+    "phrase": "rape",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.850Z",
+    "createdAt": "2026-05-25T19:33:15.848Z"
+  },
+  {
+    "id": 238,
+    "guildId": "1507585753079615588",
+    "phrase": "you insulting",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.856Z",
+    "createdAt": "2026-05-25T19:33:15.853Z"
+  },
+  {
+    "id": 239,
+    "guildId": "1507585753079615588",
+    "phrase": "insulting her",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.861Z",
+    "createdAt": "2026-05-25T19:33:15.858Z"
+  },
+  {
+    "id": 240,
+    "guildId": "1507585753079615588",
+    "phrase": "her now",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.866Z",
+    "createdAt": "2026-05-25T19:33:15.864Z"
+  },
+  {
+    "id": 241,
+    "guildId": "1507585753079615588",
+    "phrase": "now shes",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.870Z",
+    "createdAt": "2026-05-25T19:33:15.869Z"
+  },
+  {
+    "id": 243,
+    "guildId": "1507585753079615588",
+    "phrase": "gonna come",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.881Z",
+    "createdAt": "2026-05-25T19:33:15.879Z"
+  },
+  {
+    "id": 244,
+    "guildId": "1507585753079615588",
+    "phrase": "come rape",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.888Z",
+    "createdAt": "2026-05-25T19:33:15.884Z"
+  },
+  {
+    "id": 245,
+    "guildId": "1507585753079615588",
+    "phrase": "you insulting her",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.892Z",
+    "createdAt": "2026-05-25T19:33:15.890Z"
+  },
+  {
+    "id": 246,
+    "guildId": "1507585753079615588",
+    "phrase": "insulting her now",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.897Z",
+    "createdAt": "2026-05-25T19:33:15.895Z"
+  },
+  {
+    "id": 247,
+    "guildId": "1507585753079615588",
+    "phrase": "her now shes",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.902Z",
+    "createdAt": "2026-05-25T19:33:15.900Z"
+  },
+  {
+    "id": 248,
+    "guildId": "1507585753079615588",
+    "phrase": "now shes gonna",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.908Z",
+    "createdAt": "2026-05-25T19:33:15.905Z"
+  },
+  {
+    "id": 249,
+    "guildId": "1507585753079615588",
+    "phrase": "shes gonna come",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:15.913Z",
+    "createdAt": "2026-05-25T19:33:15.910Z"
+  },
+  {
+    "id": 251,
+    "guildId": "1507585753079615588",
+    "phrase": "santo hi",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:21.708Z",
+    "createdAt": "2026-05-25T19:33:21.704Z"
+  },
+  {
+    "id": 335,
+    "guildId": "1507585753079615588",
+    "phrase": "and",
+    "frequency": 6,
+    "lastSeen": "2026-05-25T19:37:11.931Z",
+    "createdAt": "2026-05-25T19:34:14.255Z"
+  },
+  {
+    "id": 242,
+    "guildId": "1507585753079615588",
+    "phrase": "shes gonna",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:34:45.091Z",
+    "createdAt": "2026-05-25T19:33:15.874Z"
+  },
+  {
+    "id": 258,
+    "guildId": "1507585753079615588",
+    "phrase": "ur her",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:22.291Z",
+    "createdAt": "2026-05-25T19:33:22.289Z"
+  },
+  {
+    "id": 259,
+    "guildId": "1507585753079615588",
+    "phrase": "her bitch",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:22.296Z",
+    "createdAt": "2026-05-25T19:33:22.294Z"
+  },
+  {
+    "id": 295,
+    "guildId": "1507585753079615588",
+    "phrase": "smt",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:37:19.718Z",
+    "createdAt": "2026-05-25T19:33:54.900Z"
+  },
+  {
+    "id": 261,
+    "guildId": "1507585753079615588",
+    "phrase": "said ur her",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:22.306Z",
+    "createdAt": "2026-05-25T19:33:22.304Z"
+  },
+  {
+    "id": 262,
+    "guildId": "1507585753079615588",
+    "phrase": "ur her bitch",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:22.312Z",
+    "createdAt": "2026-05-25T19:33:22.310Z"
+  },
+  {
+    "id": 263,
+    "guildId": "1507585753079615588",
+    "phrase": "ping",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:27.684Z",
+    "createdAt": "2026-05-25T19:33:27.677Z"
+  },
+  {
+    "id": 288,
+    "guildId": "1507585753079615588",
+    "phrase": "bot work",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:39.205Z",
+    "createdAt": "2026-05-25T19:33:39.203Z"
+  },
+  {
+    "id": 265,
+    "guildId": "1507585753079615588",
+    "phrase": "ping him",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:27.698Z",
+    "createdAt": "2026-05-25T19:33:27.695Z"
+  },
+  {
+    "id": 269,
+    "guildId": "1507585753079615588",
+    "phrase": "reply to",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:19.160Z",
+    "createdAt": "2026-05-25T19:33:29.582Z"
+  },
+  {
+    "id": 293,
+    "guildId": "1507585753079615588",
+    "phrase": "ima",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:11.305Z",
+    "createdAt": "2026-05-25T19:33:54.889Z"
+  },
+  {
+    "id": 268,
+    "guildId": "1507585753079615588",
+    "phrase": "or reply",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:29.575Z",
+    "createdAt": "2026-05-25T19:33:29.572Z"
+  },
+  {
+    "id": 260,
+    "guildId": "1507585753079615588",
+    "phrase": "she said ur",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:36:44.972Z",
+    "createdAt": "2026-05-25T19:33:22.299Z"
+  },
+  {
+    "id": 270,
+    "guildId": "1507585753079615588",
+    "phrase": "to him",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:29.590Z",
+    "createdAt": "2026-05-25T19:33:29.588Z"
+  },
+  {
+    "id": 271,
+    "guildId": "1507585753079615588",
+    "phrase": "or reply to",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:29.596Z",
+    "createdAt": "2026-05-25T19:33:29.593Z"
+  },
+  {
+    "id": 272,
+    "guildId": "1507585753079615588",
+    "phrase": "reply to him",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:29.601Z",
+    "createdAt": "2026-05-25T19:33:29.599Z"
+  },
+  {
+    "id": 273,
+    "guildId": "1507585753079615588",
+    "phrase": "wont",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:31.421Z",
+    "createdAt": "2026-05-25T19:33:31.415Z"
+  },
+  {
+    "id": 274,
+    "guildId": "1507585753079615588",
+    "phrase": "answer",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:31.428Z",
+    "createdAt": "2026-05-25T19:33:31.424Z"
+  },
+  {
+    "id": 275,
+    "guildId": "1507585753079615588",
+    "phrase": "or he",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:31.434Z",
+    "createdAt": "2026-05-25T19:33:31.431Z"
+  },
+  {
+    "id": 276,
+    "guildId": "1507585753079615588",
+    "phrase": "he wont",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:31.440Z",
+    "createdAt": "2026-05-25T19:33:31.437Z"
+  },
+  {
+    "id": 277,
+    "guildId": "1507585753079615588",
+    "phrase": "wont answer",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:31.446Z",
+    "createdAt": "2026-05-25T19:33:31.443Z"
+  },
+  {
+    "id": 278,
+    "guildId": "1507585753079615588",
+    "phrase": "or he wont",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:31.452Z",
+    "createdAt": "2026-05-25T19:33:31.450Z"
+  },
+  {
+    "id": 279,
+    "guildId": "1507585753079615588",
+    "phrase": "he wont answer",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:31.457Z",
+    "createdAt": "2026-05-25T19:33:31.455Z"
+  },
+  {
+    "id": 280,
+    "guildId": "1507585753079615588",
+    "phrase": "wsg",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:32.276Z",
+    "createdAt": "2026-05-25T19:33:32.267Z"
+  },
+  {
+    "id": 282,
+    "guildId": "1507585753079615588",
+    "phrase": "this",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:39.174Z",
+    "createdAt": "2026-05-25T19:33:39.170Z"
+  },
+  {
+    "id": 284,
+    "guildId": "1507585753079615588",
+    "phrase": "work",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:39.184Z",
+    "createdAt": "2026-05-25T19:33:39.181Z"
+  },
+  {
+    "id": 285,
+    "guildId": "1507585753079615588",
+    "phrase": "bro this",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:39.189Z",
+    "createdAt": "2026-05-25T19:33:39.186Z"
+  },
+  {
+    "id": 286,
+    "guildId": "1507585753079615588",
+    "phrase": "this ai",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:39.194Z",
+    "createdAt": "2026-05-25T19:33:39.191Z"
+  },
+  {
+    "id": 287,
+    "guildId": "1507585753079615588",
+    "phrase": "ai bot",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:39.200Z",
+    "createdAt": "2026-05-25T19:33:39.197Z"
+  },
+  {
+    "id": 289,
+    "guildId": "1507585753079615588",
+    "phrase": "bro this ai",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:39.210Z",
+    "createdAt": "2026-05-25T19:33:39.208Z"
+  },
+  {
+    "id": 290,
+    "guildId": "1507585753079615588",
+    "phrase": "this ai bot",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:39.215Z",
+    "createdAt": "2026-05-25T19:33:39.213Z"
+  },
+  {
+    "id": 291,
+    "guildId": "1507585753079615588",
+    "phrase": "ai bot work",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:39.221Z",
+    "createdAt": "2026-05-25T19:33:39.219Z"
+  },
+  {
+    "id": 292,
+    "guildId": "1507585753079615588",
+    "phrase": "wait",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.884Z",
+    "createdAt": "2026-05-25T19:33:54.881Z"
+  },
+  {
+    "id": 266,
+    "guildId": "1507585753079615588",
+    "phrase": "reply",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:19.145Z",
+    "createdAt": "2026-05-25T19:33:29.560Z"
+  },
+  {
+    "id": 252,
+    "guildId": "1507585753079615588",
+    "phrase": "she",
+    "frequency": 7,
+    "lastSeen": "2026-05-25T19:37:44.424Z",
+    "createdAt": "2026-05-25T19:33:22.264Z"
+  },
+  {
+    "id": 296,
+    "guildId": "1507585753079615588",
+    "phrase": "with",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.907Z",
+    "createdAt": "2026-05-25T19:33:54.905Z"
+  },
+  {
+    "id": 299,
+    "guildId": "1507585753079615588",
+    "phrase": "wait ima",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.921Z",
+    "createdAt": "2026-05-25T19:33:54.918Z"
+  },
+  {
+    "id": 300,
+    "guildId": "1507585753079615588",
+    "phrase": "ima fix",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.926Z",
+    "createdAt": "2026-05-25T19:33:54.924Z"
+  },
+  {
+    "id": 301,
+    "guildId": "1507585753079615588",
+    "phrase": "fix smt",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.930Z",
+    "createdAt": "2026-05-25T19:33:54.928Z"
+  },
+  {
+    "id": 302,
+    "guildId": "1507585753079615588",
+    "phrase": "smt with",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.935Z",
+    "createdAt": "2026-05-25T19:33:54.932Z"
+  },
+  {
+    "id": 303,
+    "guildId": "1507585753079615588",
+    "phrase": "with the",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.941Z",
+    "createdAt": "2026-05-25T19:33:54.938Z"
+  },
+  {
+    "id": 305,
+    "guildId": "1507585753079615588",
+    "phrase": "wait ima fix",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.951Z",
+    "createdAt": "2026-05-25T19:33:54.948Z"
+  },
+  {
+    "id": 306,
+    "guildId": "1507585753079615588",
+    "phrase": "ima fix smt",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.957Z",
+    "createdAt": "2026-05-25T19:33:54.954Z"
+  },
+  {
+    "id": 307,
+    "guildId": "1507585753079615588",
+    "phrase": "fix smt with",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.962Z",
+    "createdAt": "2026-05-25T19:33:54.960Z"
+  },
+  {
+    "id": 308,
+    "guildId": "1507585753079615588",
+    "phrase": "smt with the",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.967Z",
+    "createdAt": "2026-05-25T19:33:54.965Z"
+  },
+  {
+    "id": 309,
+    "guildId": "1507585753079615588",
+    "phrase": "with the bot",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:54.973Z",
+    "createdAt": "2026-05-25T19:33:54.970Z"
+  },
+  {
+    "id": 310,
+    "guildId": "1507585753079615588",
+    "phrase": "alr",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:57.141Z",
+    "createdAt": "2026-05-25T19:33:57.135Z"
+  },
+  {
+    "id": 312,
+    "guildId": "1507585753079615588",
+    "phrase": "chat",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:58.806Z",
+    "createdAt": "2026-05-25T19:33:58.802Z"
+  },
+  {
+    "id": 264,
+    "guildId": "1507585753079615588",
+    "phrase": "him",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:35:05.853Z",
+    "createdAt": "2026-05-25T19:33:27.687Z"
+  },
+  {
+    "id": 315,
+    "guildId": "1507585753079615588",
+    "phrase": "in the",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:58.821Z",
+    "createdAt": "2026-05-25T19:33:58.819Z"
+  },
+  {
+    "id": 316,
+    "guildId": "1507585753079615588",
+    "phrase": "the chat",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:58.827Z",
+    "createdAt": "2026-05-25T19:33:58.824Z"
+  },
+  {
+    "id": 317,
+    "guildId": "1507585753079615588",
+    "phrase": "chat for",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:58.832Z",
+    "createdAt": "2026-05-25T19:33:58.830Z"
+  },
+  {
+    "id": 318,
+    "guildId": "1507585753079615588",
+    "phrase": "for santo",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:58.837Z",
+    "createdAt": "2026-05-25T19:33:58.835Z"
+  },
+  {
+    "id": 319,
+    "guildId": "1507585753079615588",
+    "phrase": "in the chat",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:58.841Z",
+    "createdAt": "2026-05-25T19:33:58.839Z"
+  },
+  {
+    "id": 320,
+    "guildId": "1507585753079615588",
+    "phrase": "the chat for",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:58.846Z",
+    "createdAt": "2026-05-25T19:33:58.844Z"
+  },
+  {
+    "id": 321,
+    "guildId": "1507585753079615588",
+    "phrase": "chat for santo",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:33:58.851Z",
+    "createdAt": "2026-05-25T19:33:58.849Z"
+  },
+  {
+    "id": 330,
+    "guildId": "1507585753079615588",
+    "phrase": "too much",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:39:25.801Z",
+    "createdAt": "2026-05-25T19:34:13.060Z"
+  },
+  {
+    "id": 327,
+    "guildId": "1507585753079615588",
+    "phrase": "aura?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:13.048Z",
+    "createdAt": "2026-05-25T19:34:13.046Z"
+  },
+  {
+    "id": 329,
+    "guildId": "1507585753079615588",
+    "phrase": "have too",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:13.058Z",
+    "createdAt": "2026-05-25T19:34:13.055Z"
+  },
+  {
+    "id": 331,
+    "guildId": "1507585753079615588",
+    "phrase": "much aura?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:13.068Z",
+    "createdAt": "2026-05-25T19:34:13.065Z"
+  },
+  {
+    "id": 332,
+    "guildId": "1507585753079615588",
+    "phrase": "do have too",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:13.073Z",
+    "createdAt": "2026-05-25T19:34:13.071Z"
+  },
+  {
+    "id": 333,
+    "guildId": "1507585753079615588",
+    "phrase": "have too much",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:13.078Z",
+    "createdAt": "2026-05-25T19:34:13.075Z"
+  },
+  {
+    "id": 334,
+    "guildId": "1507585753079615588",
+    "phrase": "too much aura?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:13.083Z",
+    "createdAt": "2026-05-25T19:34:13.080Z"
+  },
+  {
+    "id": 326,
+    "guildId": "1507585753079615588",
+    "phrase": "much",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:39:25.766Z",
+    "createdAt": "2026-05-25T19:34:13.040Z"
+  },
+  {
+    "id": 337,
+    "guildId": "1507585753079615588",
+    "phrase": "bots",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:14.268Z",
+    "createdAt": "2026-05-25T19:34:14.266Z"
+  },
+  {
+    "id": 338,
+    "guildId": "1507585753079615588",
+    "phrase": "stupid",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:14.274Z",
+    "createdAt": "2026-05-25T19:34:14.271Z"
+  },
+  {
+    "id": 339,
+    "guildId": "1507585753079615588",
+    "phrase": "ye and",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:14.279Z",
+    "createdAt": "2026-05-25T19:34:14.277Z"
+  },
+  {
+    "id": 340,
+    "guildId": "1507585753079615588",
+    "phrase": "and the",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:14.285Z",
+    "createdAt": "2026-05-25T19:34:14.282Z"
+  },
+  {
+    "id": 341,
+    "guildId": "1507585753079615588",
+    "phrase": "the bots",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:14.290Z",
+    "createdAt": "2026-05-25T19:34:14.288Z"
+  },
+  {
+    "id": 342,
+    "guildId": "1507585753079615588",
+    "phrase": "bots stupid",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:14.296Z",
+    "createdAt": "2026-05-25T19:34:14.293Z"
+  },
+  {
+    "id": 343,
+    "guildId": "1507585753079615588",
+    "phrase": "ye and the",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:14.301Z",
+    "createdAt": "2026-05-25T19:34:14.299Z"
+  },
+  {
+    "id": 344,
+    "guildId": "1507585753079615588",
+    "phrase": "and the bots",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:14.307Z",
+    "createdAt": "2026-05-25T19:34:14.305Z"
+  },
+  {
+    "id": 294,
+    "guildId": "1507585753079615588",
+    "phrase": "fix",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:34:19.824Z",
+    "createdAt": "2026-05-25T19:33:54.895Z"
+  },
+  {
+    "id": 364,
+    "guildId": "1507585753079615588",
+    "phrase": "learning",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:20.082Z",
+    "createdAt": "2026-05-25T19:34:20.080Z"
+  },
+  {
+    "id": 256,
+    "guildId": "1507585753079615588",
+    "phrase": "she said",
+    "frequency": 5,
+    "lastSeen": "2026-05-25T19:36:44.952Z",
+    "createdAt": "2026-05-25T19:33:22.280Z"
+  },
+  {
+    "id": 313,
+    "guildId": "1507585753079615588",
+    "phrase": "for",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:34:53.510Z",
+    "createdAt": "2026-05-25T19:33:58.809Z"
+  },
+  {
+    "id": 345,
+    "guildId": "1507585753079615588",
+    "phrase": "the bots stupid",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:14.313Z",
+    "createdAt": "2026-05-25T19:34:14.310Z"
+  },
+  {
+    "id": 348,
+    "guildId": "1507585753079615588",
+    "phrase": "smarter",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:19.830Z",
+    "createdAt": "2026-05-25T19:34:19.827Z"
+  },
+  {
+    "id": 350,
+    "guildId": "1507585753079615588",
+    "phrase": "to fix",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:19.837Z",
+    "createdAt": "2026-05-25T19:34:19.836Z"
+  },
+  {
+    "id": 351,
+    "guildId": "1507585753079615588",
+    "phrase": "fix it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:19.843Z",
+    "createdAt": "2026-05-25T19:34:19.841Z"
+  },
+  {
+    "id": 352,
+    "guildId": "1507585753079615588",
+    "phrase": "it to",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:19.847Z",
+    "createdAt": "2026-05-25T19:34:19.845Z"
+  },
+  {
+    "id": 354,
+    "guildId": "1507585753079615588",
+    "phrase": "be smarter",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:19.858Z",
+    "createdAt": "2026-05-25T19:34:19.856Z"
+  },
+  {
+    "id": 355,
+    "guildId": "1507585753079615588",
+    "phrase": "have to fix",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:19.863Z",
+    "createdAt": "2026-05-25T19:34:19.861Z"
+  },
+  {
+    "id": 356,
+    "guildId": "1507585753079615588",
+    "phrase": "to fix it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:19.869Z",
+    "createdAt": "2026-05-25T19:34:19.866Z"
+  },
+  {
+    "id": 357,
+    "guildId": "1507585753079615588",
+    "phrase": "fix it to",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:19.874Z",
+    "createdAt": "2026-05-25T19:34:19.872Z"
+  },
+  {
+    "id": 358,
+    "guildId": "1507585753079615588",
+    "phrase": "it to be",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:19.878Z",
+    "createdAt": "2026-05-25T19:34:19.876Z"
+  },
+  {
+    "id": 359,
+    "guildId": "1507585753079615588",
+    "phrase": "to be smarter",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:19.883Z",
+    "createdAt": "2026-05-25T19:34:19.881Z"
+  },
+  {
+    "id": 375,
+    "guildId": "1507585753079615588",
+    "phrase": "who",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:22.607Z",
+    "createdAt": "2026-05-25T19:34:22.603Z"
+  },
+  {
+    "id": 378,
+    "guildId": "1507585753079615588",
+    "phrase": "then who",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:22.619Z",
+    "createdAt": "2026-05-25T19:34:22.616Z"
+  },
+  {
+    "id": 379,
+    "guildId": "1507585753079615588",
+    "phrase": "who are",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:22.624Z",
+    "createdAt": "2026-05-25T19:34:22.621Z"
+  },
+  {
+    "id": 380,
+    "guildId": "1507585753079615588",
+    "phrase": "are you",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:22.630Z",
+    "createdAt": "2026-05-25T19:34:22.627Z"
+  },
+  {
+    "id": 381,
+    "guildId": "1507585753079615588",
+    "phrase": "then who are",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:22.635Z",
+    "createdAt": "2026-05-25T19:34:22.633Z"
+  },
+  {
+    "id": 382,
+    "guildId": "1507585753079615588",
+    "phrase": "who are you",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:22.642Z",
+    "createdAt": "2026-05-25T19:34:22.639Z"
+  },
+  {
+    "id": 394,
+    "guildId": "1507585753079615588",
+    "phrase": "kiss",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:32.494Z",
+    "createdAt": "2026-05-25T19:34:32.491Z"
+  },
+  {
+    "id": 395,
+    "guildId": "1507585753079615588",
+    "phrase": "ass",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:32.503Z",
+    "createdAt": "2026-05-25T19:34:32.499Z"
+  },
+  {
+    "id": 396,
+    "guildId": "1507585753079615588",
+    "phrase": "kiss my",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:32.508Z",
+    "createdAt": "2026-05-25T19:34:32.506Z"
+  },
+  {
+    "id": 397,
+    "guildId": "1507585753079615588",
+    "phrase": "my ass",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:32.513Z",
+    "createdAt": "2026-05-25T19:34:32.511Z"
+  },
+  {
+    "id": 398,
+    "guildId": "1507585753079615588",
+    "phrase": "kiss my ass",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:32.518Z",
+    "createdAt": "2026-05-25T19:34:32.516Z"
+  },
+  {
+    "id": 353,
+    "guildId": "1507585753079615588",
+    "phrase": "to be",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:35:32.723Z",
+    "createdAt": "2026-05-25T19:34:19.851Z"
+  },
+  {
+    "id": 374,
+    "guildId": "1507585753079615588",
+    "phrase": "then",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:38:32.374Z",
+    "createdAt": "2026-05-25T19:34:22.593Z"
+  },
+  {
+    "id": 365,
+    "guildId": "1507585753079615588",
+    "phrase": "@user the",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:20.087Z",
+    "createdAt": "2026-05-25T19:34:20.085Z"
+  },
+  {
+    "id": 367,
+    "guildId": "1507585753079615588",
+    "phrase": "bot is",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:20.096Z",
+    "createdAt": "2026-05-25T19:34:20.093Z"
+  },
+  {
+    "id": 368,
+    "guildId": "1507585753079615588",
+    "phrase": "is still",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:20.101Z",
+    "createdAt": "2026-05-25T19:34:20.099Z"
+  },
+  {
+    "id": 369,
+    "guildId": "1507585753079615588",
+    "phrase": "still learning",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:20.106Z",
+    "createdAt": "2026-05-25T19:34:20.104Z"
+  },
+  {
+    "id": 370,
+    "guildId": "1507585753079615588",
+    "phrase": "@user the bot",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:20.112Z",
+    "createdAt": "2026-05-25T19:34:20.110Z"
+  },
+  {
+    "id": 371,
+    "guildId": "1507585753079615588",
+    "phrase": "the bot is",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:20.117Z",
+    "createdAt": "2026-05-25T19:34:20.115Z"
+  },
+  {
+    "id": 372,
+    "guildId": "1507585753079615588",
+    "phrase": "bot is still",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:20.123Z",
+    "createdAt": "2026-05-25T19:34:20.120Z"
+  },
+  {
+    "id": 373,
+    "guildId": "1507585753079615588",
+    "phrase": "is still learning",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:20.128Z",
+    "createdAt": "2026-05-25T19:34:20.125Z"
+  },
+  {
+    "id": 384,
+    "guildId": "1507585753079615588",
+    "phrase": "remember",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:26.292Z",
+    "createdAt": "2026-05-25T19:34:26.288Z"
+  },
+  {
+    "id": 387,
+    "guildId": "1507585753079615588",
+    "phrase": "@user remember",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:26.305Z",
+    "createdAt": "2026-05-25T19:34:26.302Z"
+  },
+  {
+    "id": 388,
+    "guildId": "1507585753079615588",
+    "phrase": "remember that",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:26.309Z",
+    "createdAt": "2026-05-25T19:34:26.307Z"
+  },
+  {
+    "id": 389,
+    "guildId": "1507585753079615588",
+    "phrase": "that ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:26.314Z",
+    "createdAt": "2026-05-25T19:34:26.312Z"
+  },
+  {
+    "id": 323,
+    "guildId": "1507585753079615588",
+    "phrase": "ur santo",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:34:26.317Z",
+    "createdAt": "2026-05-25T19:34:06.390Z"
+  },
+  {
+    "id": 391,
+    "guildId": "1507585753079615588",
+    "phrase": "@user remember that",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:26.322Z",
+    "createdAt": "2026-05-25T19:34:26.320Z"
+  },
+  {
+    "id": 392,
+    "guildId": "1507585753079615588",
+    "phrase": "remember that ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:26.327Z",
+    "createdAt": "2026-05-25T19:34:26.325Z"
+  },
+  {
+    "id": 393,
+    "guildId": "1507585753079615588",
+    "phrase": "that ur santo",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:26.332Z",
+    "createdAt": "2026-05-25T19:34:26.330Z"
+  },
+  {
+    "id": 424,
+    "guildId": "1507585753079615588",
+    "phrase": "makeup",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:53.503Z",
+    "createdAt": "2026-05-25T19:34:53.498Z"
+  },
+  {
+    "id": 428,
+    "guildId": "1507585753079615588",
+    "phrase": "makeup name",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:53.518Z",
+    "createdAt": "2026-05-25T19:34:53.516Z"
+  },
+  {
+    "id": 429,
+    "guildId": "1507585753079615588",
+    "phrase": "name for",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:53.524Z",
+    "createdAt": "2026-05-25T19:34:53.521Z"
+  },
+  {
+    "id": 430,
+    "guildId": "1507585753079615588",
+    "phrase": "for urself",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:53.529Z",
+    "createdAt": "2026-05-25T19:34:53.527Z"
+  },
+  {
+    "id": 431,
+    "guildId": "1507585753079615588",
+    "phrase": "makeup name for",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:53.535Z",
+    "createdAt": "2026-05-25T19:34:53.533Z"
+  },
+  {
+    "id": 432,
+    "guildId": "1507585753079615588",
+    "phrase": "name for urself",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:53.549Z",
+    "createdAt": "2026-05-25T19:34:53.546Z"
+  },
+  {
+    "id": 402,
+    "guildId": "1507585753079615588",
+    "phrase": "@user whats",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:35.994Z",
+    "createdAt": "2026-05-25T19:34:35.992Z"
+  },
+  {
+    "id": 405,
+    "guildId": "1507585753079615588",
+    "phrase": "@user whats ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:36.010Z",
+    "createdAt": "2026-05-25T19:34:36.008Z"
+  },
+  {
+    "id": 411,
+    "guildId": "1507585753079615588",
+    "phrase": "doxx",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:45.073Z",
+    "createdAt": "2026-05-25T19:34:45.071Z"
+  },
+  {
+    "id": 412,
+    "guildId": "1507585753079615588",
+    "phrase": "bc she",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:45.078Z",
+    "createdAt": "2026-05-25T19:34:45.076Z"
+  },
+  {
+    "id": 414,
+    "guildId": "1507585753079615588",
+    "phrase": "said shes",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:45.087Z",
+    "createdAt": "2026-05-25T19:34:45.085Z"
+  },
+  {
+    "id": 416,
+    "guildId": "1507585753079615588",
+    "phrase": "gonna doxx",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:45.096Z",
+    "createdAt": "2026-05-25T19:34:45.094Z"
+  },
+  {
+    "id": 417,
+    "guildId": "1507585753079615588",
+    "phrase": "bc she said",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:45.100Z",
+    "createdAt": "2026-05-25T19:34:45.098Z"
+  },
+  {
+    "id": 418,
+    "guildId": "1507585753079615588",
+    "phrase": "she said shes",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:45.105Z",
+    "createdAt": "2026-05-25T19:34:45.103Z"
+  },
+  {
+    "id": 419,
+    "guildId": "1507585753079615588",
+    "phrase": "said shes gonna",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:45.110Z",
+    "createdAt": "2026-05-25T19:34:45.108Z"
+  },
+  {
+    "id": 420,
+    "guildId": "1507585753079615588",
+    "phrase": "shes gonna doxx",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:45.116Z",
+    "createdAt": "2026-05-25T19:34:45.114Z"
+  },
+  {
+    "id": 400,
+    "guildId": "1507585753079615588",
+    "phrase": "whats",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:35:12.785Z",
+    "createdAt": "2026-05-25T19:34:35.979Z"
+  },
+  {
+    "id": 403,
+    "guildId": "1507585753079615588",
+    "phrase": "whats ur",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:35:12.806Z",
+    "createdAt": "2026-05-25T19:34:35.997Z"
+  },
+  {
+    "id": 406,
+    "guildId": "1507585753079615588",
+    "phrase": "whats ur name",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:35:12.825Z",
+    "createdAt": "2026-05-25T19:34:36.012Z"
+  },
+  {
+    "id": 401,
+    "guildId": "1507585753079615588",
+    "phrase": "name",
+    "frequency": 10,
+    "lastSeen": "2026-05-25T19:37:44.437Z",
+    "createdAt": "2026-05-25T19:34:35.987Z"
+  },
+  {
+    "id": 404,
+    "guildId": "1507585753079615588",
+    "phrase": "ur name",
+    "frequency": 6,
+    "lastSeen": "2026-05-25T19:37:44.466Z",
+    "createdAt": "2026-05-25T19:34:36.002Z"
+  },
+  {
+    "id": 423,
+    "guildId": "1507585753079615588",
+    "phrase": "why not",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:34:49.390Z",
+    "createdAt": "2026-05-25T19:34:49.387Z"
+  },
+  {
+    "id": 533,
+    "guildId": "1507585753079615588",
+    "phrase": "got ur name",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:46.386Z",
+    "createdAt": "2026-05-25T19:35:46.383Z"
+  },
+  {
+    "id": 438,
+    "guildId": "1507585753079615588",
+    "phrase": "gave",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.850Z",
+    "createdAt": "2026-05-25T19:35:05.848Z"
+  },
+  {
+    "id": 440,
+    "guildId": "1507585753079615588",
+    "phrase": "name?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.858Z",
+    "createdAt": "2026-05-25T19:35:05.856Z"
+  },
+  {
+    "id": 441,
+    "guildId": "1507585753079615588",
+    "phrase": "@user bro",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.863Z",
+    "createdAt": "2026-05-25T19:35:05.861Z"
+  },
+  {
+    "id": 442,
+    "guildId": "1507585753079615588",
+    "phrase": "bro you",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.869Z",
+    "createdAt": "2026-05-25T19:35:05.867Z"
+  },
+  {
+    "id": 444,
+    "guildId": "1507585753079615588",
+    "phrase": "just gave",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.881Z",
+    "createdAt": "2026-05-25T19:35:05.878Z"
+  },
+  {
+    "id": 445,
+    "guildId": "1507585753079615588",
+    "phrase": "gave him",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.886Z",
+    "createdAt": "2026-05-25T19:35:05.883Z"
+  },
+  {
+    "id": 446,
+    "guildId": "1507585753079615588",
+    "phrase": "him ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.891Z",
+    "createdAt": "2026-05-25T19:35:05.888Z"
+  },
+  {
+    "id": 447,
+    "guildId": "1507585753079615588",
+    "phrase": "ur name?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.896Z",
+    "createdAt": "2026-05-25T19:35:05.894Z"
+  },
+  {
+    "id": 448,
+    "guildId": "1507585753079615588",
+    "phrase": "@user bro you",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.901Z",
+    "createdAt": "2026-05-25T19:35:05.899Z"
+  },
+  {
+    "id": 449,
+    "guildId": "1507585753079615588",
+    "phrase": "bro you just",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.906Z",
+    "createdAt": "2026-05-25T19:35:05.903Z"
+  },
+  {
+    "id": 450,
+    "guildId": "1507585753079615588",
+    "phrase": "you just gave",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.911Z",
+    "createdAt": "2026-05-25T19:35:05.908Z"
+  },
+  {
+    "id": 451,
+    "guildId": "1507585753079615588",
+    "phrase": "just gave him",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.916Z",
+    "createdAt": "2026-05-25T19:35:05.914Z"
+  },
+  {
+    "id": 452,
+    "guildId": "1507585753079615588",
+    "phrase": "gave him ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.921Z",
+    "createdAt": "2026-05-25T19:35:05.919Z"
+  },
+  {
+    "id": 453,
+    "guildId": "1507585753079615588",
+    "phrase": "him ur name?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:05.925Z",
+    "createdAt": "2026-05-25T19:35:05.923Z"
+  },
+  {
+    "id": 454,
+    "guildId": "1507585753079615588",
+    "phrase": "xddddd",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:06.906Z",
+    "createdAt": "2026-05-25T19:35:06.834Z"
+  },
+  {
+    "id": 458,
+    "guildId": "1507585753079615588",
+    "phrase": "@user hi",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:12.794Z",
+    "createdAt": "2026-05-25T19:35:12.791Z"
+  },
+  {
+    "id": 459,
+    "guildId": "1507585753079615588",
+    "phrase": "hi whats",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:12.802Z",
+    "createdAt": "2026-05-25T19:35:12.797Z"
+  },
+  {
+    "id": 462,
+    "guildId": "1507585753079615588",
+    "phrase": "@user hi whats",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:12.817Z",
+    "createdAt": "2026-05-25T19:35:12.815Z"
+  },
+  {
+    "id": 463,
+    "guildId": "1507585753079615588",
+    "phrase": "hi whats ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:12.822Z",
+    "createdAt": "2026-05-25T19:35:12.820Z"
+  },
+  {
+    "id": 437,
+    "guildId": "1507585753079615588",
+    "phrase": "just",
+    "frequency": 5,
+    "lastSeen": "2026-05-25T19:37:32.213Z",
+    "createdAt": "2026-05-25T19:35:05.842Z"
+  },
+  {
+    "id": 467,
+    "guildId": "1507585753079615588",
+    "phrase": "had",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.272Z",
+    "createdAt": "2026-05-25T19:35:13.269Z"
+  },
+  {
+    "id": 468,
+    "guildId": "1507585753079615588",
+    "phrase": "steal",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.277Z",
+    "createdAt": "2026-05-25T19:35:13.275Z"
+  },
+  {
+    "id": 469,
+    "guildId": "1507585753079615588",
+    "phrase": "my name",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.283Z",
+    "createdAt": "2026-05-25T19:35:13.280Z"
+  },
+  {
+    "id": 470,
+    "guildId": "1507585753079615588",
+    "phrase": "name so",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.288Z",
+    "createdAt": "2026-05-25T19:35:13.286Z"
+  },
+  {
+    "id": 471,
+    "guildId": "1507585753079615588",
+    "phrase": "so good",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.294Z",
+    "createdAt": "2026-05-25T19:35:13.292Z"
+  },
+  {
+    "id": 472,
+    "guildId": "1507585753079615588",
+    "phrase": "good had",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.300Z",
+    "createdAt": "2026-05-25T19:35:13.297Z"
+  },
+  {
+    "id": 473,
+    "guildId": "1507585753079615588",
+    "phrase": "had to",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.306Z",
+    "createdAt": "2026-05-25T19:35:13.303Z"
+  },
+  {
+    "id": 474,
+    "guildId": "1507585753079615588",
+    "phrase": "to steal",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.312Z",
+    "createdAt": "2026-05-25T19:35:13.308Z"
+  },
+  {
+    "id": 475,
+    "guildId": "1507585753079615588",
+    "phrase": "steal it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.318Z",
+    "createdAt": "2026-05-25T19:35:13.315Z"
+  },
+  {
+    "id": 476,
+    "guildId": "1507585753079615588",
+    "phrase": "my name so",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.324Z",
+    "createdAt": "2026-05-25T19:35:13.321Z"
+  },
+  {
+    "id": 477,
+    "guildId": "1507585753079615588",
+    "phrase": "name so good",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.329Z",
+    "createdAt": "2026-05-25T19:35:13.327Z"
+  },
+  {
+    "id": 478,
+    "guildId": "1507585753079615588",
+    "phrase": "so good had",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.335Z",
+    "createdAt": "2026-05-25T19:35:13.332Z"
+  },
+  {
+    "id": 479,
+    "guildId": "1507585753079615588",
+    "phrase": "good had to",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.340Z",
+    "createdAt": "2026-05-25T19:35:13.338Z"
+  },
+  {
+    "id": 480,
+    "guildId": "1507585753079615588",
+    "phrase": "had to steal",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.345Z",
+    "createdAt": "2026-05-25T19:35:13.342Z"
+  },
+  {
+    "id": 481,
+    "guildId": "1507585753079615588",
+    "phrase": "to steal it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:13.350Z",
+    "createdAt": "2026-05-25T19:35:13.348Z"
+  },
+  {
+    "id": 483,
+    "guildId": "1507585753079615588",
+    "phrase": "nigga",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:21.960Z",
+    "createdAt": "2026-05-25T19:35:21.957Z"
+  },
+  {
+    "id": 486,
+    "guildId": "1507585753079615588",
+    "phrase": "@user no",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:21.973Z",
+    "createdAt": "2026-05-25T19:35:21.969Z"
+  },
+  {
+    "id": 487,
+    "guildId": "1507585753079615588",
+    "phrase": "no nigga",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:21.976Z",
+    "createdAt": "2026-05-25T19:35:21.975Z"
+  },
+  {
+    "id": 488,
+    "guildId": "1507585753079615588",
+    "phrase": "nigga ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:21.981Z",
+    "createdAt": "2026-05-25T19:35:21.979Z"
+  },
+  {
+    "id": 491,
+    "guildId": "1507585753079615588",
+    "phrase": "is santo",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:11.384Z",
+    "createdAt": "2026-05-25T19:35:21.991Z"
+  },
+  {
+    "id": 492,
+    "guildId": "1507585753079615588",
+    "phrase": "@user no nigga",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:21.999Z",
+    "createdAt": "2026-05-25T19:35:21.997Z"
+  },
+  {
+    "id": 493,
+    "guildId": "1507585753079615588",
+    "phrase": "no nigga ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:22.003Z",
+    "createdAt": "2026-05-25T19:35:22.001Z"
+  },
+  {
+    "id": 494,
+    "guildId": "1507585753079615588",
+    "phrase": "nigga ur name",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:22.008Z",
+    "createdAt": "2026-05-25T19:35:22.006Z"
+  },
+  {
+    "id": 495,
+    "guildId": "1507585753079615588",
+    "phrase": "ur name is",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:22.013Z",
+    "createdAt": "2026-05-25T19:35:22.011Z"
+  },
+  {
+    "id": 496,
+    "guildId": "1507585753079615588",
+    "phrase": "name is santo",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:22.018Z",
+    "createdAt": "2026-05-25T19:35:22.016Z"
+  },
+  {
+    "id": 498,
+    "guildId": "1507585753079615588",
+    "phrase": "give",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.663Z",
+    "createdAt": "2026-05-25T19:35:32.658Z"
+  },
+  {
+    "id": 502,
+    "guildId": "1507585753079615588",
+    "phrase": "has",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.680Z",
+    "createdAt": "2026-05-25T19:35:32.678Z"
+  },
+  {
+    "id": 504,
+    "guildId": "1507585753079615588",
+    "phrase": "@user give",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.689Z",
+    "createdAt": "2026-05-25T19:35:32.686Z"
+  },
+  {
+    "id": 505,
+    "guildId": "1507585753079615588",
+    "phrase": "give urself",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.694Z",
+    "createdAt": "2026-05-25T19:35:32.692Z"
+  },
+  {
+    "id": 506,
+    "guildId": "1507585753079615588",
+    "phrase": "urself name",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.699Z",
+    "createdAt": "2026-05-25T19:35:32.697Z"
+  },
+  {
+    "id": 507,
+    "guildId": "1507585753079615588",
+    "phrase": "name and",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.704Z",
+    "createdAt": "2026-05-25T19:35:32.702Z"
+  },
+  {
+    "id": 508,
+    "guildId": "1507585753079615588",
+    "phrase": "and it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.709Z",
+    "createdAt": "2026-05-25T19:35:32.707Z"
+  },
+  {
+    "id": 509,
+    "guildId": "1507585753079615588",
+    "phrase": "it has",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.714Z",
+    "createdAt": "2026-05-25T19:35:32.712Z"
+  },
+  {
+    "id": 510,
+    "guildId": "1507585753079615588",
+    "phrase": "has to",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.720Z",
+    "createdAt": "2026-05-25T19:35:32.717Z"
+  },
+  {
+    "id": 512,
+    "guildId": "1507585753079615588",
+    "phrase": "be santo",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.727Z",
+    "createdAt": "2026-05-25T19:35:32.725Z"
+  },
+  {
+    "id": 513,
+    "guildId": "1507585753079615588",
+    "phrase": "@user give urself",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.733Z",
+    "createdAt": "2026-05-25T19:35:32.730Z"
+  },
+  {
+    "id": 514,
+    "guildId": "1507585753079615588",
+    "phrase": "give urself name",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.738Z",
+    "createdAt": "2026-05-25T19:35:32.736Z"
+  },
+  {
+    "id": 515,
+    "guildId": "1507585753079615588",
+    "phrase": "urself name and",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.743Z",
+    "createdAt": "2026-05-25T19:35:32.741Z"
+  },
+  {
+    "id": 516,
+    "guildId": "1507585753079615588",
+    "phrase": "name and it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:32.749Z",
+    "createdAt": "2026-05-25T19:35:32.746Z"
+  },
+  {
+    "id": 517,
+    "guildId": "1507585753079615588",
+    "phrase": "xddd",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:43.387Z",
+    "createdAt": "2026-05-25T19:35:43.384Z"
+  },
+  {
+    "id": 466,
+    "guildId": "1507585753079615588",
+    "phrase": "good",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:37:11.935Z",
+    "createdAt": "2026-05-25T19:35:13.262Z"
+  },
+  {
+    "id": 521,
+    "guildId": "1507585753079615588",
+    "phrase": "got",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:46.331Z",
+    "createdAt": "2026-05-25T19:35:46.329Z"
+  },
+  {
+    "id": 542,
+    "guildId": "1507585753079615588",
+    "phrase": "nah we're",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:59.477Z",
+    "createdAt": "2026-05-25T19:35:59.475Z"
+  },
+  {
+    "id": 524,
+    "guildId": "1507585753079615588",
+    "phrase": "@user you",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:46.344Z",
+    "createdAt": "2026-05-25T19:35:46.341Z"
+  },
+  {
+    "id": 443,
+    "guildId": "1507585753079615588",
+    "phrase": "you just",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:35:46.347Z",
+    "createdAt": "2026-05-25T19:35:05.871Z"
+  },
+  {
+    "id": 526,
+    "guildId": "1507585753079615588",
+    "phrase": "just got",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:46.352Z",
+    "createdAt": "2026-05-25T19:35:46.350Z"
+  },
+  {
+    "id": 527,
+    "guildId": "1507585753079615588",
+    "phrase": "got ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:46.357Z",
+    "createdAt": "2026-05-25T19:35:46.355Z"
+  },
+  {
+    "id": 529,
+    "guildId": "1507585753079615588",
+    "phrase": "name stolen",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:46.365Z",
+    "createdAt": "2026-05-25T19:35:46.363Z"
+  },
+  {
+    "id": 530,
+    "guildId": "1507585753079615588",
+    "phrase": "@user you just",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:46.370Z",
+    "createdAt": "2026-05-25T19:35:46.368Z"
+  },
+  {
+    "id": 531,
+    "guildId": "1507585753079615588",
+    "phrase": "you just got",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:46.375Z",
+    "createdAt": "2026-05-25T19:35:46.373Z"
+  },
+  {
+    "id": 532,
+    "guildId": "1507585753079615588",
+    "phrase": "just got ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:46.380Z",
+    "createdAt": "2026-05-25T19:35:46.378Z"
+  },
+  {
+    "id": 534,
+    "guildId": "1507585753079615588",
+    "phrase": "ur name stolen",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:46.390Z",
+    "createdAt": "2026-05-25T19:35:46.388Z"
+  },
+  {
+    "id": 535,
+    "guildId": "1507585753079615588",
+    "phrase": "hahahahah",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:53.853Z",
+    "createdAt": "2026-05-25T19:35:53.848Z"
+  },
+  {
+    "id": 536,
+    "guildId": "1507585753079615588",
+    "phrase": "nah",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:38:03.678Z",
+    "createdAt": "2026-05-25T19:35:59.445Z"
+  },
+  {
+    "id": 537,
+    "guildId": "1507585753079615588",
+    "phrase": "we're",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:59.457Z",
+    "createdAt": "2026-05-25T19:35:59.453Z"
+  },
+  {
+    "id": 538,
+    "guildId": "1507585753079615588",
+    "phrase": "sharing",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:59.461Z",
+    "createdAt": "2026-05-25T19:35:59.459Z"
+  },
+  {
+    "id": 490,
+    "guildId": "1507585753079615588",
+    "phrase": "name is",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:11.381Z",
+    "createdAt": "2026-05-25T19:35:21.987Z"
+  },
+  {
+    "id": 523,
+    "guildId": "1507585753079615588",
+    "phrase": "stolen",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:35:59.472Z",
+    "createdAt": "2026-05-25T19:35:46.337Z"
+  },
+  {
+    "id": 543,
+    "guildId": "1507585753079615588",
+    "phrase": "we're sharing",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:59.482Z",
+    "createdAt": "2026-05-25T19:35:59.479Z"
+  },
+  {
+    "id": 544,
+    "guildId": "1507585753079615588",
+    "phrase": "sharing its",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:59.487Z",
+    "createdAt": "2026-05-25T19:35:59.485Z"
+  },
+  {
+    "id": 545,
+    "guildId": "1507585753079615588",
+    "phrase": "its not",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:59.492Z",
+    "createdAt": "2026-05-25T19:35:59.489Z"
+  },
+  {
+    "id": 546,
+    "guildId": "1507585753079615588",
+    "phrase": "not stolen",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:59.497Z",
+    "createdAt": "2026-05-25T19:35:59.495Z"
+  },
+  {
+    "id": 547,
+    "guildId": "1507585753079615588",
+    "phrase": "nah we're sharing",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:59.502Z",
+    "createdAt": "2026-05-25T19:35:59.500Z"
+  },
+  {
+    "id": 548,
+    "guildId": "1507585753079615588",
+    "phrase": "we're sharing its",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:59.507Z",
+    "createdAt": "2026-05-25T19:35:59.505Z"
+  },
+  {
+    "id": 549,
+    "guildId": "1507585753079615588",
+    "phrase": "sharing its not",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:59.512Z",
+    "createdAt": "2026-05-25T19:35:59.510Z"
+  },
+  {
+    "id": 550,
+    "guildId": "1507585753079615588",
+    "phrase": "its not stolen",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:35:59.517Z",
+    "createdAt": "2026-05-25T19:35:59.515Z"
+  },
+  {
+    "id": 552,
+    "guildId": "1507585753079615588",
+    "phrase": "theres",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.208Z",
+    "createdAt": "2026-05-25T19:36:08.205Z"
+  },
+  {
+    "id": 539,
+    "guildId": "1507585753079615588",
+    "phrase": "its",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:11.324Z",
+    "createdAt": "2026-05-25T19:35:59.463Z"
+  },
+  {
+    "id": 553,
+    "guildId": "1507585753079615588",
+    "phrase": "duckys",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.215Z",
+    "createdAt": "2026-05-25T19:36:08.212Z"
+  },
+  {
+    "id": 556,
+    "guildId": "1507585753079615588",
+    "phrase": "other",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.226Z",
+    "createdAt": "2026-05-25T19:36:08.224Z"
+  },
+  {
+    "id": 557,
+    "guildId": "1507585753079615588",
+    "phrase": "one",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.232Z",
+    "createdAt": "2026-05-25T19:36:08.229Z"
+  },
+  {
+    "id": 558,
+    "guildId": "1507585753079615588",
+    "phrase": "whos",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.237Z",
+    "createdAt": "2026-05-25T19:36:08.235Z"
+  },
+  {
+    "id": 561,
+    "guildId": "1507585753079615588",
+    "phrase": "@user theres",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.252Z",
+    "createdAt": "2026-05-25T19:36:08.250Z"
+  },
+  {
+    "id": 562,
+    "guildId": "1507585753079615588",
+    "phrase": "theres duckys",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.258Z",
+    "createdAt": "2026-05-25T19:36:08.255Z"
+  },
+  {
+    "id": 563,
+    "guildId": "1507585753079615588",
+    "phrase": "duckys you",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.263Z",
+    "createdAt": "2026-05-25T19:36:08.261Z"
+  },
+  {
+    "id": 564,
+    "guildId": "1507585753079615588",
+    "phrase": "you and",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.268Z",
+    "createdAt": "2026-05-25T19:36:08.266Z"
+  },
+  {
+    "id": 565,
+    "guildId": "1507585753079615588",
+    "phrase": "and other",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.273Z",
+    "createdAt": "2026-05-25T19:36:08.271Z"
+  },
+  {
+    "id": 566,
+    "guildId": "1507585753079615588",
+    "phrase": "other one",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.283Z",
+    "createdAt": "2026-05-25T19:36:08.280Z"
+  },
+  {
+    "id": 567,
+    "guildId": "1507585753079615588",
+    "phrase": "one whos",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.288Z",
+    "createdAt": "2026-05-25T19:36:08.286Z"
+  },
+  {
+    "id": 568,
+    "guildId": "1507585753079615588",
+    "phrase": "whos the",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.294Z",
+    "createdAt": "2026-05-25T19:36:08.291Z"
+  },
+  {
+    "id": 570,
+    "guildId": "1507585753079615588",
+    "phrase": "real 1?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:08.304Z",
+    "createdAt": "2026-05-25T19:36:08.302Z"
+  },
+  {
+    "id": 572,
+    "guildId": "1507585753079615588",
+    "phrase": "make",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:11.314Z",
+    "createdAt": "2026-05-25T19:36:11.312Z"
+  },
+  {
+    "id": 578,
+    "guildId": "1507585753079615588",
+    "phrase": "dw ima",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:11.337Z",
+    "createdAt": "2026-05-25T19:36:11.333Z"
+  },
+  {
+    "id": 579,
+    "guildId": "1507585753079615588",
+    "phrase": "ima make",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:11.342Z",
+    "createdAt": "2026-05-25T19:36:11.340Z"
+  },
+  {
+    "id": 580,
+    "guildId": "1507585753079615588",
+    "phrase": "make it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:11.346Z",
+    "createdAt": "2026-05-25T19:36:11.344Z"
+  },
+  {
+    "id": 583,
+    "guildId": "1507585753079615588",
+    "phrase": "that it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:11.361Z",
+    "createdAt": "2026-05-25T19:36:11.359Z"
+  },
+  {
+    "id": 584,
+    "guildId": "1507585753079615588",
+    "phrase": "it knows",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:11.367Z",
+    "createdAt": "2026-05-25T19:36:11.364Z"
+  },
+  {
+    "id": 585,
+    "guildId": "1507585753079615588",
+    "phrase": "knows its",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:11.373Z",
+    "createdAt": "2026-05-25T19:36:11.370Z"
+  },
+  {
+    "id": 586,
+    "guildId": "1507585753079615588",
+    "phrase": "its name",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:11.378Z",
+    "createdAt": "2026-05-25T19:36:11.376Z"
+  },
+  {
+    "id": 589,
+    "guildId": "1507585753079615588",
+    "phrase": "dw ima make",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:11.389Z",
+    "createdAt": "2026-05-25T19:36:11.386Z"
+  },
+  {
+    "id": 590,
+    "guildId": "1507585753079615588",
+    "phrase": "ima make it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:11.394Z",
+    "createdAt": "2026-05-25T19:36:11.391Z"
+  },
+  {
+    "id": 594,
+    "guildId": "1507585753079615588",
+    "phrase": "her?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:18.717Z",
+    "createdAt": "2026-05-25T19:36:18.714Z"
+  },
+  {
+    "id": 656,
+    "guildId": "1507585753079615588",
+    "phrase": "family,",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:41.920Z",
+    "createdAt": "2026-05-25T19:36:41.917Z"
+  },
+  {
+    "id": 653,
+    "guildId": "1507585753079615588",
+    "phrase": "your",
+    "frequency": 4,
+    "lastSeen": "2026-05-25T19:36:41.926Z",
+    "createdAt": "2026-05-25T19:36:41.901Z"
+  },
+  {
+    "id": 600,
+    "guildId": "1507585753079615588",
+    "phrase": "to her?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:18.743Z",
+    "createdAt": "2026-05-25T19:36:18.741Z"
+  },
+  {
+    "id": 659,
+    "guildId": "1507585753079615588",
+    "phrase": "generation's",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:41.931Z",
+    "createdAt": "2026-05-25T19:36:41.928Z"
+  },
+  {
+    "id": 660,
+    "guildId": "1507585753079615588",
+    "phrase": "fossils",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:41.938Z",
+    "createdAt": "2026-05-25T19:36:41.936Z"
+  },
+  {
+    "id": 605,
+    "guildId": "1507585753079615588",
+    "phrase": "say to her?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:18.770Z",
+    "createdAt": "2026-05-25T19:36:18.767Z"
+  },
+  {
+    "id": 606,
+    "guildId": "1507585753079615588",
+    "phrase": "didnt",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:19.136Z",
+    "createdAt": "2026-05-25T19:36:19.130Z"
+  },
+  {
+    "id": 607,
+    "guildId": "1507585753079615588",
+    "phrase": "even",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:19.142Z",
+    "createdAt": "2026-05-25T19:36:19.139Z"
+  },
+  {
+    "id": 609,
+    "guildId": "1507585753079615588",
+    "phrase": "didnt even",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:19.150Z",
+    "createdAt": "2026-05-25T19:36:19.148Z"
+  },
+  {
+    "id": 610,
+    "guildId": "1507585753079615588",
+    "phrase": "even reply",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:19.157Z",
+    "createdAt": "2026-05-25T19:36:19.154Z"
+  },
+  {
+    "id": 612,
+    "guildId": "1507585753079615588",
+    "phrase": "to it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:19.166Z",
+    "createdAt": "2026-05-25T19:36:19.163Z"
+  },
+  {
+    "id": 613,
+    "guildId": "1507585753079615588",
+    "phrase": "didnt even reply",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:19.172Z",
+    "createdAt": "2026-05-25T19:36:19.170Z"
+  },
+  {
+    "id": 614,
+    "guildId": "1507585753079615588",
+    "phrase": "even reply to",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:19.177Z",
+    "createdAt": "2026-05-25T19:36:19.174Z"
+  },
+  {
+    "id": 615,
+    "guildId": "1507585753079615588",
+    "phrase": "reply to it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:19.183Z",
+    "createdAt": "2026-05-25T19:36:19.181Z"
+  },
+  {
+    "id": 617,
+    "guildId": "1507585753079615588",
+    "phrase": "opp?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:25.141Z",
+    "createdAt": "2026-05-25T19:36:25.137Z"
+  },
+  {
+    "id": 618,
+    "guildId": "1507585753079615588",
+    "phrase": "is she",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:25.148Z",
+    "createdAt": "2026-05-25T19:36:25.146Z"
+  },
+  {
+    "id": 619,
+    "guildId": "1507585753079615588",
+    "phrase": "she opp?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:25.153Z",
+    "createdAt": "2026-05-25T19:36:25.151Z"
+  },
+  {
+    "id": 620,
+    "guildId": "1507585753079615588",
+    "phrase": "is she opp?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:25.158Z",
+    "createdAt": "2026-05-25T19:36:25.156Z"
+  },
+  {
+    "id": 625,
+    "guildId": "1507585753079615588",
+    "phrase": "rn?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:30.827Z",
+    "createdAt": "2026-05-25T19:36:30.825Z"
+  },
+  {
+    "id": 598,
+    "guildId": "1507585753079615588",
+    "phrase": "to say",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:30.840Z",
+    "createdAt": "2026-05-25T19:36:18.729Z"
+  },
+  {
+    "id": 599,
+    "guildId": "1507585753079615588",
+    "phrase": "say to",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:30.843Z",
+    "createdAt": "2026-05-25T19:36:18.736Z"
+  },
+  {
+    "id": 631,
+    "guildId": "1507585753079615588",
+    "phrase": "to her",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:30.849Z",
+    "createdAt": "2026-05-25T19:36:30.846Z"
+  },
+  {
+    "id": 632,
+    "guildId": "1507585753079615588",
+    "phrase": "her rn?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:30.854Z",
+    "createdAt": "2026-05-25T19:36:30.852Z"
+  },
+  {
+    "id": 601,
+    "guildId": "1507585753079615588",
+    "phrase": "what do have",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:30.857Z",
+    "createdAt": "2026-05-25T19:36:18.746Z"
+  },
+  {
+    "id": 602,
+    "guildId": "1507585753079615588",
+    "phrase": "do have to",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:30.860Z",
+    "createdAt": "2026-05-25T19:36:18.751Z"
+  },
+  {
+    "id": 603,
+    "guildId": "1507585753079615588",
+    "phrase": "have to say",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:30.863Z",
+    "createdAt": "2026-05-25T19:36:18.756Z"
+  },
+  {
+    "id": 604,
+    "guildId": "1507585753079615588",
+    "phrase": "to say to",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:30.866Z",
+    "createdAt": "2026-05-25T19:36:18.761Z"
+  },
+  {
+    "id": 637,
+    "guildId": "1507585753079615588",
+    "phrase": "say to her",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:30.872Z",
+    "createdAt": "2026-05-25T19:36:30.870Z"
+  },
+  {
+    "id": 638,
+    "guildId": "1507585753079615588",
+    "phrase": "to her rn?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:30.877Z",
+    "createdAt": "2026-05-25T19:36:30.874Z"
+  },
+  {
+    "id": 642,
+    "guildId": "1507585753079615588",
+    "phrase": "fake",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:37.977Z",
+    "createdAt": "2026-05-25T19:36:37.975Z"
+  },
+  {
+    "id": 646,
+    "guildId": "1507585753079615588",
+    "phrase": "the fake",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:37.996Z",
+    "createdAt": "2026-05-25T19:36:37.993Z"
+  },
+  {
+    "id": 649,
+    "guildId": "1507585753079615588",
+    "phrase": "ur the fake",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:38.010Z",
+    "createdAt": "2026-05-25T19:36:38.007Z"
+  },
+  {
+    "id": 652,
+    "guildId": "1507585753079615588",
+    "phrase": "nuke",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:41.886Z",
+    "createdAt": "2026-05-25T19:36:41.882Z"
+  },
+  {
+    "id": 654,
+    "guildId": "1507585753079615588",
+    "phrase": "house,",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:41.910Z",
+    "createdAt": "2026-05-25T19:36:41.908Z"
+  },
+  {
+    "id": 662,
+    "guildId": "1507585753079615588",
+    "phrase": "dont",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:41.948Z",
+    "createdAt": "2026-05-25T19:36:41.945Z"
+  },
+  {
+    "id": 665,
+    "guildId": "1507585753079615588",
+    "phrase": "original",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:41.961Z",
+    "createdAt": "2026-05-25T19:36:41.958Z"
+  },
+  {
+    "id": 667,
+    "guildId": "1507585753079615588",
+    "phrase": "santo im",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:41.971Z",
+    "createdAt": "2026-05-25T19:36:41.968Z"
+  },
+  {
+    "id": 668,
+    "guildId": "1507585753079615588",
+    "phrase": "im gonna",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:41.975Z",
+    "createdAt": "2026-05-25T19:36:41.973Z"
+  },
+  {
+    "id": 669,
+    "guildId": "1507585753079615588",
+    "phrase": "gonna nuke",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:41.981Z",
+    "createdAt": "2026-05-25T19:36:41.979Z"
+  },
+  {
+    "id": 645,
+    "guildId": "1507585753079615588",
+    "phrase": "ur the",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:44.958Z",
+    "createdAt": "2026-05-25T19:36:37.987Z"
+  },
+  {
+    "id": 648,
+    "guildId": "1507585753079615588",
+    "phrase": "said ur the",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:36:44.975Z",
+    "createdAt": "2026-05-25T19:36:38.001Z"
+  },
+  {
+    "id": 560,
+    "guildId": "1507585753079615588",
+    "phrase": "real",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:37:07.995Z",
+    "createdAt": "2026-05-25T19:36:08.244Z"
+  },
+  {
+    "id": 569,
+    "guildId": "1507585753079615588",
+    "phrase": "the real",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:37:08.020Z",
+    "createdAt": "2026-05-25T19:36:08.297Z"
+  },
+  {
+    "id": 581,
+    "guildId": "1507585753079615588",
+    "phrase": "it so",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:37:14.656Z",
+    "createdAt": "2026-05-25T19:36:11.350Z"
+  },
+  {
+    "id": 582,
+    "guildId": "1507585753079615588",
+    "phrase": "so that",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T19:37:14.660Z",
+    "createdAt": "2026-05-25T19:36:11.354Z"
+  },
+  {
+    "id": 673,
+    "guildId": "1507585753079615588",
+    "phrase": "indian",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:44.945Z",
+    "createdAt": "2026-05-25T19:36:44.942Z"
+  },
+  {
+    "id": 674,
+    "guildId": "1507585753079615588",
+    "phrase": "scammer",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:44.950Z",
+    "createdAt": "2026-05-25T19:36:44.947Z"
+  },
+  {
+    "id": 678,
+    "guildId": "1507585753079615588",
+    "phrase": "the indian",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:44.963Z",
+    "createdAt": "2026-05-25T19:36:44.960Z"
+  },
+  {
+    "id": 679,
+    "guildId": "1507585753079615588",
+    "phrase": "indian scammer",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:44.968Z",
+    "createdAt": "2026-05-25T19:36:44.966Z"
+  },
+  {
+    "id": 682,
+    "guildId": "1507585753079615588",
+    "phrase": "ur the indian",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:44.980Z",
+    "createdAt": "2026-05-25T19:36:44.978Z"
+  },
+  {
+    "id": 683,
+    "guildId": "1507585753079615588",
+    "phrase": "the indian scammer",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:44.985Z",
+    "createdAt": "2026-05-25T19:36:44.982Z"
+  },
+  {
+    "id": 684,
+    "guildId": "1507585753079615588",
+    "phrase": "que?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:36:50.703Z",
+    "createdAt": "2026-05-25T19:36:50.698Z"
+  },
+  {
+    "id": 692,
+    "guildId": "1507585753079615588",
+    "phrase": "@user btw",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:08.010Z",
+    "createdAt": "2026-05-25T19:37:08.007Z"
+  },
+  {
+    "id": 693,
+    "guildId": "1507585753079615588",
+    "phrase": "btw the",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:08.017Z",
+    "createdAt": "2026-05-25T19:37:08.015Z"
+  },
+  {
+    "id": 695,
+    "guildId": "1507585753079615588",
+    "phrase": "real ducky",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:08.026Z",
+    "createdAt": "2026-05-25T19:37:08.023Z"
+  },
+  {
+    "id": 699,
+    "guildId": "1507585753079615588",
+    "phrase": "@user btw the",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:08.040Z",
+    "createdAt": "2026-05-25T19:37:08.038Z"
+  },
+  {
+    "id": 700,
+    "guildId": "1507585753079615588",
+    "phrase": "btw the real",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:08.045Z",
+    "createdAt": "2026-05-25T19:37:08.043Z"
+  },
+  {
+    "id": 701,
+    "guildId": "1507585753079615588",
+    "phrase": "the real ducky",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:08.049Z",
+    "createdAt": "2026-05-25T19:37:08.047Z"
+  },
+  {
+    "id": 702,
+    "guildId": "1507585753079615588",
+    "phrase": "real ducky said",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:08.054Z",
+    "createdAt": "2026-05-25T19:37:08.052Z"
+  },
+  {
+    "id": 709,
+    "guildId": "1507585753079615588",
+    "phrase": "was",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.922Z",
+    "createdAt": "2026-05-25T19:37:11.920Z"
+  },
+  {
+    "id": 710,
+    "guildId": "1507585753079615588",
+    "phrase": "1st",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.928Z",
+    "createdAt": "2026-05-25T19:37:11.925Z"
+  },
+  {
+    "id": 713,
+    "guildId": "1507585753079615588",
+    "phrase": "nah bro",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.941Z",
+    "createdAt": "2026-05-25T19:37:11.938Z"
+  },
+  {
+    "id": 714,
+    "guildId": "1507585753079615588",
+    "phrase": "bro just",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.951Z",
+    "createdAt": "2026-05-25T19:37:11.943Z"
+  },
+  {
+    "id": 715,
+    "guildId": "1507585753079615588",
+    "phrase": "just say",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.959Z",
+    "createdAt": "2026-05-25T19:37:11.953Z"
+  },
+  {
+    "id": 716,
+    "guildId": "1507585753079615588",
+    "phrase": "say was",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.964Z",
+    "createdAt": "2026-05-25T19:37:11.961Z"
+  },
+  {
+    "id": 717,
+    "guildId": "1507585753079615588",
+    "phrase": "was 1st",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.973Z",
+    "createdAt": "2026-05-25T19:37:11.966Z"
+  },
+  {
+    "id": 718,
+    "guildId": "1507585753079615588",
+    "phrase": "1st and",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.977Z",
+    "createdAt": "2026-05-25T19:37:11.976Z"
+  },
+  {
+    "id": 719,
+    "guildId": "1507585753079615588",
+    "phrase": "and we",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.983Z",
+    "createdAt": "2026-05-25T19:37:11.980Z"
+  },
+  {
+    "id": 720,
+    "guildId": "1507585753079615588",
+    "phrase": "we good",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.988Z",
+    "createdAt": "2026-05-25T19:37:11.986Z"
+  },
+  {
+    "id": 721,
+    "guildId": "1507585753079615588",
+    "phrase": "nah bro just",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.993Z",
+    "createdAt": "2026-05-25T19:37:11.990Z"
+  },
+  {
+    "id": 722,
+    "guildId": "1507585753079615588",
+    "phrase": "bro just say",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:11.998Z",
+    "createdAt": "2026-05-25T19:37:11.996Z"
+  },
+  {
+    "id": 723,
+    "guildId": "1507585753079615588",
+    "phrase": "just say was",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:12.003Z",
+    "createdAt": "2026-05-25T19:37:12.001Z"
+  },
+  {
+    "id": 724,
+    "guildId": "1507585753079615588",
+    "phrase": "say was 1st",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:12.008Z",
+    "createdAt": "2026-05-25T19:37:12.006Z"
+  },
+  {
+    "id": 727,
+    "guildId": "1507585753079615588",
+    "phrase": "someyjings",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.626Z",
+    "createdAt": "2026-05-25T19:37:14.624Z"
+  },
+  {
+    "id": 728,
+    "guildId": "1507585753079615588",
+    "phrase": "wrong",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.632Z",
+    "createdAt": "2026-05-25T19:37:14.628Z"
+  },
+  {
+    "id": 729,
+    "guildId": "1507585753079615588",
+    "phrase": "says",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.637Z",
+    "createdAt": "2026-05-25T19:37:14.635Z"
+  },
+  {
+    "id": 731,
+    "guildId": "1507585753079615588",
+    "phrase": "unavailable",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.647Z",
+    "createdAt": "2026-05-25T19:37:14.644Z"
+  },
+  {
+    "id": 735,
+    "guildId": "1507585753079615588",
+    "phrase": "that if",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.665Z",
+    "createdAt": "2026-05-25T19:37:14.663Z"
+  },
+  {
+    "id": 736,
+    "guildId": "1507585753079615588",
+    "phrase": "if someyjings",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.670Z",
+    "createdAt": "2026-05-25T19:37:14.668Z"
+  },
+  {
+    "id": 737,
+    "guildId": "1507585753079615588",
+    "phrase": "someyjings wrong",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.676Z",
+    "createdAt": "2026-05-25T19:37:14.673Z"
+  },
+  {
+    "id": 738,
+    "guildId": "1507585753079615588",
+    "phrase": "wrong it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.681Z",
+    "createdAt": "2026-05-25T19:37:14.679Z"
+  },
+  {
+    "id": 739,
+    "guildId": "1507585753079615588",
+    "phrase": "it says",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.686Z",
+    "createdAt": "2026-05-25T19:37:14.683Z"
+  },
+  {
+    "id": 740,
+    "guildId": "1507585753079615588",
+    "phrase": "says the",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.691Z",
+    "createdAt": "2026-05-25T19:37:14.689Z"
+  },
+  {
+    "id": 741,
+    "guildId": "1507585753079615588",
+    "phrase": "the ai",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.696Z",
+    "createdAt": "2026-05-25T19:37:14.694Z"
+  },
+  {
+    "id": 742,
+    "guildId": "1507585753079615588",
+    "phrase": "ai is",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.701Z",
+    "createdAt": "2026-05-25T19:37:14.699Z"
+  },
+  {
+    "id": 743,
+    "guildId": "1507585753079615588",
+    "phrase": "is unavailable",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.706Z",
+    "createdAt": "2026-05-25T19:37:14.703Z"
+  },
+  {
+    "id": 744,
+    "guildId": "1507585753079615588",
+    "phrase": "made it so",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:14.711Z",
+    "createdAt": "2026-05-25T19:37:14.709Z"
+  },
+  {
+    "id": 745,
+    "guildId": "1507585753079615588",
+    "phrase": "changing",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:19.714Z",
+    "createdAt": "2026-05-25T19:37:19.709Z"
+  },
+  {
+    "id": 747,
+    "guildId": "1507585753079615588",
+    "phrase": "rn im",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:19.725Z",
+    "createdAt": "2026-05-25T19:37:19.722Z"
+  },
+  {
+    "id": 748,
+    "guildId": "1507585753079615588",
+    "phrase": "im changing",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:19.729Z",
+    "createdAt": "2026-05-25T19:37:19.727Z"
+  },
+  {
+    "id": 749,
+    "guildId": "1507585753079615588",
+    "phrase": "changing smt",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:19.735Z",
+    "createdAt": "2026-05-25T19:37:19.733Z"
+  },
+  {
+    "id": 750,
+    "guildId": "1507585753079615588",
+    "phrase": "rn im changing",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:19.740Z",
+    "createdAt": "2026-05-25T19:37:19.738Z"
+  },
+  {
+    "id": 751,
+    "guildId": "1507585753079615588",
+    "phrase": "im changing smt",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:19.746Z",
+    "createdAt": "2026-05-25T19:37:19.744Z"
+  },
+  {
+    "id": 752,
+    "guildId": "1507585753079615588",
+    "phrase": "ahh",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:26.711Z",
+    "createdAt": "2026-05-25T19:37:26.705Z"
+  },
+  {
+    "id": 753,
+    "guildId": "1507585753079615588",
+    "phrase": "yes",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.203Z",
+    "createdAt": "2026-05-25T19:37:32.198Z"
+  },
+  {
+    "id": 756,
+    "guildId": "1507585753079615588",
+    "phrase": "did.",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.219Z",
+    "createdAt": "2026-05-25T19:37:32.216Z"
+  },
+  {
+    "id": 759,
+    "guildId": "1507585753079615588",
+    "phrase": "abt",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.237Z",
+    "createdAt": "2026-05-25T19:37:32.235Z"
+  },
+  {
+    "id": 760,
+    "guildId": "1507585753079615588",
+    "phrase": "champ?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.243Z",
+    "createdAt": "2026-05-25T19:37:32.239Z"
+  },
+  {
+    "id": 761,
+    "guildId": "1507585753079615588",
+    "phrase": "yes can",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.247Z",
+    "createdAt": "2026-05-25T19:37:32.245Z"
+  },
+  {
+    "id": 762,
+    "guildId": "1507585753079615588",
+    "phrase": "can just",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.253Z",
+    "createdAt": "2026-05-25T19:37:32.251Z"
+  },
+  {
+    "id": 763,
+    "guildId": "1507585753079615588",
+    "phrase": "just did.",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.259Z",
+    "createdAt": "2026-05-25T19:37:32.257Z"
+  },
+  {
+    "id": 764,
+    "guildId": "1507585753079615588",
+    "phrase": "did. what",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.264Z",
+    "createdAt": "2026-05-25T19:37:32.262Z"
+  },
+  {
+    "id": 765,
+    "guildId": "1507585753079615588",
+    "phrase": "what gonna",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.268Z",
+    "createdAt": "2026-05-25T19:37:32.266Z"
+  },
+  {
+    "id": 766,
+    "guildId": "1507585753079615588",
+    "phrase": "gonna do",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.273Z",
+    "createdAt": "2026-05-25T19:37:32.271Z"
+  },
+  {
+    "id": 767,
+    "guildId": "1507585753079615588",
+    "phrase": "do abt",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.278Z",
+    "createdAt": "2026-05-25T19:37:32.276Z"
+  },
+  {
+    "id": 768,
+    "guildId": "1507585753079615588",
+    "phrase": "abt it",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.283Z",
+    "createdAt": "2026-05-25T19:37:32.281Z"
+  },
+  {
+    "id": 769,
+    "guildId": "1507585753079615588",
+    "phrase": "it champ?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.288Z",
+    "createdAt": "2026-05-25T19:37:32.286Z"
+  },
+  {
+    "id": 770,
+    "guildId": "1507585753079615588",
+    "phrase": "yes can just",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.293Z",
+    "createdAt": "2026-05-25T19:37:32.291Z"
+  },
+  {
+    "id": 771,
+    "guildId": "1507585753079615588",
+    "phrase": "can just did.",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.298Z",
+    "createdAt": "2026-05-25T19:37:32.296Z"
+  },
+  {
+    "id": 772,
+    "guildId": "1507585753079615588",
+    "phrase": "just did. what",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:32.303Z",
+    "createdAt": "2026-05-25T19:37:32.300Z"
+  },
+  {
+    "id": 773,
+    "guildId": "1507585753079615588",
+    "phrase": "wyd",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.418Z",
+    "createdAt": "2026-05-25T19:37:44.415Z"
+  },
+  {
+    "id": 775,
+    "guildId": "1507585753079615588",
+    "phrase": "takes",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.434Z",
+    "createdAt": "2026-05-25T19:37:44.430Z"
+  },
+  {
+    "id": 777,
+    "guildId": "1507585753079615588",
+    "phrase": "again?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.443Z",
+    "createdAt": "2026-05-25T19:37:44.439Z"
+  },
+  {
+    "id": 778,
+    "guildId": "1507585753079615588",
+    "phrase": "wyd if",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.448Z",
+    "createdAt": "2026-05-25T19:37:44.445Z"
+  },
+  {
+    "id": 779,
+    "guildId": "1507585753079615588",
+    "phrase": "if she",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.454Z",
+    "createdAt": "2026-05-25T19:37:44.451Z"
+  },
+  {
+    "id": 780,
+    "guildId": "1507585753079615588",
+    "phrase": "she takes",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.459Z",
+    "createdAt": "2026-05-25T19:37:44.456Z"
+  },
+  {
+    "id": 781,
+    "guildId": "1507585753079615588",
+    "phrase": "takes ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.464Z",
+    "createdAt": "2026-05-25T19:37:44.462Z"
+  },
+  {
+    "id": 783,
+    "guildId": "1507585753079615588",
+    "phrase": "name again?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.470Z",
+    "createdAt": "2026-05-25T19:37:44.468Z"
+  },
+  {
+    "id": 784,
+    "guildId": "1507585753079615588",
+    "phrase": "wyd if she",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.476Z",
+    "createdAt": "2026-05-25T19:37:44.473Z"
+  },
+  {
+    "id": 785,
+    "guildId": "1507585753079615588",
+    "phrase": "if she takes",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.481Z",
+    "createdAt": "2026-05-25T19:37:44.479Z"
+  },
+  {
+    "id": 786,
+    "guildId": "1507585753079615588",
+    "phrase": "she takes ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.486Z",
+    "createdAt": "2026-05-25T19:37:44.483Z"
+  },
+  {
+    "id": 787,
+    "guildId": "1507585753079615588",
+    "phrase": "takes ur name",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.491Z",
+    "createdAt": "2026-05-25T19:37:44.489Z"
+  },
+  {
+    "id": 788,
+    "guildId": "1507585753079615588",
+    "phrase": "ur name again?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:44.495Z",
+    "createdAt": "2026-05-25T19:37:44.493Z"
+  },
+  {
+    "id": 789,
+    "guildId": "1507585753079615588",
+    "phrase": "why?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:47.693Z",
+    "createdAt": "2026-05-25T19:37:47.690Z"
+  },
+  {
+    "id": 790,
+    "guildId": "1507585753079615588",
+    "phrase": "finna",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:52.834Z",
+    "createdAt": "2026-05-25T19:37:52.829Z"
+  },
+  {
+    "id": 791,
+    "guildId": "1507585753079615588",
+    "phrase": "crash",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:52.851Z",
+    "createdAt": "2026-05-25T19:37:52.837Z"
+  },
+  {
+    "id": 792,
+    "guildId": "1507585753079615588",
+    "phrase": "out?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:52.858Z",
+    "createdAt": "2026-05-25T19:37:52.855Z"
+  },
+  {
+    "id": 793,
+    "guildId": "1507585753079615588",
+    "phrase": "finna crash",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:52.863Z",
+    "createdAt": "2026-05-25T19:37:52.861Z"
+  },
+  {
+    "id": 794,
+    "guildId": "1507585753079615588",
+    "phrase": "crash out?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:52.869Z",
+    "createdAt": "2026-05-25T19:37:52.866Z"
+  },
+  {
+    "id": 795,
+    "guildId": "1507585753079615588",
+    "phrase": "finna crash out?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:37:52.874Z",
+    "createdAt": "2026-05-25T19:37:52.872Z"
+  },
+  {
+    "id": 797,
+    "guildId": "1507585753079615588",
+    "phrase": "aint",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.692Z",
+    "createdAt": "2026-05-25T19:38:03.689Z"
+  },
+  {
+    "id": 798,
+    "guildId": "1507585753079615588",
+    "phrase": "doin",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.700Z",
+    "createdAt": "2026-05-25T19:38:03.697Z"
+  },
+  {
+    "id": 799,
+    "guildId": "1507585753079615588",
+    "phrase": "nothin",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.705Z",
+    "createdAt": "2026-05-25T19:38:03.703Z"
+  },
+  {
+    "id": 800,
+    "guildId": "1507585753079615588",
+    "phrase": "cus",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.710Z",
+    "createdAt": "2026-05-25T19:38:03.708Z"
+  },
+  {
+    "id": 801,
+    "guildId": "1507585753079615588",
+    "phrase": "pathetic",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.716Z",
+    "createdAt": "2026-05-25T19:38:03.713Z"
+  },
+  {
+    "id": 802,
+    "guildId": "1507585753079615588",
+    "phrase": "nah aint",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.721Z",
+    "createdAt": "2026-05-25T19:38:03.719Z"
+  },
+  {
+    "id": 803,
+    "guildId": "1507585753079615588",
+    "phrase": "aint doin",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.725Z",
+    "createdAt": "2026-05-25T19:38:03.723Z"
+  },
+  {
+    "id": 804,
+    "guildId": "1507585753079615588",
+    "phrase": "doin nothin",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.730Z",
+    "createdAt": "2026-05-25T19:38:03.728Z"
+  },
+  {
+    "id": 805,
+    "guildId": "1507585753079615588",
+    "phrase": "nothin cus",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.735Z",
+    "createdAt": "2026-05-25T19:38:03.733Z"
+  },
+  {
+    "id": 806,
+    "guildId": "1507585753079615588",
+    "phrase": "cus ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.741Z",
+    "createdAt": "2026-05-25T19:38:03.738Z"
+  },
+  {
+    "id": 807,
+    "guildId": "1507585753079615588",
+    "phrase": "ur pathetic",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.746Z",
+    "createdAt": "2026-05-25T19:38:03.743Z"
+  },
+  {
+    "id": 808,
+    "guildId": "1507585753079615588",
+    "phrase": "nah aint doin",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.751Z",
+    "createdAt": "2026-05-25T19:38:03.749Z"
+  },
+  {
+    "id": 809,
+    "guildId": "1507585753079615588",
+    "phrase": "aint doin nothin",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.757Z",
+    "createdAt": "2026-05-25T19:38:03.755Z"
+  },
+  {
+    "id": 810,
+    "guildId": "1507585753079615588",
+    "phrase": "doin nothin cus",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.762Z",
+    "createdAt": "2026-05-25T19:38:03.760Z"
+  },
+  {
+    "id": 811,
+    "guildId": "1507585753079615588",
+    "phrase": "nothin cus ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.767Z",
+    "createdAt": "2026-05-25T19:38:03.765Z"
+  },
+  {
+    "id": 812,
+    "guildId": "1507585753079615588",
+    "phrase": "cus ur pathetic",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:03.772Z",
+    "createdAt": "2026-05-25T19:38:03.770Z"
+  },
+  {
+    "id": 813,
+    "guildId": "1507585753079615588",
+    "phrase": "man",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:19.826Z",
+    "createdAt": "2026-05-25T19:38:19.754Z"
+  },
+  {
+    "id": 815,
+    "guildId": "1507585753079615588",
+    "phrase": "more",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:19.836Z",
+    "createdAt": "2026-05-25T19:38:19.833Z"
+  },
+  {
+    "id": 816,
+    "guildId": "1507585753079615588",
+    "phrase": "than",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:19.841Z",
+    "createdAt": "2026-05-25T19:38:19.838Z"
+  },
+  {
+    "id": 817,
+    "guildId": "1507585753079615588",
+    "phrase": "man saying",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:19.848Z",
+    "createdAt": "2026-05-25T19:38:19.844Z"
+  },
+  {
+    "id": 818,
+    "guildId": "1507585753079615588",
+    "phrase": "saying more",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:19.854Z",
+    "createdAt": "2026-05-25T19:38:19.851Z"
+  },
+  {
+    "id": 819,
+    "guildId": "1507585753079615588",
+    "phrase": "more than",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:19.860Z",
+    "createdAt": "2026-05-25T19:38:19.857Z"
+  },
+  {
+    "id": 820,
+    "guildId": "1507585753079615588",
+    "phrase": "than me",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:19.865Z",
+    "createdAt": "2026-05-25T19:38:19.863Z"
+  },
+  {
+    "id": 821,
+    "guildId": "1507585753079615588",
+    "phrase": "man saying more",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:19.870Z",
+    "createdAt": "2026-05-25T19:38:19.868Z"
+  },
+  {
+    "id": 822,
+    "guildId": "1507585753079615588",
+    "phrase": "saying more than",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:19.875Z",
+    "createdAt": "2026-05-25T19:38:19.873Z"
+  },
+  {
+    "id": 823,
+    "guildId": "1507585753079615588",
+    "phrase": "more than me",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:19.880Z",
+    "createdAt": "2026-05-25T19:38:19.878Z"
+  },
+  {
+    "id": 827,
+    "guildId": "1507585753079615588",
+    "phrase": "responding",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:32.392Z",
+    "createdAt": "2026-05-25T19:38:32.389Z"
+  },
+  {
+    "id": 828,
+    "guildId": "1507585753079615588",
+    "phrase": "then why",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:32.398Z",
+    "createdAt": "2026-05-25T19:38:32.394Z"
+  },
+  {
+    "id": 829,
+    "guildId": "1507585753079615588",
+    "phrase": "why are",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:32.403Z",
+    "createdAt": "2026-05-25T19:38:32.401Z"
+  },
+  {
+    "id": 830,
+    "guildId": "1507585753079615588",
+    "phrase": "are responding",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:32.409Z",
+    "createdAt": "2026-05-25T19:38:32.406Z"
+  },
+  {
+    "id": 831,
+    "guildId": "1507585753079615588",
+    "phrase": "responding rn",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:32.415Z",
+    "createdAt": "2026-05-25T19:38:32.411Z"
+  },
+  {
+    "id": 832,
+    "guildId": "1507585753079615588",
+    "phrase": "then why are",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:32.420Z",
+    "createdAt": "2026-05-25T19:38:32.417Z"
+  },
+  {
+    "id": 833,
+    "guildId": "1507585753079615588",
+    "phrase": "why are responding",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:32.425Z",
+    "createdAt": "2026-05-25T19:38:32.423Z"
+  },
+  {
+    "id": 834,
+    "guildId": "1507585753079615588",
+    "phrase": "are responding rn",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:32.432Z",
+    "createdAt": "2026-05-25T19:38:32.429Z"
+  },
+  {
+    "id": 836,
+    "guildId": "1507585753079615588",
+    "phrase": "stop",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:45.782Z",
+    "createdAt": "2026-05-25T19:38:45.779Z"
+  },
+  {
+    "id": 839,
+    "guildId": "1507585753079615588",
+    "phrase": "omg",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:45.795Z",
+    "createdAt": "2026-05-25T19:38:45.793Z"
+  },
+  {
+    "id": 840,
+    "guildId": "1507585753079615588",
+    "phrase": "santo stop",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:45.801Z",
+    "createdAt": "2026-05-25T19:38:45.798Z"
+  },
+  {
+    "id": 841,
+    "guildId": "1507585753079615588",
+    "phrase": "stop saying",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:45.806Z",
+    "createdAt": "2026-05-25T19:38:45.804Z"
+  },
+  {
+    "id": 842,
+    "guildId": "1507585753079615588",
+    "phrase": "saying lol",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:45.812Z",
+    "createdAt": "2026-05-25T19:38:45.809Z"
+  },
+  {
+    "id": 843,
+    "guildId": "1507585753079615588",
+    "phrase": "lol omg",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:45.818Z",
+    "createdAt": "2026-05-25T19:38:45.815Z"
+  },
+  {
+    "id": 844,
+    "guildId": "1507585753079615588",
+    "phrase": "santo stop saying",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:45.824Z",
+    "createdAt": "2026-05-25T19:38:45.821Z"
+  },
+  {
+    "id": 845,
+    "guildId": "1507585753079615588",
+    "phrase": "stop saying lol",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:45.830Z",
+    "createdAt": "2026-05-25T19:38:45.827Z"
+  },
+  {
+    "id": 846,
+    "guildId": "1507585753079615588",
+    "phrase": "saying lol omg",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:45.834Z",
+    "createdAt": "2026-05-25T19:38:45.832Z"
+  },
+  {
+    "id": 847,
+    "guildId": "1507585753079615588",
+    "phrase": "weak",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:49.306Z",
+    "createdAt": "2026-05-25T19:38:49.300Z"
+  },
+  {
+    "id": 848,
+    "guildId": "1507585753079615588",
+    "phrase": "comeback",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:49.312Z",
+    "createdAt": "2026-05-25T19:38:49.310Z"
+  },
+  {
+    "id": 849,
+    "guildId": "1507585753079615588",
+    "phrase": "no ur",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:49.317Z",
+    "createdAt": "2026-05-25T19:38:49.314Z"
+  },
+  {
+    "id": 850,
+    "guildId": "1507585753079615588",
+    "phrase": "ur weak",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:49.321Z",
+    "createdAt": "2026-05-25T19:38:49.319Z"
+  },
+  {
+    "id": 851,
+    "guildId": "1507585753079615588",
+    "phrase": "weak comeback",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:49.326Z",
+    "createdAt": "2026-05-25T19:38:49.324Z"
+  },
+  {
+    "id": 852,
+    "guildId": "1507585753079615588",
+    "phrase": "no ur weak",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:49.332Z",
+    "createdAt": "2026-05-25T19:38:49.329Z"
+  },
+  {
+    "id": 853,
+    "guildId": "1507585753079615588",
+    "phrase": "ur weak comeback",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:49.338Z",
+    "createdAt": "2026-05-25T19:38:49.336Z"
+  },
+  {
+    "id": 854,
+    "guildId": "1507585753079615588",
+    "phrase": "help?",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:38:55.679Z",
+    "createdAt": "2026-05-25T19:38:55.675Z"
+  },
+  {
+    "id": 857,
+    "guildId": "1507585753079615588",
+    "phrase": "shut",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:12.072Z",
+    "createdAt": "2026-05-25T19:39:12.067Z"
+  },
+  {
+    "id": 858,
+    "guildId": "1507585753079615588",
+    "phrase": "bro shut",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:12.079Z",
+    "createdAt": "2026-05-25T19:39:12.075Z"
+  },
+  {
+    "id": 859,
+    "guildId": "1507585753079615588",
+    "phrase": "shut up",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:12.086Z",
+    "createdAt": "2026-05-25T19:39:12.083Z"
+  },
+  {
+    "id": 860,
+    "guildId": "1507585753079615588",
+    "phrase": "bro shut up",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:12.091Z",
+    "createdAt": "2026-05-25T19:39:12.088Z"
+  },
+  {
+    "id": 862,
+    "guildId": "1507585753079615588",
+    "phrase": "think",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.745Z",
+    "createdAt": "2026-05-25T19:39:25.741Z"
+  },
+  {
+    "id": 864,
+    "guildId": "1507585753079615588",
+    "phrase": "cooking",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.758Z",
+    "createdAt": "2026-05-25T19:39:25.755Z"
+  },
+  {
+    "id": 867,
+    "guildId": "1507585753079615588",
+    "phrase": "bro think",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.772Z",
+    "createdAt": "2026-05-25T19:39:25.770Z"
+  },
+  {
+    "id": 868,
+    "guildId": "1507585753079615588",
+    "phrase": "think bro",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.779Z",
+    "createdAt": "2026-05-25T19:39:25.776Z"
+  },
+  {
+    "id": 869,
+    "guildId": "1507585753079615588",
+    "phrase": "bro is",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.784Z",
+    "createdAt": "2026-05-25T19:39:25.782Z"
+  },
+  {
+    "id": 870,
+    "guildId": "1507585753079615588",
+    "phrase": "is cooking",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.790Z",
+    "createdAt": "2026-05-25T19:39:25.788Z"
+  },
+  {
+    "id": 871,
+    "guildId": "1507585753079615588",
+    "phrase": "cooking too",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.797Z",
+    "createdAt": "2026-05-25T19:39:25.794Z"
+  },
+  {
+    "id": 873,
+    "guildId": "1507585753079615588",
+    "phrase": "bro think bro",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.808Z",
+    "createdAt": "2026-05-25T19:39:25.805Z"
+  },
+  {
+    "id": 874,
+    "guildId": "1507585753079615588",
+    "phrase": "think bro is",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.813Z",
+    "createdAt": "2026-05-25T19:39:25.811Z"
+  },
+  {
+    "id": 875,
+    "guildId": "1507585753079615588",
+    "phrase": "bro is cooking",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.819Z",
+    "createdAt": "2026-05-25T19:39:25.816Z"
+  },
+  {
+    "id": 876,
+    "guildId": "1507585753079615588",
+    "phrase": "is cooking too",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.824Z",
+    "createdAt": "2026-05-25T19:39:25.821Z"
+  },
+  {
+    "id": 877,
+    "guildId": "1507585753079615588",
+    "phrase": "cooking too much",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T19:39:25.830Z",
+    "createdAt": "2026-05-25T19:39:25.827Z"
   }
 ]
