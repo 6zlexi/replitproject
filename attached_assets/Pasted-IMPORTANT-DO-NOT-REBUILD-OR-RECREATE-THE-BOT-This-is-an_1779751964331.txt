@@ -1,0 +1,143 @@
+IMPORTANT: DO NOT REBUILD OR RECREATE THE BOT.
+
+This is an existing Discord bot project. Only improve behavior, stability, and conversation intelligence.
+
+Do NOT delete files.
+Do NOT reset architecture.
+Do NOT replace command system.
+
+---
+
+# 1. DUPLICATE MESSAGE BUG FIX
+
+Fix issue where bot replies twice.
+
+Ensure:
+- only one messageCreate handler exists
+- only one interactionCreate handler exists
+- prevent duplicate execution per message ID
+- prevent multiple event listener registrations
+
+---
+
+# 2. NATURAL RESPONSE FLOW (ANTI-ROBOTIC STYLE)
+
+Improve response naturalness WITHOUT spam or artificial fragmentation.
+
+Rules:
+
+- responses should feel less robotic and more conversational
+- vary sentence length (short or long depending on context)
+- occasionally use line breaks for readability
+- do NOT split messages into multiple separate Discord messages as a stylistic default
+- avoid repetitive phrasing patterns
+
+Allowed behavior:
+- one message can contain natural pauses using punctuation or line breaks
+- adjust tone based on context (casual vs serious)
+
+NOT allowed:
+- forced multi-message splitting
+- sending responses in multiple parts just to imitate typing or human behavior
+
+---
+
+# 3. CONTEXT-AWARE CONVERSATION SYSTEM
+
+Bot responds only when relevant:
+
+- direct mention of bot name ("santo")
+- clear contextual reference to bot
+- continuation of an active conversation with the bot
+- single-user active conversation mode (if applicable)
+
+Avoid responding when:
+- conversation is between other users
+- context is unclear
+- bot relevance is low
+
+---
+
+# 4. SINGLE USER MODE
+
+If only one user is active in a channel:
+
+- treat messages as conversational continuation ONLY if prior interaction exists
+- allow natural continuation without mentions
+- disable if multiple users join or topic changes
+
+---
+
+# 5. COMMAND SYSTEM STABILITY
+
+- prefix commands execute once only
+- slash commands execute once only
+- no duplicate handlers
+- no overlapping imports
+
+---
+
+# 6. PERMISSION SYSTEM
+
+- OWNER_ID has full control
+- owner can assign/remove admin via ?admin and ?unadmin
+- admin status must persist
+
+---
+
+# 7. PURGE COMMAND
+
+?purge all:
+
+- only OWNER_ID or admins can use it
+- no confirmation required
+- deletes messages silently
+- logs action to logs channel
+- includes executor, timestamp, message count
+
+---
+
+# 8. GROQ / AI STABILITY
+
+- single request queue only
+- no parallel API calls
+- retry only after delay (1–3 seconds)
+- handle 429 rate limits safely
+
+---
+
+# 9. MODERATION LOGGING
+
+ONLY log:
+
+- bot joins
+- warn
+- mute
+- kick
+- ban
+- purge actions
+
+Logs:
+- ONLY logs channel
+- OWNER_ID ping only for critical actions
+
+---
+
+# 10. DEPLOYMENT READINESS
+
+Bot must:
+
+- run on any Node.js hosting environment
+- not depend on Replit-specific behavior
+- initialize cleanly on startup
+- remain stable across restarts
+
+---
+
+# 11. GOAL
+
+Make bot:
+- context-aware but not spammy
+- stable and non-duplicating
+- permission-secure
+- deployment-ready
