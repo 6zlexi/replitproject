@@ -24,6 +24,7 @@ import {
   type ReplyContext,
 } from "./ai.js";
 import { isPrivileged } from "./permissions.js";
+import { loadAdminCache } from "./adminManager.js";
 import { initAntiNuke } from "./antinuke.js";
 import { handleMemberJoin, handleMemberLeave, cacheInvites, setupInviteTracking } from "./welcome.js";
 import { initPersistence } from "./persistence.js";
@@ -64,6 +65,36 @@ function isCasualOpener(content: string): boolean {
   const t = content.trim();
   if (t.length > 60) return false; // too long to be a simple opener
   return CASUAL_OPENER_PATTERNS.some((rx) => rx.test(t));
+}
+
+// ── Solo conversation mode ────────────────────────────────────────────────────
+// When only one user has been active in a channel for the past SOLO_WINDOW_MS,
+// Santo treats their messages as directed at it (no mention/trigger needed).
+// A per-channel cooldown prevents reply spam; resets when a second user speaks.
+const channelSpeakers   = new Map<string, Map<string, number>>(); // channelId → userId → lastTs
+const soloModeCooldowns = new Map<string, number>();              // channelId → cooldown expiry
+const SOLO_WINDOW_MS    = 8 * 60_000; // 8 min window for "solo" detection
+const SOLO_COOLDOWN_MS  = 15_000;     // 15 s between solo-mode replies per channel
+
+function trackSpeaker(channelId: string, userId: string): void {
+  if (!channelSpeakers.has(channelId)) channelSpeakers.set(channelId, new Map());
+  const speakers = channelSpeakers.get(channelId)!;
+  speakers.set(userId, Date.now());
+  // Prune stale entries (older than 2× the window) to avoid unbounded growth
+  const cutoff = Date.now() - SOLO_WINDOW_MS * 2;
+  for (const [uid, ts] of speakers) if (ts < cutoff) speakers.delete(uid);
+}
+
+/**
+ * Returns the userId of the sole active speaker in the channel, or null if
+ * zero or multiple users have spoken within SOLO_WINDOW_MS.
+ */
+function getSoloSpeaker(channelId: string): string | null {
+  const speakers = channelSpeakers.get(channelId);
+  if (!speakers) return null;
+  const now    = Date.now();
+  const recent = [...speakers.entries()].filter(([, ts]) => now - ts < SOLO_WINDOW_MS);
+  return recent.length === 1 ? recent[0]![0] : null;
 }
 
 /**
@@ -239,6 +270,9 @@ async function main() {
         await cacheInvites(guild).catch((err) =>
           logger.warn({ err, guildId: guild.id }, "Failed to cache invites")
         );
+        await loadAdminCache(guild.id).catch((err) =>
+          logger.warn({ err, guildId: guild.id }, "Failed to load admin cache")
+        );
       }
       await initPersistence(client);
       setDiscordClient(client);
@@ -260,6 +294,9 @@ async function main() {
     } catch (err) {
       logger.warn({ err, guildId: guild.id }, "GuildCreate: failed to cache invites");
     }
+    loadAdminCache(guild.id).catch((err) =>
+      logger.warn({ err, guildId: guild.id }, "GuildCreate: failed to load admin cache")
+    );
     // Register slash commands in the new guild immediately
     registerSlashCommandsForGuild(client, guild).catch((err) =>
       logger.warn({ err, guildId: guild.id }, "GuildCreate: slash registration failed")
@@ -328,6 +365,9 @@ async function main() {
         addToConversationHistory(message.channelId, message.author.username, content);
       }
 
+      // Track speaker for solo conversation mode (every message, before trigger check)
+      trackSpeaker(message.channelId, message.author.id);
+
       // ── Step 4: Determine trigger conditions ───────────────────────────────
       const mentioned = isBotMentioned(message, botId);
       const { isReplyToBot, context: replyContext } = await resolveReplyContext(
@@ -340,8 +380,15 @@ async function main() {
         content, message.channelId, botId, historySnapshot
       );
 
+      // Solo mode: if this user is the only one active in the last 8 min,
+      // treat their messages as directed at Santo (with its own cooldown)
+      const soloSpeakerId = getSoloSpeaker(message.channelId);
+      const isSoloTrigger =
+        soloSpeakerId === message.author.id &&
+        Date.now() > (soloModeCooldowns.get(message.channelId) ?? 0);
+
       const isDirectTrigger = mentioned || isReplyToBot;
-      const isTriggered = isDirectTrigger || contextAnalysis.triggered;
+      const isTriggered = isDirectTrigger || contextAnalysis.triggered || isSoloTrigger;
 
       if (!isTriggered) {
         // ── Natural presence — occasionally join casual openers unprompted ────
@@ -391,6 +438,11 @@ async function main() {
         contextCooldowns.set(message.channelId, now + CONTEXT_COOLDOWN_MS);
       }
 
+      // ── Solo-mode cooldown — 15 s between solo-triggered replies ───────────
+      if (isSoloTrigger && !isDirectTrigger && !contextAnalysis.triggered) {
+        soloModeCooldowns.set(message.channelId, Date.now() + SOLO_COOLDOWN_MS);
+      }
+
       // ── Step 5: Check AI is operational ───────────────────────────────────
       if (!isAIEnabled()) {
         logger.warn(
@@ -435,6 +487,8 @@ async function main() {
               ? "mention"
               : isReplyToBot
               ? "reply_to_bot"
+              : isSoloTrigger
+              ? "solo_conversation"
               : contextAnalysis.reason,
             split: reply.includes("|||"),
           },

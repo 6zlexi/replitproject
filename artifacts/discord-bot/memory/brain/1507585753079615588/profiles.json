@@ -1,5 +1,16 @@
 [
   {
+    "id": 6,
+    "guildId": "1507585753079615588",
+    "userId": "703009617952768011",
+    "messageCount": 27,
+    "avgMessageLength": 23.740742,
+    "topicsJson": "[]",
+    "styleJson": "{}",
+    "lastActive": "2026-05-25T20:16:14.689Z",
+    "updatedAt": "2026-05-25T20:16:14.689Z"
+  },
+  {
     "id": 5,
     "guildId": "1507585753079615588",
     "userId": "748247799283449866",
@@ -14,11 +25,11 @@
     "id": 4,
     "guildId": "1507585753079615588",
     "userId": "1271866857510539264",
-    "messageCount": 8,
-    "avgMessageLength": 14.874999,
+    "messageCount": 31,
+    "avgMessageLength": 21.645163,
     "topicsJson": "[]",
     "styleJson": "{}",
-    "lastActive": "2026-05-25T19:50:30.598Z",
-    "updatedAt": "2026-05-25T19:50:30.598Z"
+    "lastActive": "2026-05-25T20:17:35.766Z",
+    "updatedAt": "2026-05-25T20:17:35.766Z"
   }
 ]

@@ -93,6 +93,14 @@ export const COMMAND_REGISTRY: CommandDef[] = [
   { name: "export",    category: "Owner", description: "Export guild data as a zip",      permissionNote: "server owner" },
   { name: "backup",    category: "Owner", description: "Backup guild data via DM",        permissionNote: "bot owner only" },
   { name: "backupbot", category: "Owner", description: "Full bot backup (all files) via DM", permissionNote: "owner/co-owner" },
+
+  // ── Admin Management ──────────────────────────────────────────────────────
+  { name: "admin",   category: "Admin Management", description: "Grant/revoke/list bot admins", usage: "?admin add/remove/list [@user]", permissionNote: "owner only" },
+  { name: "unadmin", category: "Admin Management", description: "Revoke admin from a user",      usage: "?unadmin <@user>",              permissionNote: "owner only" },
+
+  // ── Recovery / Status ─────────────────────────────────────────────────────
+  { name: "fix",    category: "Recovery", description: "Re-register slash commands + check health", permissionNote: "owner only" },
+  { name: "online", category: "Recovery", description: "Show bot status, latency, and AI health" },
 ];
 
 // ── Helpers ───────────────────────────────────────────────────────────────────

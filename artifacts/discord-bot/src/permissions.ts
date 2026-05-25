@@ -1,4 +1,5 @@
 import type { GuildMember } from "discord.js";
+import { isGrantedAdminCached } from "./adminManager.js";
 
 export const COLORS = {
   info: 0x000000,
@@ -41,9 +42,13 @@ export function isCoOwner(member: GuildMember): boolean {
   );
 }
 
-// Admin tier: co-owner chain OR "- admin" role
+// Admin tier: co-owner chain OR "- admin" role OR owner-granted admin
 export function isAdmin(member: GuildMember): boolean {
-  return isCoOwner(member) || hasExactRole(member, ROLE_ADMIN);
+  return (
+    isCoOwner(member) ||
+    hasExactRole(member, ROLE_ADMIN) ||
+    isGrantedAdminCached(member.guild.id, member.id)
+  );
 }
 
 // Mod tier: admin chain OR a role named "- mod", "mod", or "moderator"
