@@ -34,9 +34,19 @@ import { logger } from "./logger.js";
 // ── Dedup guard: each message ID processed at most once ──────────────────────
 const processingMessages = new Set<string>();
 
+// ── Context-trigger cooldown — prevents reply spam from "the bot" / "this bot"
+const contextCooldowns = new Map<string, number>(); // channelId → expiry timestamp
+const CONTEXT_COOLDOWN_MS = 8_000; // 8 s between context-triggered replies per channel
+
 // ── Bot trigger words — case-insensitive, word-boundary matched ───────────────
-// "santo" is treated as a possible reference to the bot; context is verified.
+// "santo" is always checked. "this bot" / "the bot" are context phrases.
 const BOT_TRIGGER_WORDS = ["santo"];
+
+// Phrases that explicitly reference a bot (and thus Santo) in context
+const BOT_CONTEXT_PHRASES = [
+  /\bthis bot\b/i,
+  /\bthe bot\b/i,
+];
 
 // Phrases where the trigger word clearly isn't about this bot
 const FALSE_POSITIVE_PATTERNS = [
@@ -60,9 +70,11 @@ interface ContextAnalysis {
  *
  * Priority:
  *   1. Trigger word ("santo") — always fires unless a false-positive pattern matches
- *   2. Pronoun ("he" / "him") — only fires if the bot was named in the last 3 messages
+ *   2. Context phrase ("this bot", "the bot") — fires unless false-positive
+ *   3. Pronoun ("he" / "him") — only fires if the bot was named in the last 3 messages
  *
- * No cooldown is applied to context triggers.
+ * Context-triggered replies are subject to an 8-second per-channel cooldown
+ * applied in the caller (not here).
  */
 function analyzeMessageContext(
   content: string,
@@ -72,7 +84,7 @@ function analyzeMessageContext(
 ): ContextAnalysis {
   const lower = content.toLowerCase().trim();
 
-  // 1. Trigger word check
+  // 1. Trigger word check ("santo")
   const hasTriggerWord = BOT_TRIGGER_WORDS.some((w) =>
     new RegExp(`\\b${w}\\b`, "i").test(lower)
   );
@@ -84,14 +96,25 @@ function analyzeMessageContext(
     return { triggered: true, reason: "trigger_word" };
   }
 
-  // 2. Pronoun check — only if bot was recently named
+  // 2. Context phrase check ("this bot", "the bot")
+  const hasContextPhrase = BOT_CONTEXT_PHRASES.some((rx) => rx.test(lower));
+  if (hasContextPhrase) {
+    if (FALSE_POSITIVE_PATTERNS.some((rx) => rx.test(lower))) {
+      return { triggered: false, reason: "context_phrase_false_positive" };
+    }
+    return { triggered: true, reason: "context_phrase" };
+  }
+
+  // 3. Pronoun check — only if bot was recently named
   if (/\b(he|him|his)\b/i.test(lower)) {
     const last3 = historyBeforeThisMessage.slice(-3);
     const botRecentlyMentioned = last3.some(
       (m) =>
         BOT_TRIGGER_WORDS.some((w) =>
           new RegExp(`\\b${w}\\b`, "i").test(m.content)
-        ) || m.content.includes(`<@${botId}>`)
+        ) ||
+        BOT_CONTEXT_PHRASES.some((rx) => rx.test(m.content)) ||
+        m.content.includes(`<@${botId}>`)
     );
     if (botRecentlyMentioned) {
       return { triggered: true, reason: "pronoun_after_bot_reference" };
@@ -263,6 +286,15 @@ async function main() {
       const isTriggered = isDirectTrigger || contextAnalysis.triggered;
 
       if (!isTriggered) return;
+
+      // ── Context-trigger cooldown — prevents reply spam ─────────────────────
+      // Direct triggers (@mention, reply-to-bot) bypass the cooldown.
+      if (!isDirectTrigger) {
+        const now = Date.now();
+        const cooldownExpiry = contextCooldowns.get(message.channelId) ?? 0;
+        if (now < cooldownExpiry) return;
+        contextCooldowns.set(message.channelId, now + CONTEXT_COOLDOWN_MS);
+      }
 
       // ── Step 5: Check AI is operational ───────────────────────────────────
       if (!isAIEnabled()) {

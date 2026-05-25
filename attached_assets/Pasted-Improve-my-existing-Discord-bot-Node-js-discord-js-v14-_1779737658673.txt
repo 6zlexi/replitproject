@@ -1,0 +1,97 @@
+Improve my existing Discord bot (Node.js + discord.js v14).
+
+DO NOT recreate the bot.
+DO NOT delete commands or systems.
+ONLY fix uptime, group chat support, and command execution issues.
+
+---
+
+# 1. GROUP CHAT COMMANDS NOT WORKING (IMPORTANT)
+
+Current issue:
+- slash commands are not working in group chats (GCs / app-installed chats)
+
+Fix requirements:
+
+Ensure these commands work correctly in:
+- servers
+- DMs
+- group chats where the bot is installed as an app
+
+Commands:
+- /avatar
+- /talk
+- /ship
+- /games
+
+IMPORTANT:
+- properly support app-installed contexts
+- handle missing guild safely (guild can be null)
+- do not rely on guild-only properties in slash commands
+- ensure interactionCreate handles DM/group contexts correctly
+
+---
+
+# 2. SLASH COMMAND REGISTRATION FIX
+
+- re-register slash commands properly
+- ensure commands are globally available
+- ensure commands sync correctly
+- prevent failed registrations silently breaking commands
+
+After registering:
+- confirm commands were successfully registered
+
+---
+
+# 3. BOT UPTIME / ONLINE FIX
+
+Current issue:
+- bot goes offline or crashes
+
+Fix requirements:
+
+- ensure bot logs in correctly using DISCORD_TOKEN
+- prevent crashes from:
+  - unhandledRejection
+  - uncaughtException
+  - API failures
+  - missing guild data
+
+Add safe global error handling.
+
+---
+
+# 4. KEEP BOT RUNNING STABLY
+
+Ensure:
+- bot does not stop from minor errors
+- bot reconnects properly if disconnected
+- no crash loops
+- no duplicate startup logic
+
+IMPORTANT:
+Do NOT fake uptime claims.
+Actually stabilize the runtime and startup process.
+
+---
+
+# 5. DUPLICATE MESSAGE FIX
+
+Fix issue where bot sends duplicate messages.
+
+Requirements:
+- only ONE reply per interaction
+- prevent duplicate event listeners
+- prevent multiple interactionCreate registrations
+
+---
+
+# 6. FINAL GOAL
+
+Bot should:
+- stay online reliably under normal Replit hosting
+- correctly run slash commands in servers, DMs, and group chats
+- stop crashing from missing guild data
+- stop duplicate responses
+- properly register all slash commands globally

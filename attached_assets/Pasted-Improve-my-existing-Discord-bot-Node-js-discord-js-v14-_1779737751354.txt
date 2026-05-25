@@ -1,0 +1,147 @@
+Improve my existing Discord bot (Node.js + discord.js v14).
+
+DO NOT recreate the bot.
+DO NOT delete commands or systems.
+ONLY fix uptime, group chat support, AI context detection, and command execution issues.
+
+---
+
+# 1. BOT IDENTITY + CONTEXT DETECTION (IMPORTANT)
+
+The bot's name is:
+"Santo"
+
+The AI system must understand:
+- its own name is Santo
+- users may refer to it indirectly
+
+The bot should intelligently detect when people are talking about it, including phrases like:
+- "santo"
+- "this bot"
+- "the bot"
+- "he"
+- "him"
+
+ONLY respond if the context is clearly referring to the bot.
+
+Examples:
+- "this bot is stupid"
+- "santo is broken"
+- "he keeps replying twice"
+- "the bot isnt working"
+
+The bot should:
+- understand conversational context
+- avoid random false triggers
+- avoid responding to unrelated "he/him" messages
+
+---
+
+# 2. RESPONSE BEHAVIOR
+
+If users:
+- insult the bot
+- complain about the bot
+- mention Santo directly
+
+The bot may respond naturally using the AI system.
+
+Rules:
+- ONE response maximum
+- no spam
+- no duplicate replies
+- no repeated triggering from the same message
+
+Add cooldown protection for context-triggered replies.
+
+---
+
+# 3. GROUP CHAT COMMANDS NOT WORKING (IMPORTANT)
+
+Fix slash commands in:
+- servers
+- DMs
+- group chats where bot is installed as an app
+
+Commands:
+- /avatar
+- /talk
+- /ship
+- /games
+
+Requirements:
+- support app-installed contexts correctly
+- safely handle missing guild data
+- prevent crashes in DMs/group chats
+
+---
+
+# 4. SLASH COMMAND REGISTRATION FIX
+
+- re-register slash commands properly
+- ensure commands sync globally
+- ensure commands work in all contexts
+- confirm registration success
+
+---
+
+# 5. BOT UPTIME / ONLINE FIX
+
+Fix stability issues causing offline behavior.
+
+Requirements:
+- ensure bot logs in correctly using DISCORD_TOKEN
+- prevent crashes from:
+  - uncaughtException
+  - unhandledRejection
+  - missing guild data
+  - API failures
+
+Add safe global error handling.
+
+Ensure:
+- bot remains stable
+- reconnects safely if disconnected
+- no crash loops
+- no duplicate startup logic
+
+---
+
+# 6. DUPLICATE MESSAGE FIX
+
+Current issue:
+- bot sometimes sends multiple replies
+
+Fix requirements:
+- only ONE response per trigger
+- prevent duplicate event listeners
+- prevent duplicate interactionCreate handlers
+- prevent duplicate messageCreate handlers
+
+---
+
+# 7. GROQ AI SYSTEM
+
+Use all available Groq API keys safely.
+
+Requirements:
+- load keys dynamically from process.env
+- rotate keys safely if one fails
+- stop retry spam
+- if all keys fail:
+  - send ONE fallback message
+  - do NOT spam
+  - do NOT crash bot
+
+---
+
+# 8. FINAL GOAL
+
+Bot should:
+- know its identity is Santo
+- intelligently detect when users are talking about it
+- respond naturally without false triggers
+- work in servers, DMs, and group chats
+- stay online reliably
+- stop duplicate responses
+- remain stable under normal Replit hosting
