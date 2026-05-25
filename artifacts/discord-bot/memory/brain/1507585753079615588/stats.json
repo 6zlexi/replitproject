@@ -1,11 +1,11 @@
 [
   {
-    "id": 1,
+    "id": 104,
     "guildId": "1507585753079615588",
-    "totalMessagesLearned": 919,
-    "totalPhrases": 631,
-    "totalPatterns": 6,
-    "lastLearnedAt": "2026-05-25T19:39:25.724Z",
-    "updatedAt": "2026-05-25T19:39:25.724Z"
+    "totalMessagesLearned": 20,
+    "totalPhrases": 104,
+    "totalPatterns": 4,
+    "lastLearnedAt": "2026-05-25T19:50:30.599Z",
+    "updatedAt": "2026-05-25T19:50:30.599Z"
   }
 ]
