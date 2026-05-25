@@ -1,3 +1,4 @@
+import http from "node:http";
 import {
   Client,
   GatewayIntentBits,
@@ -529,6 +530,21 @@ async function main() {
     } catch (err) {
       logger.error({ err }, "InteractionCreate handler error");
     }
+  });
+
+  // ── Health-check HTTP server — keeps Render/hosting alive ───────────────────
+  // Render Background Workers don't require a port, but this lets the service
+  // also run as a Web Service if needed (e.g. paired with UptimeRobot).
+  const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
+  const healthServer = http.createServer((_req, res) => {
+    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.end("OK");
+  });
+  healthServer.listen(PORT, () => {
+    logger.info({ port: PORT }, "Health server listening");
+  });
+  healthServer.on("error", (err) => {
+    logger.warn({ err }, "Health server error");
   });
 
   // ── Global safety net — keeps the process alive on unexpected errors ────────
