@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "guildId": "1507585753079615588",
+    "userId": "703009617952768011",
+    "messageCount": 20,
+    "avgMessageLength": 13.05,
+    "topicsJson": "[]",
+    "styleJson": "{}",
+    "lastActive": "2026-05-25T05:58:36.822Z",
+    "updatedAt": "2026-05-25T05:58:36.822Z"
+  },
+  {
+    "id": 2,
+    "guildId": "1507585753079615588",
+    "userId": "1271866857510539264",
+    "messageCount": 93,
+    "avgMessageLength": 23.258064,
+    "topicsJson": "[]",
+    "styleJson": "{}",
+    "lastActive": "2026-05-25T07:46:26.683Z",
+    "updatedAt": "2026-05-25T07:46:26.683Z"
+  }
+]

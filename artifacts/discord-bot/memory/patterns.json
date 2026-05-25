@@ -1,0 +1,42 @@
+[
+  {
+    "id": 24,
+    "guildId": "1507585753079615588",
+    "pattern": "question_style",
+    "frequency": 3,
+    "lastSeen": "2026-05-25T05:24:01.226Z",
+    "createdAt": "2026-05-25T05:11:57.737Z"
+  },
+  {
+    "id": 34,
+    "guildId": "1507585753079615588",
+    "pattern": "humor_style",
+    "frequency": 2,
+    "lastSeen": "2026-05-25T05:13:05.751Z",
+    "createdAt": "2026-05-25T05:13:05.742Z"
+  },
+  {
+    "id": 3,
+    "guildId": "1507585753079615588",
+    "pattern": "lowercase_style",
+    "frequency": 55,
+    "lastSeen": "2026-05-25T05:28:24.175Z",
+    "createdAt": "2026-05-25T03:42:02.222Z"
+  },
+  {
+    "id": 4,
+    "guildId": "1507585753079615588",
+    "pattern": "short_message",
+    "frequency": 55,
+    "lastSeen": "2026-05-25T05:28:24.180Z",
+    "createdAt": "2026-05-25T03:42:02.249Z"
+  },
+  {
+    "id": 15,
+    "guildId": "1507585753079615588",
+    "pattern": "casual_slang",
+    "frequency": 5,
+    "lastSeen": "2026-05-25T05:15:32.986Z",
+    "createdAt": "2026-05-25T03:42:41.497Z"
+  }
+]
