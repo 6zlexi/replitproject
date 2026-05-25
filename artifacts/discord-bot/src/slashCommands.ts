@@ -45,6 +45,7 @@ import { handleBalance, handleDaily, handleWork, handleCrime, handleLeaderboard,
 import { handleWordGame, handleHint, handleExtraHeart } from "./wordgame.js";
 import { isAIEnabled, getAIDisabledReason, getProviderSummary } from "./ai.js";
 import { isBotOwner, canManageBrain, COLORS } from "./permissions.js";
+import { addAdmin, removeAdmin, getAdmins } from "./adminManager.js";
 import { makeEmbed, sendLog } from "./logging.js";
 import { logger } from "./logger.js";
 import {
@@ -339,6 +340,27 @@ export const SLASH_COMMANDS = [
   new SlashCommandBuilder()
     .setName("backupbot")
     .setDescription("Full bot backup sent to your DMs (owner/co-owner only)"),
+
+  // ── Admin Management ──────────────────────────────────────────────────────
+  new SlashCommandBuilder()
+    .setName("adminadd")
+    .setDescription("Grant admin access to a user (owner only)")
+    .addUserOption((o) => o.setName("user").setDescription("User to grant admin").setRequired(true)),
+  new SlashCommandBuilder()
+    .setName("adminremove")
+    .setDescription("Revoke admin access from a user (owner only)")
+    .addUserOption((o) => o.setName("user").setDescription("User to revoke admin from").setRequired(true)),
+  new SlashCommandBuilder()
+    .setName("adminlist")
+    .setDescription("List all granted admins (owner only)"),
+
+  // ── Recovery / Status ─────────────────────────────────────────────────────
+  new SlashCommandBuilder()
+    .setName("fix")
+    .setDescription("Re-register slash commands and check bot health (owner only)"),
+  new SlashCommandBuilder()
+    .setName("online")
+    .setDescription("Show bot status, latency, and AI health"),
 ];
 
 // ── Registration ──────────────────────────────────────────────────────────────
@@ -614,6 +636,15 @@ async function routeSlashCommand(
     case "export":    await handleExport(msg); break;
     case "backupbot": await handleBackupBot(msg); break;
 
+    // ── Admin Management ───────────────────────────────────────────────────
+    case "adminadd":    await adminAddSlash(interaction); break;
+    case "adminremove": await adminRemoveSlash(interaction); break;
+    case "adminlist":   await adminListSlash(interaction); break;
+
+    // ── Recovery / Status ──────────────────────────────────────────────────
+    case "fix":    await fixSlash(interaction); break;
+    case "online": await onlineSlash(interaction); break;
+
     default:
       await interaction.editReply({ content: "Unknown slash command." });
   }
@@ -739,4 +770,124 @@ async function blacklistSlash(interaction: ChatInputCommandInteraction, msg: Mes
   }
   await addBlacklistPhrase(guildId, phrase, interaction.user.id);
   await interaction.editReply({ embeds: [makeEmbed({ title: "🚫 Phrase Blacklisted", color: COLORS.brain, description: `**${phrase}** will no longer be learned.` })] });
+}
+
+// ── Admin management slash handlers ───────────────────────────────────────────
+
+async function adminAddSlash(interaction: ChatInputCommandInteraction): Promise<void> {
+  if (!isBotOwner(interaction.user.id)) {
+    await interaction.editReply({ embeds: [makeEmbed({ title: "❌ No Permission", color: COLORS.error, description: "Only the **bot owner** can manage admins." })] });
+    return;
+  }
+  if (!interaction.guild) {
+    await interaction.editReply({ content: "This command only works inside a server." });
+    return;
+  }
+  const targetId = interaction.options.getUser("user", true).id;
+  await addAdmin(interaction.guild.id, targetId);
+  await interaction.editReply({
+    embeds: [makeEmbed({ title: "✅ Admin Granted", color: COLORS.success, description: `<@${targetId}> can now use admin commands.` })],
+  });
+  logger.info({ guildId: interaction.guild.id, targetId }, "/adminadd used");
+}
+
+async function adminRemoveSlash(interaction: ChatInputCommandInteraction): Promise<void> {
+  if (!isBotOwner(interaction.user.id)) {
+    await interaction.editReply({ embeds: [makeEmbed({ title: "❌ No Permission", color: COLORS.error, description: "Only the **bot owner** can manage admins." })] });
+    return;
+  }
+  if (!interaction.guild) {
+    await interaction.editReply({ content: "This command only works inside a server." });
+    return;
+  }
+  const targetId = interaction.options.getUser("user", true).id;
+  const removed  = await removeAdmin(interaction.guild.id, targetId);
+  await interaction.editReply({
+    embeds: [makeEmbed({
+      title: removed ? "✅ Admin Revoked" : "⚠️ Not an Admin",
+      color: removed ? COLORS.success : COLORS.warning,
+      description: removed
+        ? `<@${targetId}> is no longer an admin.`
+        : `<@${targetId}> wasn't in the granted admin list.`,
+    })],
+  });
+}
+
+async function adminListSlash(interaction: ChatInputCommandInteraction): Promise<void> {
+  if (!isBotOwner(interaction.user.id)) {
+    await interaction.editReply({ embeds: [makeEmbed({ title: "❌ No Permission", color: COLORS.error, description: "Only the **bot owner** can view the admin list." })] });
+    return;
+  }
+  if (!interaction.guild) {
+    await interaction.editReply({ content: "This command only works inside a server." });
+    return;
+  }
+  const admins = await getAdmins(interaction.guild.id);
+  await interaction.editReply({
+    embeds: [makeEmbed({
+      title: "👮 Granted Admins",
+      color: COLORS.info,
+      description: admins.length > 0
+        ? admins.map((id) => `<@${id}>`).join("\n")
+        : "No granted admins. Use `/adminadd @user` to add one.",
+    })],
+  });
+}
+
+// ── Recovery slash handlers ───────────────────────────────────────────────────
+
+async function fixSlash(interaction: ChatInputCommandInteraction): Promise<void> {
+  if (!isBotOwner(interaction.user.id)) {
+    await interaction.editReply({ embeds: [makeEmbed({ title: "❌ No Permission", color: COLORS.error, description: "Only the **bot owner** can use `/fix`." })] });
+    return;
+  }
+
+  const steps: string[] = [];
+
+  // Re-register slash commands
+  try {
+    await registerSlashCommands(interaction.client);
+    steps.push("✅ Slash commands re-registered");
+  } catch (err) {
+    logger.error({ err }, "/fix: slash re-registration failed");
+    steps.push("❌ Slash command re-registration failed");
+  }
+
+  steps.push(isAIEnabled() ? "✅ AI providers online" : "❌ AI providers unavailable");
+  steps.push(`📡 WS latency: ${interaction.client.ws.ping}ms`);
+  steps.push(`🌐 Guilds: ${interaction.client.guilds.cache.size}`);
+
+  await interaction.editReply({
+    embeds: [makeEmbed({ title: "🔧 Fix Complete", color: COLORS.success, description: steps.join("\n") })],
+  });
+  logger.info({ steps }, "/fix completed");
+}
+
+async function onlineSlash(interaction: ChatInputCommandInteraction): Promise<void> {
+  const ping    = interaction.client.ws.ping;
+  const guilds  = interaction.client.guilds.cache.size;
+  const uptime  = process.uptime();
+  const h = Math.floor(uptime / 3600);
+  const m = Math.floor((uptime % 3600) / 60);
+  const s = Math.floor(uptime % 60);
+
+  const aiWorking = isAIEnabled();
+  const summary   = getProviderSummary();
+  const active    = summary.split("\n").filter((l) => l.startsWith("✅")).length;
+  const total     = summary.split("\n").length;
+
+  await interaction.editReply({
+    embeds: [makeEmbed({
+      title: "🟢 Santo is Online",
+      color: COLORS.success,
+      fields: [
+        { name: "📡 WS Latency", value: `${ping}ms`,                 inline: true },
+        { name: "⏱️ Uptime",     value: `${h}h ${m}m ${s}s`,         inline: true },
+        { name: "🌐 Guilds",     value: String(guilds),               inline: true },
+        { name: "🤖 AI",         value: aiWorking
+            ? `✅ ${active}/${total} providers active`
+            : "❌ All providers unavailable" },
+      ],
+    })],
+  });
 }

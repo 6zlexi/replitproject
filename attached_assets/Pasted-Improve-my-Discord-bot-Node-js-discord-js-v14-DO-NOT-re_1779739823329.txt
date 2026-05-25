@@ -1,0 +1,165 @@
+Improve my Discord bot (Node.js + discord.js v14).
+
+DO NOT recreate the bot.
+ONLY improve AI behavior, permission system, and add a structured auto-backup/export system.
+
+---
+
+# 1. CONTEXT-BASED CONVERSATION SYSTEM
+
+Santo continues conversations naturally WITHOUT requiring:
+- mentions
+- replies
+- saying "santo"
+
+Uses recent message context for flow understanding.
+
+---
+
+# 2. ACTIVE SOLO CONVERSATION MODE
+
+If only ONE user is talking:
+- treat messages as directed to Santo
+- continue conversation without mentions
+
+Disable when multiple users are active or topic changes.
+
+---
+
+# 3. PERMISSION SYSTEM
+
+Only OWNER_ID can fully control bot systems.
+
+Admins (granted by owner) can use limited commands.
+
+Normal members:
+- cannot modify bot behavior
+- cannot use admin tools
+
+---
+
+# 4. ADMIN MANAGEMENT
+
+OWNER can:
+- /admin add @user
+- /admin remove @user
+- ?admin add @user
+- ?unadmin @user
+
+Admin list must be stored persistently.
+
+---
+
+# 5. SAFE RECOVERY COMMANDS
+
+- ?fix / /fix → reload commands + restart handlers safely
+- ?online / /online → check status + safe restart attempt
+
+No fake uptime claims.
+
+---
+
+# 6. AUTO BACKUP / EXPORT SYSTEM (IMPORTANT)
+
+Implement an AUTOMATIC backup system that updates itself whenever the bot changes.
+
+This system must automatically update:
+
+- command list (?commands)
+- config state (enabled/disabled features)
+- admin list
+- prefix system
+- slash commands
+- environment-safe metadata (NOT secrets)
+- Groq key status (ONLY existence, never values)
+
+---
+
+# 7. AUTO-SNAPSHOT RULE
+
+The bot must automatically update backup data when ANY of the following happens:
+
+- a command is added
+- a command is removed
+- a command is modified
+- admin list changes
+- settings change
+- bot restarts
+- features toggled on/off
+
+This must happen WITHOUT needing manual ?backupbot triggers.
+
+---
+
+# 8. BACKUP COMMANDS (DISCORD ACCESS)
+
+Still keep manual access commands:
+
+- ?backupbot
+- ?backup
+- ?export
+
+These commands should:
+- output the latest auto-generated snapshot
+- allow migration to another Replit project
+- include everything needed to restore bot structure
+
+---
+
+# 9. BACKUP CONTENT RULES
+
+Backup must include:
+- command structure (names + files)
+- slash command registry
+- prefix system config
+- admin list
+- feature toggles
+- AI behavior settings
+- logs configuration
+
+Backup must NOT include:
+- DISCORD_TOKEN
+- GROQ API KEY VALUES
+- any secret values
+
+Only include safe metadata or “key exists” flags.
+
+---
+
+# 10. SYSTEM BEHAVIOR RULE
+
+Backup system must always be kept up to date automatically.
+
+If bot state changes:
+- regenerate internal snapshot
+- store latest version in memory or file
+- ensure export commands always reflect latest state
+
+---
+
+# 11. IDENTITY RULES
+
+Santo must:
+- always know its name is Santo
+- never act confused about identity
+- never claim a specific age
+
+---
+
+# 12. RESPONSE SAFETY
+
+- no duplicate replies
+- one response per trigger
+- cooldown protection
+- prevent spam behavior
+
+---
+
+# 13. GOAL
+
+Bot should:
+- continue conversations naturally
+- support strict owner/admin permissions
+- maintain safe recovery commands (?fix, ?online)
+- automatically maintain a live-updating backup/export system
+- allow easy migration between Replit projects without manual rebuilding

@@ -6,6 +6,7 @@ import { handlePing, handleServerInfo, handleUserInfo, handleAvatar, handleComma
 import { handleScript, handleStatus, handleAddScript, handleSetStatus } from "./scripts-registry.js";
 import { handleWhitelistBot, handleUnwhitelistBot, handleWhitelistedBots } from "./antinuke.js";
 import { handleExport, handleBackup, handleBackupBot } from "./export.js";
+import { addAdmin, removeAdmin, getAdmins } from "./adminManager.js";
 import { handleTicketPanel } from "./tickets.js";
 import { handleSetMood, handleMoodCheck, handleRate } from "./mood.js";
 import { handleIQ, handleShip, handleSimp } from "./fun.js";
@@ -384,6 +385,24 @@ export async function handleCommand(message: Message): Promise<boolean> {
       await handleExtraHeart(message, args);
       return true;
 
+    // ── Admin Management ──────────────────────────────────────────────────────
+    case "admin":
+      await handleAdminCommand(message, args);
+      return true;
+
+    case "unadmin":
+      await handleUnadmin(message, args);
+      return true;
+
+    // ── Recovery / Status ─────────────────────────────────────────────────────
+    case "fix":
+      await handleFix(message);
+      return true;
+
+    case "online":
+      await handleOnline(message);
+      return true;
+
     default:
       return false;
   }
@@ -544,6 +563,159 @@ async function handleMemorySize(message: Message): Promise<void> {
     logger.error({ err }, "memorysize failed");
     await message.reply({ embeds: [makeEmbed({ title: "❌ Error", color: COLORS.error, description: "Failed to check memory size." })] });
   }
+}
+
+// ── Admin Management ──────────────────────────────────────────────────────────
+
+async function handleAdminCommand(message: Message, args: string[]): Promise<void> {
+  if (!isBotOwner(message.author.id)) {
+    await message.reply({ embeds: [makeEmbed({ title: "❌ No Permission", color: COLORS.error, description: "Only the **bot owner** can manage admins." })] });
+    return;
+  }
+  if (!message.guild) return;
+
+  const sub = args[0]?.toLowerCase();
+
+  if (sub === "add") {
+    const targetId = args[1]?.replace(/[<@!>]/g, "");
+    if (!targetId || !/^\d+$/.test(targetId)) {
+      await message.reply({ embeds: [makeEmbed({ title: "❌ Usage", color: COLORS.error, description: "`?admin add <@user>`" })] });
+      return;
+    }
+    await addAdmin(message.guild.id, targetId);
+    await message.reply({ embeds: [makeEmbed({ title: "✅ Admin Granted", color: COLORS.success, description: `<@${targetId}> can now use admin commands.` })] });
+
+  } else if (sub === "remove") {
+    const targetId = args[1]?.replace(/[<@!>]/g, "");
+    if (!targetId || !/^\d+$/.test(targetId)) {
+      await message.reply({ embeds: [makeEmbed({ title: "❌ Usage", color: COLORS.error, description: "`?admin remove <@user>`" })] });
+      return;
+    }
+    const removed = await removeAdmin(message.guild.id, targetId);
+    await message.reply({
+      embeds: [makeEmbed({
+        title: removed ? "✅ Admin Revoked" : "⚠️ Not an Admin",
+        color: removed ? COLORS.success : COLORS.warning,
+        description: removed
+          ? `<@${targetId}> is no longer an admin.`
+          : `<@${targetId}> wasn't in the granted admin list.`,
+      })],
+    });
+
+  } else if (sub === "list") {
+    const admins = await getAdmins(message.guild.id);
+    await message.reply({
+      embeds: [makeEmbed({
+        title: "👮 Granted Admins",
+        color: COLORS.info,
+        description: admins.length > 0
+          ? admins.map((id) => `<@${id}>`).join("\n")
+          : "No granted admins. Use `?admin add @user` to add one.",
+      })],
+    });
+
+  } else {
+    await message.reply({
+      embeds: [makeEmbed({
+        title: "❓ Admin Command Usage",
+        color: COLORS.info,
+        description: [
+          "`?admin add @user` — grant admin access",
+          "`?admin remove @user` — revoke admin access",
+          "`?admin list` — show all granted admins",
+          "",
+          "These are **soft admins** stored by the bot — in addition to users with the `- admin` Discord role.",
+        ].join("\n"),
+      })],
+    });
+  }
+}
+
+async function handleUnadmin(message: Message, args: string[]): Promise<void> {
+  if (!isBotOwner(message.author.id)) {
+    await message.reply({ embeds: [makeEmbed({ title: "❌ No Permission", color: COLORS.error, description: "Only the **bot owner** can revoke admins." })] });
+    return;
+  }
+  if (!message.guild) return;
+
+  const targetId = args[0]?.replace(/[<@!>]/g, "");
+  if (!targetId || !/^\d+$/.test(targetId)) {
+    await message.reply({ embeds: [makeEmbed({ title: "❌ Usage", color: COLORS.error, description: "`?unadmin <@user>`" })] });
+    return;
+  }
+  const removed = await removeAdmin(message.guild.id, targetId);
+  await message.reply({
+    embeds: [makeEmbed({
+      title: removed ? "✅ Admin Revoked" : "⚠️ Not an Admin",
+      color: removed ? COLORS.success : COLORS.warning,
+      description: removed
+        ? `<@${targetId}> is no longer an admin.`
+        : `<@${targetId}> wasn't in the granted admin list.`,
+    })],
+  });
+}
+
+// ── Recovery / Status ─────────────────────────────────────────────────────────
+
+async function handleFix(message: Message): Promise<void> {
+  if (!isBotOwner(message.author.id)) {
+    await message.reply({ embeds: [makeEmbed({ title: "❌ No Permission", color: COLORS.error, description: "Only the **bot owner** can use `?fix`." })] });
+    return;
+  }
+
+  const statusMsg = await message.reply({
+    embeds: [makeEmbed({ title: "🔧 Running Fix...", color: COLORS.info, description: "Re-registering slash commands and checking health..." })],
+  });
+
+  const steps: string[] = [];
+
+  // Re-register slash commands
+  try {
+    const { registerSlashCommands } = await import("./slashCommands.js");
+    await registerSlashCommands(message.client);
+    steps.push("✅ Slash commands re-registered");
+  } catch (err) {
+    logger.error({ err }, "?fix: slash re-registration failed");
+    steps.push("❌ Slash command re-registration failed");
+  }
+
+  steps.push(isAIEnabled() ? "✅ AI providers online" : "❌ AI providers unavailable");
+  steps.push(`📡 WS latency: ${message.client.ws.ping}ms`);
+  steps.push(`🌐 Guilds: ${message.client.guilds.cache.size}`);
+
+  await statusMsg.edit({
+    embeds: [makeEmbed({ title: "🔧 Fix Complete", color: COLORS.success, description: steps.join("\n") })],
+  });
+  logger.info({ steps }, "?fix completed");
+}
+
+async function handleOnline(message: Message): Promise<void> {
+  const ping   = message.client.ws.ping;
+  const guilds = message.client.guilds.cache.size;
+  const uptime = process.uptime();
+  const h = Math.floor(uptime / 3600);
+  const m = Math.floor((uptime % 3600) / 60);
+  const s = Math.floor(uptime % 60);
+
+  const aiWorking = isAIEnabled();
+  const summary   = getProviderSummary();
+  const active    = summary.split("\n").filter((l) => l.startsWith("✅")).length;
+  const total     = summary.split("\n").length;
+
+  await message.reply({
+    embeds: [makeEmbed({
+      title: "🟢 Santo is Online",
+      color: COLORS.success,
+      fields: [
+        { name: "📡 WS Latency", value: `${ping}ms`,                 inline: true },
+        { name: "⏱️ Uptime",     value: `${h}h ${m}m ${s}s`,         inline: true },
+        { name: "🌐 Guilds",     value: String(guilds),               inline: true },
+        { name: "🤖 AI",         value: aiWorking
+            ? `✅ ${active}/${total} providers active`
+            : "❌ All providers unavailable" },
+      ],
+    })],
+  });
 }
 
 async function handleAIStatus(message: Message): Promise<void> {
