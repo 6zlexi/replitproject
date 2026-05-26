@@ -1,13 +1,5 @@
 [
   {
-    "id": 383,
-    "guildId": "1507585753079615588",
-    "pattern": "lowercase_style",
-    "frequency": 79,
-    "lastSeen": "2026-05-26T00:08:11.896Z",
-    "createdAt": "2026-05-25T21:55:40.462Z"
-  },
-  {
     "id": 384,
     "guildId": "1507585753079615588",
     "pattern": "short_message",
@@ -16,19 +8,27 @@
     "createdAt": "2026-05-25T21:55:40.475Z"
   },
   {
-    "id": 389,
-    "guildId": "1507585753079615588",
-    "pattern": "casual_slang",
-    "frequency": 7,
-    "lastSeen": "2026-05-26T00:04:51.781Z",
-    "createdAt": "2026-05-25T21:56:05.597Z"
-  },
-  {
     "id": 385,
     "guildId": "1507585753079615588",
     "pattern": "question_style",
-    "frequency": 6,
-    "lastSeen": "2026-05-26T00:05:18.998Z",
+    "frequency": 7,
+    "lastSeen": "2026-05-26T00:12:12.961Z",
     "createdAt": "2026-05-25T21:55:44.961Z"
+  },
+  {
+    "id": 383,
+    "guildId": "1507585753079615588",
+    "pattern": "lowercase_style",
+    "frequency": 80,
+    "lastSeen": "2026-05-26T00:12:12.965Z",
+    "createdAt": "2026-05-25T21:55:40.462Z"
+  },
+  {
+    "id": 389,
+    "guildId": "1507585753079615588",
+    "pattern": "casual_slang",
+    "frequency": 8,
+    "lastSeen": "2026-05-26T00:13:32.785Z",
+    "createdAt": "2026-05-25T21:56:05.597Z"
   }
 ]

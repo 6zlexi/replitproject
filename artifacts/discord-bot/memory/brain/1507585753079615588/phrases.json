@@ -672,6 +672,14 @@
     "createdAt": "2026-05-25T22:24:37.206Z"
   },
   {
+    "id": 2601,
+    "guildId": "1507585753079615588",
+    "phrase": "cuantos",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:12:12.959Z",
+    "createdAt": "2026-05-26T00:12:12.956Z"
+  },
+  {
     "id": 2194,
     "guildId": "1507585753079615588",
     "phrase": "keys",
@@ -776,6 +784,14 @@
     "createdAt": "2026-05-26T00:05:39.729Z"
   },
   {
+    "id": 2611,
+    "guildId": "1507585753079615588",
+    "phrase": "idiomas puedas hablar?",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:12:13.020Z",
+    "createdAt": "2026-05-26T00:12:13.018Z"
+  },
+  {
     "id": 2506,
     "guildId": "1507585753079615588",
     "phrase": "me roblox",
@@ -824,6 +840,14 @@
     "createdAt": "2026-05-26T00:05:39.769Z"
   },
   {
+    "id": 2602,
+    "guildId": "1507585753079615588",
+    "phrase": "idiomas",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:12:12.966Z",
+    "createdAt": "2026-05-26T00:12:12.963Z"
+  },
+  {
     "id": 2501,
     "guildId": "1507585753079615588",
     "phrase": "work",
@@ -854,6 +878,70 @@
     "frequency": 6,
     "lastSeen": "2026-05-26T00:06:43.664Z",
     "createdAt": "2026-05-25T22:25:38.596Z"
+  },
+  {
+    "id": 2603,
+    "guildId": "1507585753079615588",
+    "phrase": "puedas",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:12:12.973Z",
+    "createdAt": "2026-05-26T00:12:12.971Z"
+  },
+  {
+    "id": 2604,
+    "guildId": "1507585753079615588",
+    "phrase": "hablar?",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:12:12.979Z",
+    "createdAt": "2026-05-26T00:12:12.977Z"
+  },
+  {
+    "id": 2605,
+    "guildId": "1507585753079615588",
+    "phrase": "@user cuantos",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:12:12.985Z",
+    "createdAt": "2026-05-26T00:12:12.982Z"
+  },
+  {
+    "id": 2606,
+    "guildId": "1507585753079615588",
+    "phrase": "cuantos idiomas",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:12:12.991Z",
+    "createdAt": "2026-05-26T00:12:12.988Z"
+  },
+  {
+    "id": 2607,
+    "guildId": "1507585753079615588",
+    "phrase": "idiomas puedas",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:12:12.996Z",
+    "createdAt": "2026-05-26T00:12:12.994Z"
+  },
+  {
+    "id": 2608,
+    "guildId": "1507585753079615588",
+    "phrase": "puedas hablar?",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:12:13.002Z",
+    "createdAt": "2026-05-26T00:12:13.000Z"
+  },
+  {
+    "id": 2609,
+    "guildId": "1507585753079615588",
+    "phrase": "@user cuantos idiomas",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:12:13.007Z",
+    "createdAt": "2026-05-26T00:12:13.005Z"
+  },
+  {
+    "id": 2610,
+    "guildId": "1507585753079615588",
+    "phrase": "cuantos idiomas puedas",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:12:13.015Z",
+    "createdAt": "2026-05-26T00:12:13.012Z"
   },
   {
     "id": 2084,
@@ -1152,6 +1240,14 @@
     "createdAt": "2026-05-26T00:06:03.339Z"
   },
   {
+    "id": 2623,
+    "guildId": "1507585753079615588",
+    "phrase": "everywhere loooo",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.882Z",
+    "createdAt": "2026-05-26T00:13:32.880Z"
+  },
+  {
     "id": 2522,
     "guildId": "1507585753079615588",
     "phrase": "executor",
@@ -1224,6 +1320,14 @@
     "createdAt": "2026-05-26T00:06:03.424Z"
   },
   {
+    "id": 2624,
+    "guildId": "1507585753079615588",
+    "phrase": "bro why is",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.887Z",
+    "createdAt": "2026-05-26T00:13:32.885Z"
+  },
+  {
     "id": 2533,
     "guildId": "1507585753079615588",
     "phrase": "in my",
@@ -1254,6 +1358,102 @@
     "frequency": 3,
     "lastSeen": "2026-05-26T00:06:43.783Z",
     "createdAt": "2026-05-26T00:06:03.434Z"
+  },
+  {
+    "id": 2615,
+    "guildId": "1507585753079615588",
+    "phrase": "texting",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.835Z",
+    "createdAt": "2026-05-26T00:13:32.832Z"
+  },
+  {
+    "id": 2616,
+    "guildId": "1507585753079615588",
+    "phrase": "everywhere",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.841Z",
+    "createdAt": "2026-05-26T00:13:32.839Z"
+  },
+  {
+    "id": 2617,
+    "guildId": "1507585753079615588",
+    "phrase": "loooo",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.847Z",
+    "createdAt": "2026-05-26T00:13:32.845Z"
+  },
+  {
+    "id": 2618,
+    "guildId": "1507585753079615588",
+    "phrase": "bro why",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.853Z",
+    "createdAt": "2026-05-26T00:13:32.850Z"
+  },
+  {
+    "id": 2619,
+    "guildId": "1507585753079615588",
+    "phrase": "why is",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.859Z",
+    "createdAt": "2026-05-26T00:13:32.857Z"
+  },
+  {
+    "id": 2620,
+    "guildId": "1507585753079615588",
+    "phrase": "is santo",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.865Z",
+    "createdAt": "2026-05-26T00:13:32.862Z"
+  },
+  {
+    "id": 2621,
+    "guildId": "1507585753079615588",
+    "phrase": "santo texting",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.871Z",
+    "createdAt": "2026-05-26T00:13:32.868Z"
+  },
+  {
+    "id": 2622,
+    "guildId": "1507585753079615588",
+    "phrase": "texting everywhere",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.876Z",
+    "createdAt": "2026-05-26T00:13:32.874Z"
+  },
+  {
+    "id": 2625,
+    "guildId": "1507585753079615588",
+    "phrase": "why is santo",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.892Z",
+    "createdAt": "2026-05-26T00:13:32.890Z"
+  },
+  {
+    "id": 2626,
+    "guildId": "1507585753079615588",
+    "phrase": "is santo texting",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.897Z",
+    "createdAt": "2026-05-26T00:13:32.895Z"
+  },
+  {
+    "id": 2627,
+    "guildId": "1507585753079615588",
+    "phrase": "santo texting everywhere",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.902Z",
+    "createdAt": "2026-05-26T00:13:32.900Z"
+  },
+  {
+    "id": 2628,
+    "guildId": "1507585753079615588",
+    "phrase": "texting everywhere loooo",
+    "frequency": 2,
+    "lastSeen": "2026-05-26T00:13:32.907Z",
+    "createdAt": "2026-05-26T00:13:32.905Z"
   },
   {
     "id": 2104,
@@ -2672,14 +2872,6 @@
     "createdAt": "2026-05-26T00:04:51.778Z"
   },
   {
-    "id": 2471,
-    "guildId": "1507585753079615588",
-    "phrase": "bro",
-    "frequency": 2,
-    "lastSeen": "2026-05-26T00:04:51.789Z",
-    "createdAt": "2026-05-26T00:04:51.787Z"
-  },
-  {
     "id": 2472,
     "guildId": "1507585753079615588",
     "phrase": "thats crazy",
@@ -2734,6 +2926,14 @@
     "frequency": 2,
     "lastSeen": "2026-05-26T00:08:11.916Z",
     "createdAt": "2026-05-26T00:08:11.915Z"
+  },
+  {
+    "id": 2471,
+    "guildId": "1507585753079615588",
+    "phrase": "bro",
+    "frequency": 3,
+    "lastSeen": "2026-05-26T00:13:32.786Z",
+    "createdAt": "2026-05-26T00:04:51.787Z"
   },
   {
     "id": 2342,
@@ -2816,12 +3016,12 @@
     "createdAt": "2026-05-25T21:55:40.498Z"
   },
   {
-    "id": 2008,
+    "id": 2043,
     "guildId": "1507585753079615588",
-    "phrase": "@user",
-    "frequency": 19,
-    "lastSeen": "2026-05-26T00:06:43.658Z",
-    "createdAt": "2026-05-25T21:55:40.462Z"
+    "phrase": "why",
+    "frequency": 6,
+    "lastSeen": "2026-05-26T00:13:32.825Z",
+    "createdAt": "2026-05-25T21:56:20.136Z"
   },
   {
     "id": 2344,
@@ -2830,14 +3030,6 @@
     "frequency": 2,
     "lastSeen": "2026-05-25T23:25:06.560Z",
     "createdAt": "2026-05-25T23:25:06.559Z"
-  },
-  {
-    "id": 2043,
-    "guildId": "1507585753079615588",
-    "phrase": "why",
-    "frequency": 5,
-    "lastSeen": "2026-05-26T00:02:10.979Z",
-    "createdAt": "2026-05-25T21:56:20.136Z"
   },
   {
     "id": 2020,
@@ -2984,14 +3176,6 @@
     "createdAt": "2026-05-25T22:23:56.562Z"
   },
   {
-    "id": 2060,
-    "guildId": "1507585753079615588",
-    "phrase": "santo",
-    "frequency": 8,
-    "lastSeen": "2026-05-26T00:02:22.061Z",
-    "createdAt": "2026-05-25T21:56:22.108Z"
-  },
-  {
     "id": 2184,
     "guildId": "1507585753079615588",
     "phrase": "en espanol si?",
@@ -3038,6 +3222,14 @@
     "frequency": 2,
     "lastSeen": "2026-05-25T21:56:05.654Z",
     "createdAt": "2026-05-25T21:56:05.652Z"
+  },
+  {
+    "id": 2008,
+    "guildId": "1507585753079615588",
+    "phrase": "@user",
+    "frequency": 20,
+    "lastSeen": "2026-05-26T00:12:12.948Z",
+    "createdAt": "2026-05-25T21:55:40.462Z"
   },
   {
     "id": 2026,
@@ -3278,6 +3470,14 @@
     "frequency": 2,
     "lastSeen": "2026-05-25T21:56:12.350Z",
     "createdAt": "2026-05-25T21:56:12.347Z"
+  },
+  {
+    "id": 2060,
+    "guildId": "1507585753079615588",
+    "phrase": "santo",
+    "frequency": 9,
+    "lastSeen": "2026-05-26T00:13:32.828Z",
+    "createdAt": "2026-05-25T21:56:22.108Z"
   },
   {
     "id": 2044,
