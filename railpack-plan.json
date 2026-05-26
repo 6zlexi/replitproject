@@ -1,8 +1,0 @@
-{
-  "install": [
-    "pnpm add -g node-gyp",
-    "pnpm install"
-  ],
-  "build": "pnpm run build",
-  "start": "pnpm start"
-}
