@@ -1,7 +1,7 @@
 {
   "install": [
     "pnpm add -g node-gyp",
-    "pnpm install --no-frozen-lockfile"
+    "pnpm install"
   ],
   "build": "pnpm run build",
   "start": "pnpm start"
