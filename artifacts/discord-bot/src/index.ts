@@ -127,7 +127,7 @@ async function sendSplitReply(message: Message, raw: string): Promise<void> {
       const delay = 1_200 + Math.random() * 1_300; // 1.2 – 2.5 s
       await new Promise<void>((r) => setTimeout(r, delay));
       if (message.channel?.isTextBased()) {
-        await message.channel.send(text);
+        await (message.channel as import("discord.js").TextChannel).send(text);
       }
     }
   }

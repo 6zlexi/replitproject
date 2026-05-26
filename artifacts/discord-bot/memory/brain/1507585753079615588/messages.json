@@ -448,6 +448,86 @@
     "createdAt": "2026-05-26T02:11:53.120Z"
   },
   {
+    "id": 1234,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "810568070099632128",
+    "content": "es verdad q aparecen logs falsos",
+    "createdAt": "2026-05-26T02:11:58.115Z"
+  },
+  {
+    "id": 1236,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "810568070099632128",
+    "content": "solara que ejemplo nunca tuve y aparece",
+    "createdAt": "2026-05-26T02:12:10.757Z"
+  },
+  {
+    "id": 1238,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Si ntp",
+    "createdAt": "2026-05-26T02:17:05.655Z"
+  },
+  {
+    "id": 1240,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Esq pa ahora yo hice q solamente el forensic artifact aparece limpio",
+    "createdAt": "2026-05-26T02:17:54.399Z"
+  },
+  {
+    "id": 1242,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "@user eu",
+    "createdAt": "2026-05-26T02:36:08.522Z"
+  },
+  {
+    "id": 1243,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "@user welcome",
+    "createdAt": "2026-05-26T02:36:18.443Z"
+  },
+  {
+    "id": 1244,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Hola wacho",
+    "createdAt": "2026-05-26T02:36:29.624Z"
+  },
+  {
+    "id": 1245,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Who r u",
+    "createdAt": "2026-05-26T02:36:34.621Z"
+  },
+  {
+    "id": 1246,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "@user Massi said your a bitch",
+    "createdAt": "2026-05-26T02:36:43.969Z"
+  },
+  {
+    "id": 1247,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "omg",
+    "createdAt": "2026-05-26T02:36:49.780Z"
+  },
+  {
     "id": 1062,
     "guildId": "1507585753079615588",
     "channelId": "1508191330650689737",
@@ -958,5 +1038,421 @@
     "authorId": "703009617952768011",
     "content": "Lo hice yo mismo",
     "createdAt": "2026-05-26T02:10:54.490Z"
+  },
+  {
+    "id": 1235,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "810568070099632128",
+    "content": "tipo",
+    "createdAt": "2026-05-26T02:12:01.842Z"
+  },
+  {
+    "id": 1237,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Cuando",
+    "createdAt": "2026-05-26T02:17:00.800Z"
+  },
+  {
+    "id": 1239,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Todo va a decir q eres limpio",
+    "createdAt": "2026-05-26T02:17:11.781Z"
+  },
+  {
+    "id": 1241,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Yo puedo hacer los otros tmb",
+    "createdAt": "2026-05-26T02:17:57.868Z"
+  },
+  {
+    "id": 1248,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "hahahaaha",
+    "createdAt": "2026-05-26T02:36:52.725Z"
+  },
+  {
+    "id": 1249,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Español puti",
+    "createdAt": "2026-05-26T02:37:05.263Z"
+  },
+  {
+    "id": 1250,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "No español",
+    "createdAt": "2026-05-26T02:37:11.816Z"
+  },
+  {
+    "id": 1251,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Bro ?",
+    "createdAt": "2026-05-26T02:37:12.003Z"
+  },
+  {
+    "id": 1252,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "No português",
+    "createdAt": "2026-05-26T02:37:13.538Z"
+  },
+  {
+    "id": 1253,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "perra",
+    "createdAt": "2026-05-26T02:37:19.670Z"
+  },
+  {
+    "id": 1254,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "OMG",
+    "createdAt": "2026-05-26T02:37:25.041Z"
+  },
+  {
+    "id": 1255,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "XDDD",
+    "createdAt": "2026-05-26T02:37:25.908Z"
+  },
+  {
+    "id": 1256,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Lcdtm nose q dice",
+    "createdAt": "2026-05-26T02:37:29.364Z"
+  },
+  {
+    "id": 1257,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "PERO Q DICE NO ENTIENDO INGLÉS",
+    "createdAt": "2026-05-26T02:37:42.409Z"
+  },
+  {
+    "id": 1258,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "@user he said he don’t understand English",
+    "createdAt": "2026-05-26T02:37:53.310Z"
+  },
+  {
+    "id": 1259,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "LOL",
+    "createdAt": "2026-05-26T02:38:09.967Z"
+  },
+  {
+    "id": 1260,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "No entiendo",
+    "createdAt": "2026-05-26T02:38:21.132Z"
+  },
+  {
+    "id": 1261,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Dijo",
+    "createdAt": "2026-05-26T02:38:24.411Z"
+  },
+  {
+    "id": 1262,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Hablas español",
+    "createdAt": "2026-05-26T02:38:26.892Z"
+  },
+  {
+    "id": 1263,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Decile de mi parte",
+    "createdAt": "2026-05-26T02:38:40.795Z"
+  },
+  {
+    "id": 1264,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Q yo tengo vida y el es un bot q lo usan para sastifaccion",
+    "createdAt": "2026-05-26T02:38:55.028Z"
+  },
+  {
+    "id": 1265,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Dijo q significa un emoji pájaro en este conversación",
+    "createdAt": "2026-05-26T02:38:56.224Z"
+  },
+  {
+    "id": 1266,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Q no sirve",
+    "createdAt": "2026-05-26T02:39:00.295Z"
+  },
+  {
+    "id": 1267,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Nose lo puse xq si",
+    "createdAt": "2026-05-26T02:39:06.814Z"
+  },
+  {
+    "id": 1268,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "@user Massi said ur alive and you just satisfy us",
+    "createdAt": "2026-05-26T02:39:10.170Z"
+  },
+  {
+    "id": 1269,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Q dijo",
+    "createdAt": "2026-05-26T02:39:16.606Z"
+  },
+  {
+    "id": 1270,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "He said your a bitch too",
+    "createdAt": "2026-05-26T02:39:17.038Z"
+  },
+  {
+    "id": 1271,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Dijo",
+    "createdAt": "2026-05-26T02:39:22.439Z"
+  },
+  {
+    "id": 1272,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Q paso contigo",
+    "createdAt": "2026-05-26T02:39:24.212Z"
+  },
+  {
+    "id": 1273,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Si eras tonto",
+    "createdAt": "2026-05-26T02:39:26.989Z"
+  },
+  {
+    "id": 1274,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Beo",
+    "createdAt": "2026-05-26T02:39:31.569Z"
+  },
+  {
+    "id": 1275,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Es estúpido el bot",
+    "createdAt": "2026-05-26T02:39:39.423Z"
+  },
+  {
+    "id": 1276,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "@user Massi said your a stupid bitch",
+    "createdAt": "2026-05-26T02:39:49.617Z"
+  },
+  {
+    "id": 1277,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "dijo a ti cállate a la maldita boca",
+    "createdAt": "2026-05-26T02:39:57.816Z"
+  },
+  {
+    "id": 1278,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Q dijo",
+    "createdAt": "2026-05-26T02:39:59.026Z"
+  },
+  {
+    "id": 1279,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Q paso contigo",
+    "createdAt": "2026-05-26T02:39:59.503Z"
+  },
+  {
+    "id": 1280,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Q carajo",
+    "createdAt": "2026-05-26T02:40:06.511Z"
+  },
+  {
+    "id": 1281,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Q se calle",
+    "createdAt": "2026-05-26T02:40:09.650Z"
+  },
+  {
+    "id": 1282,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Si respondes a el",
+    "createdAt": "2026-05-26T02:40:13.490Z"
+  },
+  {
+    "id": 1283,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Te va a contestar",
+    "createdAt": "2026-05-26T02:40:17.114Z"
+  },
+  {
+    "id": 1284,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Hola",
+    "createdAt": "2026-05-26T02:40:23.556Z"
+  },
+  {
+    "id": 1285,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Yes,you?",
+    "createdAt": "2026-05-26T02:40:34.920Z"
+  },
+  {
+    "id": 1286,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "@user",
+    "createdAt": "2026-05-26T02:40:49.346Z"
+  },
+  {
+    "id": 1287,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "XD DIJO Q",
+    "createdAt": "2026-05-26T02:40:55.662Z"
+  },
+  {
+    "id": 1288,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "estoy bien pero massi estaba hablando mierda",
+    "createdAt": "2026-05-26T02:41:05.168Z"
+  },
+  {
+    "id": 1289,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "XDDDD",
+    "createdAt": "2026-05-26T02:41:07.592Z"
+  },
+  {
+    "id": 1290,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "Bro",
+    "createdAt": "2026-05-26T02:41:15.110Z"
+  },
+  {
+    "id": 1291,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "1319701423029747805",
+    "content": "🥀🥀",
+    "createdAt": "2026-05-26T02:41:17.583Z"
+  },
+  {
+    "id": 1292,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "XDDDDD",
+    "createdAt": "2026-05-26T02:41:35.466Z"
+  },
+  {
+    "id": 1293,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "@user what do you think of Massi",
+    "createdAt": "2026-05-26T02:41:41.473Z"
+  },
+  {
+    "id": 1294,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "dijo q hablas demasiado",
+    "createdAt": "2026-05-26T02:41:52.410Z"
+  },
+  {
+    "id": 1295,
+    "guildId": "1507585753079615588",
+    "channelId": "1508191215873560656",
+    "authorId": "703009617952768011",
+    "content": "Eres un broma",
+    "createdAt": "2026-05-26T02:41:54.275Z"
   }
 ]

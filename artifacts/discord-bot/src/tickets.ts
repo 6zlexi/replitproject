@@ -3,6 +3,7 @@ import {
   type ButtonInteraction,
   type ModalSubmitInteraction,
   type Interaction,
+  type OverwriteResolvable,
   ButtonBuilder,
   ButtonStyle,
   ActionRowBuilder,
@@ -13,7 +14,6 @@ import {
   ChannelType,
   PermissionFlagsBits,
   type TextChannel,
-  type Guild,
 } from "discord.js";
 import { isMod, COLORS } from "./permissions.js";
 import { makeEmbed } from "./logging.js";
@@ -62,21 +62,22 @@ export async function handleTicketPanel(message: Message): Promise<void> {
   const row = new ActionRowBuilder<ButtonBuilder>().addComponents(openBtn);
 
   if (message.channel?.isTextBased()) {
-    await message.channel.send({
+    await (message.channel as TextChannel).send({
       embeds: [
-      new EmbedBuilder()
-        .setTitle("🎫 Support Tickets")
-        .setColor(COLORS.info)
-        .setDescription(
-          "Need help? Click the button below to open a private support ticket.\nOur staff will assist you as soon as possible."
-        )
-        .setFooter({ text: "One ticket per issue • Be respectful" })
-        .setTimestamp(),
-    ],
-    components: [row],
-  });
+        new EmbedBuilder()
+          .setTitle("🎫 Support Tickets")
+          .setColor(COLORS.info)
+          .setDescription(
+            "Need help? Click the button below to open a private support ticket.\nOur staff will assist you as soon as possible."
+          )
+          .setFooter({ text: "One ticket per issue • Be respectful" })
+          .setTimestamp(),
+      ],
+      components: [row],
+    });
 
-  try { await message.delete(); } catch { /* ignore */ }
+    try { await message.delete(); } catch { /* ignore */ }
+  }
 }
 
 export async function handleOpenTicket(interaction: ButtonInteraction): Promise<void> {
@@ -99,7 +100,7 @@ export async function handleOpenTicket(interaction: ButtonInteraction): Promise<
   }
 
   // Build permission overwrites — deny everyone, allow ticket creator + staff
-  const overwrites: Parameters<Guild["channels"]["create"]>[0]["permissionOverwrites"] = [
+  const overwrites: OverwriteResolvable[] = [
     { id: guild.roles.everyone.id, deny: [PermissionFlagsBits.ViewChannel] },
     {
       id: user.id,
@@ -305,5 +306,4 @@ export async function handleTicketInteraction(interaction: Interaction): Promise
     return true;
   }
   return false;
-}
 }
