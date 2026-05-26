@@ -27,7 +27,12 @@ import {
 import { isPrivileged } from "./permissions.js";
 import { loadAdminCache } from "./adminManager.js";
 import { initAntiNuke } from "./antinuke.js";
-import { handleMemberJoin, handleMemberLeave, cacheInvites, setupInviteTracking } from "./welcome.js";
+import {
+  handleMemberJoin,
+  handleMemberLeave,
+  cacheInvites,
+  setupInviteTracking,
+} from "./welcome.js";
 import { initPersistence } from "./persistence.js";
 import { sendLog, makeEmbed } from "./logging.js";
 import { COLORS } from "./permissions.js";
@@ -44,11 +49,11 @@ const CONTEXT_COOLDOWN_MS = 8_000; // 8 s between context-triggered replies per 
 // Per-channel: minimum 25–45 min between spontaneous messages in same channel.
 // Global: minimum 5 min across all channels (prevents multi-channel flooding).
 const naturalPresenceCooldowns = new Map<string, number>(); // channelId → expiry
-let   globalNaturalPresenceExpiry = 0;
-const NATURAL_PRESENCE_CHANCE          = 0.09;           // ~9% on a qualifying message
-const NATURAL_PRESENCE_CHANNEL_MIN_MS  = 25 * 60_000;   // 25 min per channel base
-const NATURAL_PRESENCE_CHANNEL_JITTER  = 20 * 60_000;   // + 0-20 min random jitter
-const NATURAL_PRESENCE_GLOBAL_MIN_MS   =  5 * 60_000;   //  5 min global floor
+let globalNaturalPresenceExpiry = 0;
+const NATURAL_PRESENCE_CHANCE = 0.09; // ~9% on a qualifying message
+const NATURAL_PRESENCE_CHANNEL_MIN_MS = 25 * 60_000; // 25 min per channel base
+const NATURAL_PRESENCE_CHANNEL_JITTER = 20 * 60_000; // + 0-20 min random jitter
+const NATURAL_PRESENCE_GLOBAL_MIN_MS = 5 * 60_000; //  5 min global floor
 
 // Short casual messages that Santo might naturally join in on
 const CASUAL_OPENER_PATTERNS = [
@@ -72,13 +77,14 @@ function isCasualOpener(content: string): boolean {
 // When only one user has been active in a channel for the past SOLO_WINDOW_MS,
 // Santo treats their messages as directed at it (no mention/trigger needed).
 // A per-channel cooldown prevents reply spam; resets when a second user speaks.
-const channelSpeakers   = new Map<string, Map<string, number>>(); // channelId → userId → lastTs
-const soloModeCooldowns = new Map<string, number>();              // channelId → cooldown expiry
-const SOLO_WINDOW_MS    = 8 * 60_000; // 8 min window for "solo" detection
-const SOLO_COOLDOWN_MS  = 15_000;     // 15 s between solo-mode replies per channel
+const channelSpeakers = new Map<string, Map<string, number>>(); // channelId → userId → lastTs
+const soloModeCooldowns = new Map<string, number>(); // channelId → cooldown expiry
+const SOLO_WINDOW_MS = 8 * 60_000; // 8 min window for "solo" detection
+const SOLO_COOLDOWN_MS = 15_000; // 15 s between solo-mode replies per channel
 
 function trackSpeaker(channelId: string, userId: string): void {
-  if (!channelSpeakers.has(channelId)) channelSpeakers.set(channelId, new Map());
+  if (!channelSpeakers.has(channelId))
+    channelSpeakers.set(channelId, new Map());
   const speakers = channelSpeakers.get(channelId)!;
   speakers.set(userId, Date.now());
   // Prune stale entries (older than 2× the window) to avoid unbounded growth
@@ -93,8 +99,10 @@ function trackSpeaker(channelId: string, userId: string): void {
 function getSoloSpeaker(channelId: string): string | null {
   const speakers = channelSpeakers.get(channelId);
   if (!speakers) return null;
-  const now    = Date.now();
-  const recent = [...speakers.entries()].filter(([, ts]) => now - ts < SOLO_WINDOW_MS);
+  const now = Date.now();
+  const recent = [...speakers.entries()].filter(
+    ([, ts]) => now - ts < SOLO_WINDOW_MS,
+  );
   return recent.length === 1 ? recent[0]![0] : null;
 }
 
@@ -118,14 +126,19 @@ async function sendSplitReply(message: Message, raw: string): Promise<void> {
       // Natural pause before the follow-up message
       const delay = 1_200 + Math.random() * 1_300; // 1.2 – 2.5 s
       await new Promise<void>((r) => setTimeout(r, delay));
-      await message.channel.send(text);
+      if (message.channel?.isTextBased()) {
+        await message.channel.send(text);
+      }
     }
   }
 }
 
 /** Strip ||| separators for clean history storage. */
 function cleanForHistory(text: string): string {
-  return text.replace(/\|\|\|/g, " ").replace(/\s{2,}/g, " ").trim();
+  return text
+    .replace(/\|\|\|/g, " ")
+    .replace(/\s{2,}/g, " ")
+    .trim();
 }
 
 // ── Bot trigger words — case-insensitive, word-boundary matched ───────────────
@@ -133,10 +146,7 @@ function cleanForHistory(text: string): string {
 const BOT_TRIGGER_WORDS = ["santo"];
 
 // Phrases that explicitly reference a bot (and thus Santo) in context
-const BOT_CONTEXT_PHRASES = [
-  /\bthis bot\b/i,
-  /\bthe bot\b/i,
-];
+const BOT_CONTEXT_PHRASES = [/\bthis bot\b/i, /\bthe bot\b/i];
 
 // Phrases where the trigger word clearly isn't about this bot
 const FALSE_POSITIVE_PATTERNS = [
@@ -170,13 +180,13 @@ function analyzeMessageContext(
   content: string,
   channelId: string,
   botId: string,
-  historyBeforeThisMessage: { username: string; content: string; ts: number }[]
+  historyBeforeThisMessage: { username: string; content: string; ts: number }[],
 ): ContextAnalysis {
   const lower = content.toLowerCase().trim();
 
   // 1. Trigger word check ("santo")
   const hasTriggerWord = BOT_TRIGGER_WORDS.some((w) =>
-    new RegExp(`\\b${w}\\b`, "i").test(lower)
+    new RegExp(`\\b${w}\\b`, "i").test(lower),
   );
 
   if (hasTriggerWord) {
@@ -201,10 +211,10 @@ function analyzeMessageContext(
     const botRecentlyMentioned = last3.some(
       (m) =>
         BOT_TRIGGER_WORDS.some((w) =>
-          new RegExp(`\\b${w}\\b`, "i").test(m.content)
+          new RegExp(`\\b${w}\\b`, "i").test(m.content),
         ) ||
         BOT_CONTEXT_PHRASES.some((rx) => rx.test(m.content)) ||
-        m.content.includes(`<@${botId}>`)
+        m.content.includes(`<@${botId}>`),
     );
     if (botRecentlyMentioned) {
       return { triggered: true, reason: "pronoun_after_bot_reference" };
@@ -224,7 +234,7 @@ function isBotMentioned(message: Message, botId: string): boolean {
 // ── Reply-to-bot resolution ───────────────────────────────────────────────────
 async function resolveReplyContext(
   message: Message,
-  botId: string
+  botId: string,
 ): Promise<{ isReplyToBot: boolean; context?: ReplyContext }> {
   const ref = message.reference;
   if (!ref?.messageId) return { isReplyToBot: false };
@@ -239,7 +249,10 @@ async function resolveReplyContext(
       },
     };
   } catch (err) {
-    logger.warn({ err, messageId: ref.messageId }, "Could not fetch referenced message");
+    logger.warn(
+      { err, messageId: ref.messageId },
+      "Could not fetch referenced message",
+    );
     return { isReplyToBot: false };
   }
 }
@@ -266,23 +279,26 @@ async function main() {
 
   client.once(Events.ClientReady, async (c) => {
     try {
-      logger.info({ tag: c.user.tag, guilds: c.guilds.cache.size }, "Bot online");
+      logger.info(
+        { tag: c.user.tag, guilds: c.guilds.cache.size },
+        "Bot online",
+      );
       for (const guild of c.guilds.cache.values()) {
         await cacheInvites(guild).catch((err) =>
-          logger.warn({ err, guildId: guild.id }, "Failed to cache invites")
+          logger.warn({ err, guildId: guild.id }, "Failed to cache invites"),
         );
         await loadAdminCache(guild.id).catch((err) =>
-          logger.warn({ err, guildId: guild.id }, "Failed to load admin cache")
+          logger.warn({ err, guildId: guild.id }, "Failed to load admin cache"),
         );
       }
       await initPersistence(client);
       setDiscordClient(client);
       checkAIHealth().catch((err) =>
-        logger.warn({ err }, "AI health check threw unexpectedly")
+        logger.warn({ err }, "AI health check threw unexpectedly"),
       );
       // Register slash commands after client is ready and guilds are cached
       registerSlashCommands(client).catch((err) =>
-        logger.error({ err }, "Slash command registration failed")
+        logger.error({ err }, "Slash command registration failed"),
       );
     } catch (err) {
       logger.error({ err }, "ClientReady handler error");
@@ -293,14 +309,23 @@ async function main() {
     try {
       await cacheInvites(guild);
     } catch (err) {
-      logger.warn({ err, guildId: guild.id }, "GuildCreate: failed to cache invites");
+      logger.warn(
+        { err, guildId: guild.id },
+        "GuildCreate: failed to cache invites",
+      );
     }
     loadAdminCache(guild.id).catch((err) =>
-      logger.warn({ err, guildId: guild.id }, "GuildCreate: failed to load admin cache")
+      logger.warn(
+        { err, guildId: guild.id },
+        "GuildCreate: failed to load admin cache",
+      ),
     );
     // Register slash commands in the new guild immediately
     registerSlashCommandsForGuild(client, guild).catch((err) =>
-      logger.warn({ err, guildId: guild.id }, "GuildCreate: slash registration failed")
+      logger.warn(
+        { err, guildId: guild.id },
+        "GuildCreate: slash registration failed",
+      ),
     );
   });
 
@@ -360,10 +385,21 @@ async function main() {
 
       // ── Step 3: Learn + update history ────────────────────────────────────
       if (content) {
-        const privileged = message.member ? isPrivileged(message.member) : false;
-        learnFromMessage(guildId, message.channelId, message.author.id, content, privileged)
-          .catch((err) => logger.warn({ err }, "Learn error"));
-        addToConversationHistory(message.channelId, message.author.username, content);
+        const privileged = message.member
+          ? isPrivileged(message.member)
+          : false;
+        learnFromMessage(
+          guildId,
+          message.channelId,
+          message.author.id,
+          content,
+          privileged,
+        ).catch((err) => logger.warn({ err }, "Learn error"));
+        addToConversationHistory(
+          message.channelId,
+          message.author.username,
+          content,
+        );
       }
 
       // Track speaker for solo conversation mode (every message, before trigger check)
@@ -372,13 +408,17 @@ async function main() {
       // ── Step 4: Determine trigger conditions ───────────────────────────────
       const mentioned = isBotMentioned(message, botId);
       const { isReplyToBot, context: replyContext } = await resolveReplyContext(
-        message, botId
+        message,
+        botId,
       ).catch(() => ({ isReplyToBot: false, context: undefined }));
 
       // Context trigger — "santo" or pronoun after bot reference
       // Per design: NO cooldown on context triggers
       const contextAnalysis = analyzeMessageContext(
-        content, message.channelId, botId, historySnapshot
+        content,
+        message.channelId,
+        botId,
+        historySnapshot,
       );
 
       // Solo mode: if this user is the only one active in the last 8 min,
@@ -389,7 +429,8 @@ async function main() {
         Date.now() > (soloModeCooldowns.get(message.channelId) ?? 0);
 
       const isDirectTrigger = mentioned || isReplyToBot;
-      const isTriggered = isDirectTrigger || contextAnalysis.triggered || isSoloTrigger;
+      const isTriggered =
+        isDirectTrigger || contextAnalysis.triggered || isSoloTrigger;
 
       if (!isTriggered) {
         // ── Natural presence — occasionally join casual openers unprompted ────
@@ -405,10 +446,13 @@ async function main() {
           setTimeout(async () => {
             try {
               const reply = await generateReply(
-                guildId, guildName, message.channelId,
-                content, message.author.username,
-                undefined, /* replyContext */
-                true       /* spontaneous */
+                guildId,
+                guildName,
+                message.channelId,
+                content,
+                message.author.username,
+                undefined /* replyContext */,
+                true /* spontaneous */,
               );
               if (reply) {
                 const now = Date.now();
@@ -416,11 +460,20 @@ async function main() {
                   now + NATURAL_PRESENCE_GLOBAL_MIN_MS;
                 naturalPresenceCooldowns.set(
                   message.channelId,
-                  now + NATURAL_PRESENCE_CHANNEL_MIN_MS + Math.random() * NATURAL_PRESENCE_CHANNEL_JITTER
+                  now +
+                    NATURAL_PRESENCE_CHANNEL_MIN_MS +
+                    Math.random() * NATURAL_PRESENCE_CHANNEL_JITTER,
                 );
                 await sendSplitReply(message, reply);
-                addToConversationHistory(message.channelId, "bot", cleanForHistory(reply));
-                logger.info({ guildId, channelId: message.channelId }, "Natural presence triggered");
+                addToConversationHistory(
+                  message.channelId,
+                  "bot",
+                  cleanForHistory(reply),
+                );
+                logger.info(
+                  { guildId, channelId: message.channelId },
+                  "Natural presence triggered",
+                );
               }
             } catch (err) {
               logger.warn({ err }, "Natural presence reply failed");
@@ -448,7 +501,7 @@ async function main() {
       if (!isAIEnabled()) {
         logger.warn(
           { guildId, userId: message.author.id },
-          "AI trigger received but AI is disabled — ignoring"
+          "AI trigger received but AI is disabled — ignoring",
         );
         return;
       }
@@ -461,7 +514,7 @@ async function main() {
           isReplyToBot,
           contextReason: contextAnalysis.reason,
         },
-        "AI trigger detected"
+        "AI trigger detected",
       );
 
       // ── Step 6: Clean message for AI ──────────────────────────────────────
@@ -475,43 +528,66 @@ async function main() {
         message.channelId,
         messageForAI,
         message.author.username,
-        replyContext
+        replyContext,
       );
 
       if (reply) {
         await sendSplitReply(message, reply);
-        addToConversationHistory(message.channelId, "bot", cleanForHistory(reply));
+        addToConversationHistory(
+          message.channelId,
+          "bot",
+          cleanForHistory(reply),
+        );
         logger.info(
           {
             guildId,
             trigger: mentioned
               ? "mention"
               : isReplyToBot
-              ? "reply_to_bot"
-              : isSoloTrigger
-              ? "solo_conversation"
-              : contextAnalysis.reason,
+                ? "reply_to_bot"
+                : isSoloTrigger
+                  ? "solo_conversation"
+                  : contextAnalysis.reason,
             split: reply.includes("|||"),
           },
-          "AI replied"
+          "AI replied",
         );
       } else {
         // All providers failed
         if (isDirectTrigger) {
           await message.reply("ai is temporarily unavailable");
         }
-        logger.warn({ guildId, userId: message.author.id }, "All AI providers failed");
+        logger.warn(
+          { guildId, userId: message.author.id },
+          "All AI providers failed",
+        );
 
         // Log failure to #logs channel
-        sendLog(message.guild, makeEmbed({
-          title: "❌ AI Failure",
-          color: COLORS.error,
-          description: "All Groq keys failed — no AI response could be generated.",
-          fields: [
-            { name: "Triggered by", value: `<@${message.author.id}>`, inline: true },
-            { name: "Trigger",      value: mentioned ? "mention" : isReplyToBot ? "reply" : contextAnalysis.reason, inline: true },
-          ],
-        })).catch(() => {});
+        sendLog(
+          message.guild,
+          makeEmbed({
+            title: "❌ AI Failure",
+            color: COLORS.error,
+            description:
+              "All Groq keys failed — no AI response could be generated.",
+            fields: [
+              {
+                name: "Triggered by",
+                value: `<@${message.author.id}>`,
+                inline: true,
+              },
+              {
+                name: "Trigger",
+                value: mentioned
+                  ? "mention"
+                  : isReplyToBot
+                    ? "reply"
+                    : contextAnalysis.reason,
+                inline: true,
+              },
+            ],
+          }),
+        ).catch(() => {});
       }
     } catch (err) {
       logger.error({ err }, "MessageCreate handler error");

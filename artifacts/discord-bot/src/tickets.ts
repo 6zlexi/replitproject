@@ -61,8 +61,9 @@ export async function handleTicketPanel(message: Message): Promise<void> {
 
   const row = new ActionRowBuilder<ButtonBuilder>().addComponents(openBtn);
 
-  await message.channel.send({
-    embeds: [
+  if (message.channel?.isTextBased()) {
+    await message.channel.send({
+      embeds: [
       new EmbedBuilder()
         .setTitle("🎫 Support Tickets")
         .setColor(COLORS.info)
