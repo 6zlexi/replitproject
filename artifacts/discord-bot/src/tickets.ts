@@ -306,3 +306,4 @@ export async function handleTicketInteraction(interaction: Interaction): Promise
   }
   return false;
 }
+}
